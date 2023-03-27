@@ -1,0 +1,489 @@
+language,filename,blank,comment,code,"github.com/AlDanial/cloc v 1.96  T=0.44 s (1109.7 files/s 382773.6 lines/s)"
+JSON,./dashboards/maps/world.geojson,0,0,35513
+JavaScript,./sensor-iso/interface/sensor_interface/static/js/freeboard.thirdparty.min.js,635,1,15418
+CSS,./htadmin/src/bootstrap.css,0,14,6914
+CSS,./sensor-iso/interface/sensor_interface/static/css/material.css,1287,7,5708
+YAML,./logstash/maps/ics_macs.yaml,1,0,2967
+INI,./arkime/etc/config.ini,172,0,2391
+JavaScript,./arkime/wise/source.zeeklogs.js,27,36,2163
+CSS,./sensor-iso/interface/sensor_interface/static/css/freeboard.min.css,486,2,2133
+Python,./scripts/install.py,324,234,2050
+JavaScript,./sensor-iso/interface/sensor_interface/static/js/freeboard_plugins.min.js,73,0,1778
+Markdown,./docs/api-examples.md,29,0,1450
+Python,./scripts/wipe,183,207,1274
+Python,./shared/bin/suricata_config_populate.py,92,61,1108
+JavaScript,./sensor-iso/interface/sensor_interface/static/js/freeboard.min.js,53,0,1035
+JavaScript,./sensor-iso/interface/sensor_interface/static/js/material.min.js,16,7,998
+Python,./shared/bin/configure-capture.py,126,84,992
+JSON,./dashboards/dashboards/abdd7550-2c7c-40dc-947e-f6d186a158c4.json,0,0,941
+YAML,./docker-compose.yml,24,198,925
+JavaScript,./sensor-iso/interface/sensor_interface/static/js/jquery.sparkline.min.js,1,2,890
+YAML,./docker-compose-standalone.yml,24,198,846
+Python,./shared/bin/zeek_carve_utils.py,175,157,768
+JSON,./dashboards/dashboards/152f29dc-51a2-4f53-93e9-6e92765567b8.json,0,0,760
+JavaScript,./sensor-iso/interface/sensor_interface/static/js/freeboard.plugins.min.js,20,0,744
+JSON,./dashboards/templates/composable/component/zeek_ot.json,0,0,716
+JSON,./dashboards/dashboards/7f77b58a-df3e-4cc2-b782-fd7f8bad8ffb.json,0,0,711
+JSON,./dashboards/dashboards/d2dd0180-06b1-11ec-8c6b-353266ade330.json,0,0,688
+JSON,./dashboards/dashboards/37041ee1-79c0-4684-a436-3173b0e89876.json,0,0,666
+Python,./shared/bin/pcap_processor.py,89,67,660
+JSON,./dashboards/templates/composable/component/zeek.json,0,0,650
+Python,./shared/bin/zeek_threat_feed_utils.py,116,125,640
+JSON,./dashboards/dashboards/677ee170-809e-11ed-8d5b-07069f823b6f.json,0,0,639
+JSON,./dashboards/dashboards/024062a6-48d6-498f-a91a-3bf2da3a3cd3.json,0,0,611
+Python,./netbox/scripts/netbox_init.py,74,34,606
+Python,./scripts/malcolm_common.py,155,99,594
+JSON,./dashboards/dashboards/89d1cc50-974c-11ed-bb6b-3fb06c879b11.json,0,0,590
+Python,./api/project/__init__.py,97,240,587
+Bourne Shell,./scripts/third-party-logs/fluent-bit-setup.sh,79,55,585
+JSON,./dashboards/dashboards/95479950-41f2-11ea-88fa-7151df485405.json,0,0,569
+JSON,./dashboards/dashboards/2bec1490-eb94-11e9-a384-0fcf32210194.json,0,0,550
+JSON,./dashboards/dashboards/87a32f90-ef58-11e9-974e-9d600036d105.json,0,0,549
+JSON,./dashboards/templates/composable/component/suricata.json,0,0,546
+JSON,./dashboards/dashboards/fa477130-2b8a-11ec-a9f2-3911c8571bfd.json,0,0,544
+JSON,./dashboards/dashboards/42e831b9-41a9-4f35-8b7d-e1566d368773.json,0,0,534
+JSON,./dashboards/dashboards/29a1b290-eb98-11e9-a384-0fcf32210194.json,0,0,532
+JSON,./dashboards/dashboards/dd87edd0-796a-11ec-9ce6-b395c1ff58f4.json,0,0,528
+JSON,./dashboards/dashboards/0b2354ae-0fe9-4fd9-b156-1c3870e5c7aa.json,0,0,527
+JSON,./dashboards/dashboards/82da3101-2a9c-4ae2-bb61-d447a3fbe673.json,0,0,527
+JSON,./dashboards/dashboards/bb827f8e-639e-468c-93c8-9f5bc132eb8f.json,0,0,527
+Bourne Shell,./scripts/demo/amazon_linux_2_malcolm_demo_setup.sh,103,82,527
+JSON,./dashboards/dashboards/f1f09567-fc7f-450b-a341-19d2f2bb468b.json,0,0,526
+JSON,./dashboards/dashboards/2cf94cd0-ecab-40a5-95a7-8419f3a39cd9.json,0,0,525
+JSON,./dashboards/dashboards/870a5862-6c26-4a08-99fd-0c06cda85ba3.json,0,0,515
+JSON,./dashboards/dashboards/e76d05c0-eb9f-11e9-a384-0fcf32210194.json,0,0,508
+JSON,./dashboards/dashboards/4a4bde20-4760-11ea-949c-bbb5a9feecbf.json,0,0,507
+JSON,./dashboards/dashboards/beats/Metricbeat-host-overview.json,0,0,507
+Python,./netbox/scripts/netbox_library_import.py,121,43,502
+JSON,./dashboards/dashboards/caef3ade-d289-4d05-a511-149f3e97f238.json,0,0,493
+JSON,./dashboards/dashboards/f77bf097-18a8-465c-b634-eb2acc7a4f26.json,0,0,493
+JSON,./dashboards/dashboards/ca5799a0-56b5-11eb-b749-576de068f8ad.json,0,0,486
+JSON,./netbox/service-template-defaults.json,0,0,486
+JSON,./dashboards/dashboards/a7514350-eba6-11e9-a384-0fcf32210194.json,0,0,483
+JSON,./dashboards/dashboards/05e3e000-f118-11e9-acda-83a8e29e1a24.json,0,0,481
+Python,./shared/bin/sensor-capture-disk-config.py,79,76,481
+JSON,./dashboards/dashboards/0ad3d7c2-3441-485e-9dfe-dbb22e84e576.json,0,0,470
+JSON,./dashboards/dashboards/543118a9-02d7-43fe-b669-b8652177fc37.json,0,0,459
+JSON,./dashboards/dashboards/36ed695f-edcc-47c1-b0ec-50d20c93ce0f.json,0,0,458
+JSON,./dashboards/dashboards/432af556-c5c0-4cc3-8166-b274b4e3a406.json,0,0,457
+JSON,./dashboards/dashboards/5694ca60-cbdf-11ec-a50a-5fedd672f5c5.json,0,0,452
+Python,./scripts/zeek_script_to_malcolm_boilerplate.py,50,66,448
+Python,./shared/bin/configure-interfaces.py,87,52,428
+JSON,./dashboards/dashboards/7f41913f-cba8-43f5-82a8-241b7ead03e0.json,0,0,424
+JSON,./dashboards/dashboards/1cc01ff0-5205-11ec-a62c-7bc80e88f3f0.json,0,0,422
+Python,./shared/bin/pcap_watcher.py,69,53,414
+HTML,./name-map-ui/site/index.html,57,5,404
+JSON,./dashboards/dashboards/0a490422-0ce9-44bf-9a2d-19329ddde8c3.json,0,0,392
+JSON,./dashboards/dashboards/2d98bb8e-214c-4374-837b-20e1bcd63a5e.json,0,0,389
+JSON,./dashboards/dashboards/ae79b7d1-4281-4095-b2f6-fa7eafda9970.json,0,0,388
+JSON,./dashboards/dashboards/af5df620-eeb6-11e9-bdef-65a192b7f586.json,0,0,388
+JSON,./dashboards/dashboards/4e5f106e-c60a-4226-8f64-d534abb912ab.json,0,0,387
+JSON,./dashboards/dashboards/92985909-dc29-4533-9e80-d3182a0ecf1d.json,0,0,387
+JSON,./dashboards/dashboards/11ddd980-e388-11e9-b568-cf17de8e860c.json,0,0,386
+JSON,./dashboards/dashboards/078b9aa5-9bd4-4f02-ae5e-cf80fa6f887b.json,0,0,385
+JSON,./dashboards/dashboards/03207c00-d07e-11ec-b4a7-d1b4003706b7.json,0,0,384
+JSON,./dashboards/dashboards/9ee51f94-3316-4fc5-bd89-93a52af69714.json,0,0,384
+Python,./dashboards/scripts/index-refresh.py,47,62,377
+Text,./zeek/config/guess_ics_map.txt,0,0,360
+JSON,./dashboards/dashboards/4a073440-b286-11eb-a4d4-09fa12a6ebd4.json,0,0,355
+JSON,./dashboards/dashboards/bf5efbb0-60f1-11eb-9d60-dbf0411cfc48.json,0,0,354
+JSON,./dashboards/dashboards/11be6381-beef-40a7-bdce-88c5398392fc.json,0,0,352
+JSON,./dashboards/dashboards/76f2f912-80da-44cd-ab66-6a73c8344cc3.json,0,0,352
+Python,./shared/bin/zeek_carve_scanner.py,61,49,346
+JSON,./dashboards/dashboards/12e3a130-d83b-11eb-a0b0-f328ce09b0b7.json,0,0,341
+JSON,./dashboards/dashboards/beats/Metricbeat-system-overview.json,0,0,323
+JSON,./dashboards/dashboards/bed185a0-ef82-11e9-b38a-2db3ee640e88.json,0,0,322
+JSON,./dashboards/dashboards/c2549e10-7f2e-11ea-9f8a-1fe1327e2cd2.json,0,0,318
+JSON,./dashboards/dashboards/beats/Filebeat-nginx-overview.json,0,0,316
+JSON,./dashboards/dashboards/fa141950-ef89-11e9-b38a-2db3ee640e88.json,0,0,316
+JSON,./dashboards/dashboards/665d1610-523d-11e9-a30e-e3576242f3ed.json,0,0,314
+JSON,./dashboards/dashboards/a33e0a50-afcd-11ea-993f-b7d8522a8bed.json,0,0,314
+SVG,./docs/images/logo/malcolm_logo.svg,0,0,296
+PowerShell,./scripts/third-party-logs/fluent-bit-setup.ps1,40,54,292
+JSON,./dashboards/dashboards/1fff49f6-0199-4a0f-820b-721aff9ff1f1.json,0,0,281
+JSON,./dashboards/dashboards/32587740-ef88-11e9-b38a-2db3ee640e88.json,0,0,281
+Python,./shared/bin/zeek_carve_logger.py,50,43,280
+JSON,./dashboards/dashboards/beats/7a7e0a60-e8e8-11ec-b9d4-4569bb965430.json,0,0,278
+SVG,./malcolm-iso/config/bootloaders/syslinux_common/splash.svg,0,0,278
+Python,./shared/bin/opensearch_index_size_prune.py,32,38,277
+Bourne Shell,./scripts/demo/reset_and_auto_populate.sh,51,59,276
+Markdown,./docs/hedgehog-upgrade.md,62,0,268
+Markdown,./docs/third-party-logs.md,59,0,268
+CSS,./docs/doc.css,60,0,264
+SVG,./docs/images/icon/malcolm_mark_dashboards.svg,0,0,260
+JSON,./netbox/device-roles-defaults.json,0,0,260
+Bourne Again Shell,./sensor-iso/config/hooks/normal/0910-sensor-build.hook.chroot,49,51,260
+JSON,./dashboards/dashboards/50ced171-1b10-4c3f-8b67-2db9635661a6.json,0,0,246
+Markdown,./docs/ubuntu-install-example.md,90,0,244
+SVG,./sensor-iso/config/bootloaders/syslinux_common/splash.svg,0,0,244
+JSON,./sensor-iso/interface/sensor_interface/static/dashboard/dashboard.json,0,0,241
+Dockerfile,./Dockerfiles/zeek.Dockerfile,27,25,236
+Python,./logstash/scripts/ip-to-segment-logstash.py,37,32,236
+JSON,./dashboards/templates/composable/component/miscbeat.json,0,0,235
+Python,./shared/bin/zeek_carve_watcher.py,49,43,231
+Text,./docs/images/hedgehog/logo/font/ubuntucondensed/FONTLOG.txt,62,0,230
+JSON,./filebeat/scripts/zeek-log-fields.json,2,0,229
+YAML,./logstash/maps/service_ports.yaml,0,0,220
+Text,./docs/images/hedgehog/logo/font/ubuntumono/FONTLOG.txt,57,0,217
+Dockerfile,./Dockerfiles/file-monitor.Dockerfile,20,2,216
+JSON,./dashboards/dashboards/beats/903f42c0-f634-11ec-828d-2fb7a4a26e1f.json,0,0,213
+JSON,./dashboards/dashboards/beats/db0312a0-e842-11ec-88e0-67bf497b7120.json,0,0,212
+JSON,./dashboards/dashboards/0aed0e23-c8ac-4f2b-9f68-d04b6e7666b0.json,0,0,210
+JSON,./dashboards/dashboards/1ce42250-3f99-11e9-a58e-8bdedb0915e8.json,0,0,210
+JSON,./dashboards/dashboards/39abfe30-3f99-11e9-a58e-8bdedb0915e8.json,0,0,210
+JSON,./dashboards/dashboards/60d78fbd-471c-4f59-a9e3-189b33a13644.json,0,0,210
+JSON,./dashboards/dashboards/77fc9960-3f99-11e9-a58e-8bdedb0915e8.json,0,0,210
+JSON,./dashboards/dashboards/87d990cc-9e0b-41e5-b8fe-b10ae1da0c85.json,0,0,210
+JSON,./dashboards/dashboards/a16110b0-3f99-11e9-a58e-8bdedb0915e8.json,0,0,210
+JSON,./dashboards/dashboards/b50c8d17-6ed3-4de6-aed4-5181032810b2.json,0,0,210
+JSON,./dashboards/dashboards/b9f247c0-3f99-11e9-a58e-8bdedb0915e8.json,0,0,210
+JSON,./dashboards/dashboards/d41fe630-3f98-11e9-a58e-8bdedb0915e8.json,0,0,210
+JSON,./dashboards/dashboards/d4fd6afd-15cb-42bf-8a25-03dd8e59b327.json,0,0,210
+JSON,./dashboards/dashboards/e09a4b86-29b5-4256-bb3b-802ac9f90404.json,0,0,210
+JSON,./dashboards/dashboards/f394057d-1b16-4174-b994-7045f423a416.json,0,0,210
+JSON,./dashboards/dashboards/beats/0d4955f0-eb25-11ec-a6d4-b3526526c2c7.json,0,0,209
+SVG,./docs/images/logo/Malcolm_outline.svg,1,1,209
+Python,./shared/bin/suricata_update_config_populate.py,38,30,209
+Bourne Shell,./malcolm-iso/build.sh,34,14,199
+Dockerfile,./Dockerfiles/arkime.Dockerfile,22,13,198
+SVG,./docs/images/logo/Malcolm.svg,1,1,197
+CSS,./name-map-ui/site/mapping.css,34,1,194
+Bourne Shell,./shared/bin/self_signed_key_gen.sh,51,16,193
+Python,./shared/bin/opensearch_read_only.py,19,27,191
+Dockerfile,./Dockerfiles/nginx.Dockerfile,29,29,190
+HTML,./sensor-iso/interface/sensor_interface/templates/buttons.html,11,0,184
+Ruby,./logstash/ruby/netbox_enrich.rb,25,42,182
+Bourne Shell,./sensor-iso/build.sh,35,18,181
+Bourne Shell,./dashboards/scripts/create-arkime-sessions-index.sh,55,40,180
+HTML,./file-upload/jquery-file-upload/index.html,0,36,179
+Python,./shared/bin/zeek_intel_from_threat_feed.py,16,12,177
+JSON,./dashboards/dashboards/beats/Filebeat-nginx-logs.json,0,0,176
+INI,./htadmin/php/php.ini,42,4,174
+INI,./file-upload/php/php.ini,42,4,173
+Python,./shared/bin/sensorcommon.py,46,32,173
+Bourne Shell,./shared/bin/zeekdeploy.sh,39,37,171
+Python,./shared/bin/zeek_carved_http_server.py,35,28,166
+Dockerfile,./Dockerfiles/suricata.Dockerfile,15,8,161
+Bourne Shell,./scripts/malcolm_appliance_packager.sh,11,3,155
+Bourne Shell,./nginx/scripts/docker_entrypoint.sh,42,45,154
+Text,./docs/images/hedgehog/logo/font/ubuntumono/LICENCE-FAQ.txt,26,0,151
+Dockerfile,./Dockerfiles/filebeat.Dockerfile,17,5,149
+Bourne Shell,./scripts/github_image_helper.sh,26,28,142
+Bourne Shell,./shared/bin/service_check_passthrough.sh,18,20,142
+HTML,./sensor-iso/interface/sensor_interface/templates/system_block.html,10,4,140
+JSON,./dashboards/dashboards/55e332d0-3f99-11e9-a58e-8bdedb0915e8.json,0,0,138
+JSON,./dashboards/dashboards/ed8a6640-3f98-11e9-a58e-8bdedb0915e8.json,0,0,138
+Bourne Again Shell,./malcolm-iso/config/hooks/normal/0991-security-performance.hook.chroot,28,27,132
+YAML,./.github/workflows/malcolm-iso-build-docker-wrap-push-ghcr.yml,2,0,125
+Markdown,./docs/development.md,36,0,124
+Python,./logstash/scripts/ja3_build_list.py,21,12,123
+SVG,./docs/images/icon/icon.svg,0,0,122
+JavaScript,./sensor-iso/interface/sensor_interface/static/js/custom.js,21,1,122
+Markdown,./docs/hedgehog-config-user.md,68,0,121
+Bourne Shell,./shared/bin/preseed_late_user_config.sh,40,26,121
+Python,./filebeat/scripts/filebeat-clean-zeeklogs-processed-folder.py,29,20,120
+YAML,./.github/workflows/sensor-iso-build-docker-wrap-push-ghcr.yml,3,0,116
+Dockerfile,./Dockerfiles/dashboards.Dockerfile,35,15,116
+JSON,./dashboards/templates/malcolm_template.json,0,0,112
+Markdown,./docs/contributing-local-modifications.md,12,0,110
+Bourne Again Shell,./sensor-iso/config/hooks/normal/0991-security-performance.hook.chroot,29,28,109
+Python,./netbox/config/configuration/configuration.py,48,100,108
+Dockerfile,./Dockerfiles/logstash.Dockerfile,19,6,107
+Bourne Shell,./scripts/documentation_build.sh,30,18,106
+Bourne Shell,./shared/bin/zeek_install_plugins.sh,9,16,106
+Markdown,./docs/arkime.md,83,0,105
+Bourne Shell,./shared/bin/common-init.sh,15,11,104
+YAML,./_config.yml,0,0,102
+Markdown,./docs/README.md,7,0,102
+Bourne Again Shell,./malcolm-iso/config/hooks/normal/0910-agg-build.hook.chroot,8,8,101
+Bourne Shell,./scripts/build.sh,17,9,101
+Dockerfile,./Dockerfiles/dashboards-helper.Dockerfile,15,2,99
+YAML,./logstash/maps/http_result_codes.yaml,0,0,97
+Python,./shared/bin/pcap_utils.py,36,22,93
+Bourne Shell,./sensor-iso/build_via_vagrant.sh,16,3,92
+Bourne Shell,./shared/bin/docker-uid-gid-setup.sh,8,6,92
+Bourne Shell,./shared/bin/sensor-init.sh,23,17,92
+Dockerfile,./Dockerfiles/file-upload.Dockerfile,20,5,90
+YAML,./filebeat/filebeat.yml,10,15,90
+YAML,./logstash/maps/zeek_log_ecs_categories.yaml,0,0,90
+Bourne Shell,./logstash/scripts/logstash-start.sh,30,26,90
+Python,./shared/bin/manuf-oui-parse.py,21,8,90
+Python,./shared/bin/ics-oui-parse.py,17,15,89
+Ruby,./logstash/ruby/mac_lookup.rb,20,4,86
+Ruby,./logstash/ruby/make_unique_array.rb,22,6,86
+Bourne Shell,./scripts/package_zeek_logs.sh,18,17,86
+Bourne Shell,./shared/bin/yara_rules_setup.sh,13,14,86
+Dockerfile,./Dockerfiles/api.Dockerfile,18,2,85
+Python,./arkime/scripts/bs4_remove_div.py,16,9,85
+JSON,./dashboards/anomaly_detectors/action_result_user.json,0,0,85
+Dockerfile,./Dockerfiles/netbox.Dockerfile,15,3,83
+Bourne Shell,./shared/bin/zeek_intel_setup.sh,20,21,83
+Dockerfile,./Dockerfiles/htadmin.Dockerfile,14,4,82
+Dockerfile,./Dockerfiles/pcap-capture.Dockerfile,13,9,81
+Bourne Shell,./arkime/scripts/initarkime.sh,28,11,81
+Markdown,./docs/api-document-lookup.md,7,0,81
+Text,./docs/images/hedgehog/logo/font/ubuntumono/UFL.txt,15,0,81
+Python,./shared/bin/fstab.py,28,7,81
+Bourne Shell,./malcolm-iso/build_via_vagrant.sh,18,3,79
+JSON,./dashboards/alerting/monitors/malcolm_api_loopback_monitor.json,0,0,78
+CSS,./sensor-iso/interface/sensor_interface/static/css/custom.css,14,1,78
+Markdown,./docs/quickstart.md,20,0,77
+YAML,./logstash/maps/sip_result_codes.yaml,0,0,76
+Ruby,./logstash/ruby/compact_event_hash.rb,24,3,76
+YAML,./.github/workflows/nginx-build-and-push-ghcr.yml,2,0,74
+Markdown,./docs/malcolm-config.md,6,0,73
+Python,./filebeat/scripts/zeek-log-field-bitmap.py,28,59,73
+Markdown,./docs/authsetup.md,33,0,72
+Dockerfile,./Dockerfiles/pcap-monitor.Dockerfile,13,5,69
+Python,./sensor-iso/interface/sensor_interface/routes.py,38,31,69
+Markdown,./docs/asset-interaction-analysis.md,32,0,68
+Bourne Shell,./filebeat/scripts/filebeat-process-zeek-folder.sh,18,12,67
+Bourne Shell,./sensor-iso/interface/sensor_ctl/supervisor.init/arkime_config_populate.sh,21,16,66
+Dockerfile,./Dockerfiles/name-map-ui.Dockerfile,16,2,65
+Markdown,./docs/queries-cheat-sheet.md,10,0,64
+Bourne Shell,./shared/bin/prune_files.sh,25,10,64
+Markdown,./docs/host-config-linux.md,28,0,63
+Bourne Shell,./sensor-iso/interface/sensor_ctl/supervisor.sh,25,13,63
+YAML,./.github/workflows/arkime-build-and-push-ghcr.yml,2,0,62
+Dockerfile,./arkime/arkime_regression_test_harness/Dockerfiles/arkime.Dockerfile,11,0,62
+Markdown,./docs/api-event-logging.md,6,0,61
+INI,./sensor-iso/interface/sensor_ctl/arkime/config.ini,2,0,61
+YAML,./.github/workflows/api-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/dashboards-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/dashboards-helper-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/file-monitor-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/file-upload-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/filebeat-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/freq-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/htadmin-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/logstash-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/name-map-ui-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/netbox-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/pcap-capture-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/pcap-monitor-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/suricata-build-and-push-ghcr.yml,2,0,60
+YAML,./.github/workflows/zeek-build-and-push-ghcr.yml,2,0,60
+Markdown,./docs/malcolm-iso.md,27,0,60
+YAML,./.github/workflows/opensearch-build-and-push-ghcr.yml,2,0,59
+YAML,./.github/workflows/postgresql-build-and-push-ghcr.yml,2,0,59
+YAML,./.github/workflows/redis-build-and-push-ghcr.yml,2,0,59
+Dockerfile,./Dockerfiles/freq.Dockerfile,15,2,59
+Markdown,./docs/components.md,3,0,58
+Ruby,./logstash/ruby/hashhash_to_hasharray.rb,18,2,58
+Markdown,./docs/protocols.md,7,0,57
+Ruby,./logstash/ruby/freq_lookup.rb,17,10,57
+Bourne Shell,./pcap-capture/scripts/netsniff-roll.sh,19,15,56
+Markdown,./docs/dashboards.md,44,0,55
+YAML,./logstash/maps/ip_protocol_name_to_number.yaml,0,0,55
+Dockerfile,./Dockerfiles/opensearch.Dockerfile,17,4,54
+Markdown,./docs/malcolm-upgrade.md,19,0,54
+YAML,./logstash/maps/ip_protocol_number_to_name.yaml,0,0,54
+HTML,./_layouts/default.html,27,25,53
+JSON,./arkime/etc/user_settings.json,0,0,53
+Bourne Again Shell,./sensor-iso/interface/sensor_ctl/stop,13,15,53
+Bourne Shell,./shared/bin/opensearch_status.sh,16,15,53
+Markdown,./docs/opensearch-instances.md,31,0,50
+YAML,./logstash/maps/ftp_result_codes.yaml,0,0,49
+Bourne Shell,./sensor-iso/beats/build.sh,15,5,49
+JSON,./dashboards/anomaly_detectors/malcolm_init_dummy.json,0,0,48
+Ruby,./logstash/ruby/compact_event.rb,12,3,48
+Text,./sensor-iso/config/bootloaders/grub-pc/live-theme/theme.txt,3,0,48
+JSON,./dashboards/anomaly_detectors/file_mime_type.json,0,0,47
+JSON,./dashboards/anomaly_detectors/network_protocol.json,0,0,47
+JSON,./dashboards/anomaly_detectors/total_bytes.json,0,0,47
+Markdown,./docs/live-analysis.md,15,0,47
+Bourne Shell,./pcap-capture/scripts/supervisor.sh,23,11,47
+Dockerfile,./Dockerfiles/postgresql.Dockerfile,11,2,45
+YAML,./arkime/arkime_regression_test_harness/docker-compose.yml,1,0,45
+Markdown,./docs/api-version.md,4,0,45
+YAML,./sensor-iso/interface/sensor_ctl/filebeat/filebeat.yml,4,1,44
+Dockerfile,./sensor-iso/beats/Dockerfile,7,1,43
+Bourne Shell,./file-monitor/capa-update.sh,8,0,42
+PHP,./name-map-ui/site/upload.php,10,5,42
+Bourne Shell,./shared/bin/ufw_allow_viewer.sh,9,11,42
+YAML,./filebeat/filebeat-tcp.yml,7,5,41
+Bourne Shell,./sensor-iso/arkime/build-arkime-deb.sh,18,1,41
+JSON,./dashboards/templates/malcolm_beats_template.json,0,0,40
+YAML,./logstash/maps/smtp_result_codes.yaml,0,0,40
+Ruby,./logstash/ruby/dotted_hash_unflatten.rb,10,3,40
+Bourne Again Shell,./sensor-iso/config/hooks/normal/0990-remove-unwanted-pkg.hook.chroot,6,5,40
+Bourne Shell,./arkime/scripts/arkime-needs-upgrade.sh,11,9,39
+Markdown,./docs/zeek-intel.md,23,0,39
+Bourne Shell,./sensor-iso/interface/sensor_ctl/filebeat/sensor_filebeat_local.sh,8,2,38
+Bourne Shell,./shared/aide/build-aide-deb.sh,10,1,38
+Bourne Shell,./shared/bin/jdk-cacerts-auto-import.sh,7,1,38
+Ruby,./logstash/ruby/dedoubleslash.rb,10,2,37
+HTML,./sensor-iso/interface/sensor_interface/templates/base.html,4,3,37
+Bourne Shell,./sensor-iso/interface/sensor_ctl/supervisor.init/supercronic_populate.sh,11,3,36
+Bourne Shell,./suricata/scripts/suricata-update-rules.sh,9,1,36
+YAML,./.github/workflows/codeql.yml,7,0,35
+Dockerfile,./Dockerfiles/redis.Dockerfile,10,2,35
+Markdown,./docs/contributing-logstash.md,18,0,35
+Markdown,./docs/hedgehog.md,6,0,35
+Markdown,./docs/running.md,16,0,35
+Markdown,./docs/severity.md,12,0,35
+YAML,./dashboards/opensearch_dashboards.yml,4,2,34
+Markdown,./docs/contributing-dashboards.md,7,0,34
+Bourne Again Shell,./malcolm-iso/config/hooks/normal/0992-localepurge.hook.chroot,4,0,34
+Markdown,./docs/hardening.md,29,0,33
+Markdown,./docs/host-config-macos.md,14,0,33
+YAML,./logstash/maps/malcolm_severity.yaml,0,2,33
+Bourne Again Shell,./sensor-iso/config/hooks/normal/0992-localepurge.hook.chroot,4,0,33
+Bourne Shell,./arkime/scripts/docker_entrypoint.sh,10,11,32
+Bourne Shell,./dashboards/scripts/docker_entrypoint.sh,10,4,32
+JSON,./dashboards/templates/composable/component/arkime.json,0,0,32
+Markdown,./docs/host-and-subnet-mapping.md,20,0,32
+Bourne Again Shell,./sensor-iso/config/hooks/normal/0168-firefox-install.hook.chroot,4,1,32
+Text,./License.txt,11,0,31
+Markdown,./docs/hedgehog-hardening.md,28,0,31
+Dockerfile,./sensor-iso/arkime/Dockerfile,7,1,31
+Bourne Again Shell,./sensor-iso/config/hooks/normal/0900-setup-rc-local.hook.chroot,12,5,30
+Text,./Notice.txt,8,0,29
+YAML,./sensor-iso/interface/sensor_ctl/miscbeat/filebeat.yml,5,5,29
+Bourne Shell,./shared/bin/agg-init.sh,13,8,28
+Markdown,./docs/hedgehog-iso-build.md,9,0,27
+Bourne Again Shell,./malcolm-iso/config/hooks/normal/0990-remove-unwanted-pkg.hook.chroot,5,4,27
+Bourne Shell,./suricata/scripts/eve-clean-logs.sh,11,9,27
+Dockerfile,./shared/aide/Dockerfile,6,1,26
+Markdown,./docs/hedgehog-installation.md,16,0,25
+PHP,./htadmin/src/includes/head.php,7,8,25
+YAML,./sensor-iso/interface/sensor_ctl/arkime/rules.yml,0,0,25
+Markdown,./docs/api-indices.md,4,0,24
+Markdown,./docs/contributing-guide.md,2,0,24
+Markdown,./docs/hedgehog-config-root.md,23,0,24
+Text,./docs/images/icon/icon_attrib.txt,10,0,24
+YAML,./logstash/maps/syslog_facility_codes.yaml,0,0,24
+Ruby,./logstash/ruby/smbsplit.rb,5,8,23
+Markdown,./docs/alerting.md,15,0,22
+Markdown,./docs/api-fields.md,4,0,22
+Markdown,./docs/download.md,17,0,22
+HTML,./docs/images/hedgehog/logo/font/ubuntucondensed/DESCRIPTION.en_us.html,5,0,22
+Bourne Shell,./file-upload/docker-entrypoint.sh,8,3,22
+PHP,./file-upload/jquery-file-upload/index.php,0,1,22
+YAML,./filebeat/filebeat-nginx.yml,7,5,21
+Bourne Shell,./sensor-iso/beats/beat-build.sh,4,1,21
+Markdown,./README.md,14,0,20
+diff,./arkime/patch/fields_db_max_5000.patch,6,26,20
+Bourne Shell,./htadmin/htadmin.sh,2,0,20
+Bourne Shell,./pcap-monitor/scripts/watch-pcap-uploads-folder.sh,7,5,20
+Markdown,./docs/file-scanning.md,9,0,19
+HTML,./docs/images/hedgehog/logo/font/ubuntu/DESCRIPTION.en_us.html,0,0,19
+Markdown,./docs/upload.md,12,0,18
+Bourne Shell,./file-monitor/docker-entrypoint.sh,7,1,18
+Python,./api/project/config.py,4,0,17
+YAML,./logstash/maps/mitre_attack_tactic_ids.yaml,0,0,17
+YAML,./logstash/maps/mitre_attack_tactic_reference.yaml,0,0,17
+Bourne Shell,./shared/bin/capture-format-wait.sh,5,1,17
+Bourne Shell,./arkime/scripts/arkime_update_geo.sh,5,6,16
+JSON,./dashboards/notifications/channels/malcolm_api_loopback_webhook.json,0,0,16
+Markdown,./docs/api-aggregations.md,8,0,16
+Properties,./logstash/config/log4j2.properties,5,1,16
+Dockerfile,./malcolm-iso/Dockerfile,4,1,16
+Dockerfile,./sensor-iso/Dockerfile,4,1,16
+Text,./sensor-iso/interface/requirements.txt,0,0,16
+Python,./sensor-iso/interface/sensor_interface/sysquery/sys_service.py,10,3,16
+Bourne Shell,./zeek/scripts/docker_entrypoint.sh,4,2,16
+Bourne Shell,./sensor-iso/interface/sensor_ctl/clean.sh,6,1,15
+Markdown,./docs/hedgehog-ssh.md,5,0,14
+Text,./docs/images/hedgehog/logo/font/ubuntumono/CONTRIBUTING.txt,7,0,14
+Markdown,./docs/malcolm-preparation.md,1,0,14
+Bourne Shell,./name-map-ui/scripts/name-map-save-watch.sh,3,5,14
+Bourne Shell,./shared/bin/dod-login-banner.sh,6,3,14
+Bourne Shell,./shared/bin/netdev-json.sh,4,15,14
+Text,./docs/images/hedgehog/logo/font/ubuntucondensed/README.txt,3,0,13
+Bourne Shell,./filebeat/scripts/filebeat-watch-zeeklogs-uploads-folder.sh,5,4,13
+YAML,./logstash/maps/conn_states.yaml,0,0,13
+Bourne Again Shell,./malcolm-iso/config/hooks/normal/0900-setup-rc-local.hook.chroot,8,1,13
+Bourne Shell,./shared/bin/df-json.sh,3,10,13
+Markdown,./docs/contributing-new-image.md,6,0,12
+Markdown,./docs/hedgehog-config.md,5,0,12
+Text,./docs/images/hedgehog/logo/font/ubuntumono/README.txt,3,0,12
+Bourne Shell,./sensor-iso/interface/sensor_ctl/miscbeat/sensor_miscbeat_local.sh,5,2,12
+Bourne Shell,./shared/bin/docker-load-wait.sh,4,1,12
+diff,./arkime/patch/viewer_db_opensearchv2_keyword_hack.patch,0,8,11
+Markdown,./docs/host-config-windows.md,5,0,11
+Bourne Shell,./sensor-iso/interface/sensor_ctl/supervisor.init/suricata_config_populate.sh,6,4,11
+Bourne Shell,./suricata/scripts/docker_entrypoint.sh,3,3,11
+diff,./arkime/patch/footer_links.patch,0,9,10
+diff,./arkime/patch/remove_upload.patch,1,13,10
+Bourne Shell,./arkime/scripts/wise_service.sh,3,1,10
+Markdown,./docs/api.md,2,0,10
+Bourne Shell,./filebeat/scripts/filebeat-process-zeek-folder-functions.sh,1,1,10
+Bourne Shell,./sensor-iso/config/hooks/normal/0169-pip-installs.hook.chroot,3,2,10
+Bourne Shell,./shared/bin/set-dconf-screen-lock-defaults.sh,5,1,10
+INI,./arkime/etc/wise.ini,2,0,9
+Bourne Shell,./arkime/scripts/viewer_service.sh,2,1,9
+Bourne Shell,./arkime/scripts/wipearkime.sh,5,3,9
+Markdown,./docs/contributing-file-scanners.md,5,0,9
+Markdown,./docs/hedgehog-boot.md,8,0,9
+Bourne Shell,./shared/bin/nic-capture-setup.sh,4,2,9
+diff,./arkime/patch/viewer_wider_field_detail.patch,2,12,8
+Markdown,./docs/anomaly-detection.md,4,0,8
+Markdown,./docs/contributing-new-log-fields.md,5,0,8
+Markdown,./docs/contributing-pcap.md,4,0,8
+Markdown,./docs/contributing-zeek.md,7,0,8
+YAML,./logstash/maps/notice_authors.yaml,0,0,8
+YAML,./logstash/maps/notice_license.yaml,0,0,8
+YAML,./logstash/maps/notice_reference.yaml,0,0,8
+YAML,./logstash/maps/syslog_severity_levels.yaml,0,0,8
+HTML,./name-map-ui/site/upload.html,0,0,8
+Bourne Shell,./sensor-iso/interface/init.sh,4,0,8
+Bourne Shell,./shared/bin/aide_integrity_check.sh,2,0,8
+Text,./api/requirements.txt,0,0,7
+Markdown,./docs/api-ping.md,4,0,7
+Markdown,./docs/hedgehog-troubleshooting.md,2,0,7
+YAML,./logstash/maps/tftp_result_codes.yaml,0,0,7
+PHP,./name-map-ui/site/restart-logstash.php,0,0,7
+Bourne Again Shell,./sensor-iso/config/includes.chroot/usr/local/bin/sensor-shutdown,4,3,7
+JSON,./arkime/etc/views/arkime_sessions.json,0,0,6
+JSON,./arkime/etc/views/public_ip_addresses.json,0,0,6
+JSON,./arkime/etc/views/suricata_alerts.json,0,0,6
+JSON,./arkime/etc/views/suricata_logs.json,0,0,6
+JSON,./arkime/etc/views/uninventoried_internal_assets.json,0,0,6
+JSON,./arkime/etc/views/uninventoried_observed_services.json,0,0,6
+JSON,./arkime/etc/views/zeek_conn.json,0,0,6
+JSON,./arkime/etc/views/zeek_exclude_conn.json,0,0,6
+JSON,./arkime/etc/views/zeek_logs.json,0,0,6
+Markdown,./docs/ics-best-guess.md,5,0,6
+YAML,./logstash/maps/winlog_levels_to_name.yaml,0,0,6
+YAML,./logstash/maps/winlog_levels_to_numbers.yaml,0,0,6
+Bourne Again Shell,./malcolm-iso/config/hooks/normal/0911-get-stig-scripts.hook.chroot,2,2,6
+INI,./name-map-ui/config/php.ini,1,0,6
+Bourne Again Shell,./sensor-iso/config/hooks/normal/0911-get-stig-scripts.hook.chroot,2,2,6
+Python,./api/manage.py,3,0,5
+diff,./arkime/patch/db_pl_quiet_backup_warning.patch,1,7,5
+diff,./arkime/patch/spi_sort_malcolm.patch,2,6,5
+Markdown,./docs/time-sync.md,4,0,5
+Bourne Shell,./malcolm-iso/config/hooks/normal/0169-pip-installs.hook.chroot,2,1,5
+Bourne Shell,./sensor-iso/arkime/build-docker-image.sh,4,2,5
+Bourne Shell,./sensor-iso/beats/build-docker-image.sh,4,2,5
+Bourne Shell,./shared/aide/build-docker-image.sh,4,2,5
+Bourne Shell,./shared/bin/set-malcolm-gtk-bookmark.sh,2,1,5
+Bourne Shell,./api/entrypoint.sh,2,0,4
+Markdown,./docs/hedgehog-config-zeek-intel.md,3,0,4
+Markdown,./docs/host-config.md,1,0,4
+Markdown,./docs/index-management.md,3,0,4
+Markdown,./docs/system-requirements.md,3,0,4
+YAML,./logstash/maps/ntp_modes.yaml,0,0,4
+YAML,./.travis.yml,0,0,3
+Markdown,./docs/contributing-style.md,2,0,3
+Markdown,./docs/cyberchef.md,2,0,3
+Text,./docs/images/hedgehog/logo/font/ubuntumono/TRADEMARKS.txt,1,0,3
+JSON,./malcolm-iso/config/includes.chroot/etc/docker/daemon.json,1,0,3
+Bourne Again Shell,./sensor-iso/config/hooks/normal/0992-login.hook.chroot,2,1,3
+Bourne Shell,./sensor-iso/interface/sensor_ctl/scripts/log_disk_space.sh,2,1,3
+JavaScript,./htadmin/src/bootstrap.min.js,0,5,2
+Python,./sensor-iso/interface/sensor_interface/__main__.py,1,0,2
+Bourne Shell,./shared/bin/memory_usage_percentage.sh,1,0,2
+Bourne Shell,./shared/bin/preseed_partman_determine_disk.sh,1,0,2
+HTML,./_includes/head-custom.html,0,0,1
+Text,./docs/images/hedgehog/logo/Attribution.txt,0,0,1
+HTML,./docs/images/hedgehog/logo/font/ubuntumono/DESCRIPTION.en_us.html,0,0,1
+CSS,./file-upload/jquery-file-upload/bootstrap.min.css,0,11,1
+YAML,./logstash/config/logstash.yml,1,0,1
+JSON,./net-map.json,0,0,1
+Python,./netbox/config/configuration/extra.py,14,41,0
+Python,./netbox/config/configuration/logging.py,3,52,0
+Python,./netbox/config/configuration/plugins.py,3,10,0
+Python,./sensor-iso/interface/sensor_interface/sysquery/__init__.py,1,0,0
+SUM,,9252,4381,154356

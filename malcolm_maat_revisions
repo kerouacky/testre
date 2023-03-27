@@ -1,0 +1,2348 @@
+entity,n-revs
+README.md,328
+docker-compose.yml,257
+docker-compose-standalone.yml,253
+sensor-iso/config/hooks/normal/0910-sensor-build.hook.chroot,174
+sensor-iso/README.md,154
+logstash/pipelines/zeek/11_zeek_logs.conf,151
+Dockerfiles/zeek.Dockerfile,140
+arkime/etc/config.ini,100
+arkime/wise/source.zeeklogs.js,99
+scripts/control.py,92
+Dockerfiles/logstash.Dockerfile,88
+shared/bin/zeek_install_plugins.sh,87
+scripts/install.py,83
+docs/web/download.md,77
+sensor-iso/build.sh,72
+Dockerfiles/file-monitor.Dockerfile,68
+logstash/pipelines/zeek/12_zeek_normalize.conf,67
+Dockerfiles/arkime.Dockerfile,65
+Dockerfiles/filebeat.Dockerfile,62
+.github/workflows/sensor-iso-build-docker-wrap-push-ghcr.yml,61
+Dockerfiles/dashboards.Dockerfile,60
+logstash/pipelines/enrichment/11_lookups.conf,59
+Dockerfiles/nginx.Dockerfile,58
+malcolm-iso/build.sh,57
+sensor-iso/interface/sensor_ctl/control_vars.conf,55
+dashboards/malcolm_template.json,54
+Dockerfiles/opensearch.Dockerfile,54
+api/project/__init__.py,52
+Dockerfiles/kibana.Dockerfile,51
+logstash/pipelines/beats/11_beats_logs.conf,51
+malcolm-iso/config/hooks/normal/0910-agg-build.hook.chroot,50
+logstash/pipelines/suricata/11_suricata_logs.conf,47
+shared/bin/configure-capture.py,46
+nginx/nginx.conf,45
+dashboards/scripts/create-arkime-sessions-index.sh,44
+scripts/malcolm_appliance_packager.sh,43
+kibana/dashboards/024062a6-48d6-498f-a91a-3bf2da3a3cd3.json,43
+kibana/dashboards/0ad3d7c2-3441-485e-9dfe-dbb22e84e576.json,41
+kibana/dashboards/37041ee1-79c0-4684-a436-3173b0e89876.json,41
+kibana/dashboards/078b9aa5-9bd4-4f02-ae5e-cf80fa6f887b.json,41
+moloch/wise/source.zeeklogs.js,41
+Dockerfiles/dashboards-helper.Dockerfile,41
+kibana/dashboards/7f77b58a-df3e-4cc2-b782-fd7f8bad8ffb.json,40
+scripts/build.sh,39
+Dockerfiles/suricata.Dockerfile,39
+kibana/dashboards/bb827f8e-639e-468c-93c8-9f5bc132eb8f.json,38
+kibana/dashboards/870a5862-6c26-4a08-99fd-0c06cda85ba3.json,38
+kibana/dashboards/42e831b9-41a9-4f35-8b7d-e1566d368773.json,38
+kibana/dashboards/0b2354ae-0fe9-4fd9-b156-1c3870e5c7aa.json,38
+kibana/dashboards/2cf94cd0-ecab-40a5-95a7-8419f3a39cd9.json,37
+kibana/dashboards/2d98bb8e-214c-4374-837b-20e1bcd63a5e.json,37
+kibana/dashboards/f1f09567-fc7f-450b-a341-19d2f2bb468b.json,37
+kibana/dashboards/4e5f106e-c60a-4226-8f64-d534abb912ab.json,37
+dashboards/templates/composable/component/miscbeat.json,36
+kibana/dashboards/ae79b7d1-4281-4095-b2f6-fa7eafda9970.json,36
+kibana/zeek_template.json,36
+kibana/dashboards/543118a9-02d7-43fe-b669-b8652177fc37.json,36
+kibana/dashboards/abdd7550-2c7c-40dc-947e-f6d186a158c4.json,36
+kibana/dashboards/9ee51f94-3316-4fc5-bd89-93a52af69714.json,36
+kibana/dashboards/87d990cc-9e0b-41e5-b8fe-b10ae1da0c85.json,35
+kibana/dashboards/76f2f912-80da-44cd-ab66-6a73c8344cc3.json,35
+kibana/dashboards/0aed0e23-c8ac-4f2b-9f68-d04b6e7666b0.json,35
+kibana/dashboards/e09a4b86-29b5-4256-bb3b-802ac9f90404.json,35
+kibana/dashboards/1fff49f6-0199-4a0f-820b-721aff9ff1f1.json,35
+docs/contributing/README.md,35
+kibana/dashboards/7f41913f-cba8-43f5-82a8-241b7ead03e0.json,35
+kibana/dashboards/92985909-dc29-4533-9e80-d3182a0ecf1d.json,35
+sensor-iso/docs/Notes.md,35
+kibana/dashboards/39abfe30-3f99-11e9-a58e-8bdedb0915e8.json,35
+kibana/dashboards/50ced171-1b10-4c3f-8b67-2db9635661a6.json,35
+kibana/dashboards/82da3101-2a9c-4ae2-bb61-d447a3fbe673.json,35
+kibana/dashboards/b50c8d17-6ed3-4de6-aed4-5181032810b2.json,35
+kibana/dashboards/95479950-41f2-11ea-88fa-7151df485405.json,35
+kibana/dashboards/b9f247c0-3f99-11e9-a58e-8bdedb0915e8.json,35
+kibana/dashboards/d41fe630-3f98-11e9-a58e-8bdedb0915e8.json,35
+kibana/dashboards/d4fd6afd-15cb-42bf-8a25-03dd8e59b327.json,35
+kibana/dashboards/caef3ade-d289-4d05-a511-149f3e97f238.json,35
+kibana/dashboards/f77bf097-18a8-465c-b634-eb2acc7a4f26.json,35
+kibana/dashboards/11be6381-beef-40a7-bdce-88c5398392fc.json,35
+kibana/dashboards/55e332d0-3f99-11e9-a58e-8bdedb0915e8.json,34
+kibana/dashboards/ed8a6640-3f98-11e9-a58e-8bdedb0915e8.json,34
+kibana/dashboards/a16110b0-3f99-11e9-a58e-8bdedb0915e8.json,34
+kibana/dashboards/f394057d-1b16-4174-b994-7045f423a416.json,34
+kibana/dashboards/77fc9960-3f99-11e9-a58e-8bdedb0915e8.json,34
+kibana/dashboards/432af556-c5c0-4cc3-8166-b274b4e3a406.json,34
+kibana/dashboards/60d78fbd-471c-4f59-a9e3-189b33a13644.json,34
+kibana/dashboards/1ce42250-3f99-11e9-a58e-8bdedb0915e8.json,34
+kibana/dashboards/0a490422-0ce9-44bf-9a2d-19329ddde8c3.json,34
+Dockerfiles/name-map-ui.Dockerfile,33
+kibana/dashboards/665d1610-523d-11e9-a30e-e3576242f3ed.json,33
+logstash/pipelines/enrichment/20_enriched_to_ecs.conf,32
+.github/workflows/malcolm-iso-build-docker-wrap-push-ghcr.yml,32
+kibana/dashboards/152f29dc-51a2-4f53-93e9-6e92765567b8.json,32
+kibana/dashboards/11ddd980-e388-11e9-b568-cf17de8e860c.json,32
+kibana/dashboards/36ed695f-edcc-47c1-b0ec-50d20c93ce0f.json,32
+kibana/dashboards/4a4bde20-4760-11ea-949c-bbb5a9feecbf.json,32
+shared/bin/sensor-init.sh,31
+Dockerfiles/pcap-monitor.Dockerfile,31
+dashboards/templates/malcolm_beats_template.json,30
+sensor-iso/config/hooks/normal/0991-security-performance.hook.chroot,30
+zeek/config/local.zeek,30
+kibana/dashboards/05e3e000-f118-11e9-acda-83a8e29e1a24.json,30
+kibana/scripts/kibana_index_refresh.py,29
+kibana/dashboards/a7514350-eba6-11e9-a384-0fcf32210194.json,29
+Dockerfiles/pcap-capture.Dockerfile,29
+Dockerfiles/moloch.Dockerfile,28
+sensor-iso/beats/Dockerfile,28
+Dockerfiles/htadmin.Dockerfile,28
+kibana/dashboards/e76d05c0-eb9f-11e9-a384-0fcf32210194.json,27
+sensor-iso/arkime/Dockerfile,27
+Dockerfiles/file-upload.Dockerfile,27
+kibana/dashboards/29a1b290-eb98-11e9-a384-0fcf32210194.json,27
+logstash/pipelines/beats/98_finalize.conf,26
+kibana/dashboards/fa141950-ef89-11e9-b38a-2db3ee640e88.json,26
+scripts/malcolm_common.py,26
+kibana/dashboards/87a32f90-ef58-11e9-974e-9d600036d105.json,26
+.github/workflows/nginx-build-and-push-ghcr.yml,26
+kibana/dashboards/32587740-ef88-11e9-b38a-2db3ee640e88.json,26
+kibana/dashboards/af5df620-eeb6-11e9-bdef-65a192b7f586.json,26
+shared/bin/pcap_watcher.py,26
+docker-compose-standalone-zeek-live.yml,26
+kibana/dashboards/bed185a0-ef82-11e9-b38a-2db3ee640e88.json,26
+logstash/scripts/logstash-start.sh,25
+sensor-iso/config/hooks/normal/0169-pip-installs.hook.chroot,25
+scripts/third-party-logs/fluent-bit-setup.ps1,25
+kibana/dashboards/a33e0a50-afcd-11ea-993f-b7d8522a8bed.json,25
+kibana/dashboards/2bec1490-eb94-11e9-a384-0fcf32210194.json,25
+Dockerfiles/freq.Dockerfile,25
+kibana/dashboards/c2549e10-7f2e-11ea-9f8a-1fe1327e2cd2.json,25
+.trigger_workflow_build,25
+filebeat/filebeat.yml,24
+logstash/pipelines/zeek/13_zeek_convert.conf,24
+docs/download.md,24
+Dockerfiles/netbox.Dockerfile,24
+dashboards/templates/malcolm_template.json,23
+scripts/beats/README.md,23
+sensor-iso/config/includes.chroot/usr/local/etc/zeek/local.zeek,23
+sensor-iso/interface/sensor_ctl/heatbeat/protologbeat.yml,22
+sensor-iso/beats/beat-build.sh,22
+.github/workflows/name-map-ui-build-and-push-ghcr.yml,22
+.github/workflows/arkime-build-and-push-ghcr.yml,22
+docs/ubuntu-install-example.md,22
+dashboards/opensearch_dashboards.yml,22
+shared/bin/zeek_carve_utils.py,22
+sensor-iso/vagrant/Vagrantfile,22
+.github/workflows/htadmin-build-and-push-ghcr.yml,21
+.github/workflows/file-upload-build-and-push-ghcr.yml,21
+.github/workflows/pcap-monitor-build-and-push-ghcr.yml,21
+.github/workflows/logstash-build-and-push-ghcr.yml,21
+.github/workflows/freq-build-and-push-ghcr.yml,21
+.github/workflows/pcap-capture-build-and-push-ghcr.yml,21
+logstash/ruby/netbox_enrich.rb,21
+.github/workflows/zeek-build-and-push-ghcr.yml,21
+malcolm-iso/vagrant/Vagrantfile,21
+kibana/scripts/kibana-create-moloch-sessions-index.sh,21
+kibana/dashboards/ca5799a0-56b5-11eb-b749-576de068f8ad.json,21
+kibana/dashboards/bf5efbb0-60f1-11eb-9d60-dbf0411cfc48.json,21
+.github/workflows/file-monitor-build-and-push-ghcr.yml,21
+.github/workflows/filebeat-build-and-push-ghcr.yml,21
+netbox/scripts/netbox_init.py,21
+sensor-iso/interface/sensor_ctl/auditbeat/auditbeat.yml,21
+dashboards/dashboards/677ee170-809e-11ed-8d5b-07069f823b6f.json,20
+.dockerignore,20
+shared/bin/pcap_arkime_and_zeek_processor.py,20
+Dockerfiles/curator.Dockerfile,20
+Dockerfiles/api.Dockerfile,20
+Dockerfiles/elastalert.Dockerfile,19
+logstash/pipelines/zeek/20_zeek_to_ecs.conf,19
+sensor-iso/interface/requirements.txt,19
+sensor-iso/moloch/Dockerfile,19
+dashboards/templates/composable/component/zeek_ot.json,18
+file-monitor/supervisord.conf,18
+sensor-iso/config/hooks/normal/0990-remove-unwanted-pkg.hook.chroot,18
+shared/bin/zeek_intel_setup.sh,18
+docs/quickstart.md,18
+sensor-iso/config/hooks/normal/0900-setup-rc-local.hook.chroot,18
+arkime/scripts/initarkime.sh,18
+sensor-iso/config/package-lists/system.list.chroot,18
+_config.yml,17
+filebeat/scripts/filebeat-clean-zeeklogs-processed-folder.py,17
+logstash/pipelines/enrichment/19_severity.conf,17
+Notice.txt,17
+dashboards/dashboards/36ed695f-edcc-47c1-b0ec-50d20c93ce0f.json,17
+dashboards/scripts/index-refresh.py,17
+sensor-iso/interface/sensor_ctl/filebeat/filebeat.yml,17
+logstash/scripts/ip-to-segment-logstash.py,17
+dashboards/dashboards/0ad3d7c2-3441-485e-9dfe-dbb22e84e576.json,17
+sensor-iso/interface/sensor_ctl/supervisor.sh,17
+netbox/supervisord.conf,17
+scripts/beats/windows_vm_example/Malcolm_Windows_Forwarder_Download_and_Config.ps1,16
+docs/hedgehog-iso-build.md,16
+api/requirements.txt,16
+.gitignore,16
+scripts/demo/reset_and_auto_populate.sh,16
+moloch/etc/config.ini,16
+kibana/dashboards/4a073440-b286-11eb-a4d4-09fa12a6ebd4.json,16
+docs/web/conf.py,16
+.github/workflows/dashboards-helper-build-and-push-ghcr.yml,15
+dashboards/dashboards/37041ee1-79c0-4684-a436-3173b0e89876.json,15
+.github/workflows/opensearch-build-and-push-ghcr.yml,15
+.github/workflows/dashboards-build-and-push-ghcr.yml,15
+shared/bin/common-init.sh,15
+Dockerfiles/kibana-helper.Dockerfile,15
+shared/bin/preseed_late_user_config.sh,15
+malcolm-iso/config/hooks/normal/0991-security-performance.hook.chroot,15
+docs/malcolm-iso.md,15
+.github/workflows/api-build-and-push-ghcr.yml,15
+filebeat/supervisord.conf,15
+shared/bin/ufw_allow_viewer.sh,15
+dashboards/dashboards/beats/Metricbeat-system-overview.json,15
+docs/web/github_readme_to_pages.sh,15
+filebeat/filebeat-nginx.yml,15
+pcap-monitor/supervisord.conf,15
+dashboards/dashboards/beats/Metricbeat-host-overview.json,14
+Dockerfiles/elasticsearch.Dockerfile,14
+shared/bin/suricata_config_populate.py,14
+moloch/scripts/initmoloch.sh,14
+dashboards/dashboards/29a1b290-eb98-11e9-a384-0fcf32210194.json,14
+kibana/dashboards/d2dd0180-06b1-11ec-8c6b-353266ade330.json,14
+kibana/dashboards/12e3a130-d83b-11eb-a0b0-f328ce09b0b7.json,14
+dashboards/dashboards/4a4bde20-4760-11ea-949c-bbb5a9feecbf.json,14
+dashboards/dashboards/e76d05c0-eb9f-11e9-a384-0fcf32210194.json,14
+sensor-iso/interface/sensor_ctl/supervisor.init/arkime_config_populate.sh,14
+sensor-iso/arkime/build-arkime-deb.sh,14
+dashboards/dashboards/d2dd0180-06b1-11ec-8c6b-353266ade330.json,14
+shared/bin/zeek_carve_logger.py,14
+sensor-iso/interface/sensor_ctl/supervisor.init/suricata_config_populate.sh,14
+dashboards/dashboards/9ee51f94-3316-4fc5-bd89-93a52af69714.json,14
+dashboards/dashboards/abdd7550-2c7c-40dc-947e-f6d186a158c4.json,14
+dashboards/dashboards/dd87edd0-796a-11ec-9ce6-b395c1ff58f4.json,14
+filebeat/scripts/filebeat-process-zeek-folder.sh,14
+shared/bin/zeek_carve_scanner.py,14
+dashboards/dashboards/ca5799a0-56b5-11eb-b749-576de068f8ad.json,13
+pcap-capture/scripts/supervisor.sh,13
+dashboards/dashboards/a33e0a50-afcd-11ea-993f-b7d8522a8bed.json,13
+sensor-iso/interface/sensor_ctl/supervisor.d/beats.conf,13
+shared/bin/agg-init.sh,13
+logstash/pipelines/enrichment/18_tags_finalize.conf,13
+dashboards/dashboards/fa477130-2b8a-11ec-a9f2-3911c8571bfd.json,13
+filebeat/scripts/zeek-log-field-bitmap.py,13
+dashboards/dashboards/4e5f106e-c60a-4226-8f64-d534abb912ab.json,13
+scripts/beats/beat_common.py,13
+filebeat/scripts/zeek-log-fields.json,13
+License.txt,13
+dashboards/dashboards/95479950-41f2-11ea-88fa-7151df485405.json,13
+dashboards/dashboards/870a5862-6c26-4a08-99fd-0c06cda85ba3.json,13
+scripts/reset_and_auto_populate.sh,12
+shared/bin/stix_to_zeek_intel.py,12
+logstash/pipelines/output/99_opensearch_output.conf,12
+shared/bin/sensorcommon.py,12
+dashboards/dashboards/665d1610-523d-11e9-a30e-e3576242f3ed.json,12
+dashboards/dashboards/4a073440-b286-11eb-a4d4-09fa12a6ebd4.json,12
+shared/bin/zeek_intel_from_threat_feed.py,12
+logstash/scripts/ja3_build_list.py,12
+sensor-iso/interface/sensor_ctl/miscbeat/protologbeat.yml,12
+sensor-iso/config/includes.chroot/opt/zeek/bin/zeekdeploy.sh,12
+sensor-iso/config/includes.binary/install/preseed_base.cfg,12
+sensor-iso/interface/sensor_ctl/metricbeat/metricbeat.yml,12
+kibana/dashboards/fa477130-2b8a-11ec-a9f2-3911c8571bfd.json,12
+malcolm-iso/config/includes.binary/install/preseed_base.cfg,12
+sensor-iso/interface/sensor_ctl/filebeat-syslog/filebeat-syslog.yml,12
+arkime/scripts/wipearkime.sh,12
+malcolm-iso/config/package-lists/system.list.chroot,12
+dashboards/dashboards/05e3e000-f118-11e9-acda-83a8e29e1a24.json,12
+dashboards/dashboards/50ced171-1b10-4c3f-8b67-2db9635661a6.json,11
+dashboards/dashboards/11be6381-beef-40a7-bdce-88c5398392fc.json,11
+dashboards/dashboards/42e831b9-41a9-4f35-8b7d-e1566d368773.json,11
+kibana/supervisord.conf,11
+dashboards/dashboards/ed8a6640-3f98-11e9-a58e-8bdedb0915e8.json,11
+dashboards/dashboards/f77bf097-18a8-465c-b634-eb2acc7a4f26.json,11
+dashboards/dashboards/2bec1490-eb94-11e9-a384-0fcf32210194.json,11
+shared/bin/pcap_utils.py,11
+dashboards/dashboards/432af556-c5c0-4cc3-8166-b274b4e3a406.json,11
+dashboards/dashboards/d4fd6afd-15cb-42bf-8a25-03dd8e59b327.json,11
+dashboards/dashboards/87d990cc-9e0b-41e5-b8fe-b10ae1da0c85.json,11
+zeek/supervisord.conf,11
+scripts/amazon_linux_2_malcolm_demo_setup.sh,11
+dashboards/dashboards/a16110b0-3f99-11e9-a58e-8bdedb0915e8.json,11
+dashboards/dashboards/ae79b7d1-4281-4095-b2f6-fa7eafda9970.json,11
+dashboards/dashboards/39abfe30-3f99-11e9-a58e-8bdedb0915e8.json,11
+dashboards/dashboards/0a490422-0ce9-44bf-9a2d-19329ddde8c3.json,11
+dashboards/dashboards/55e332d0-3f99-11e9-a58e-8bdedb0915e8.json,11
+dashboards/dashboards/b9f247c0-3f99-11e9-a58e-8bdedb0915e8.json,11
+dashboards/dashboards/f394057d-1b16-4174-b994-7045f423a416.json,11
+elastalert/elastalert-start.sh,11
+dashboards/dashboards/d41fe630-3f98-11e9-a58e-8bdedb0915e8.json,11
+sensor-iso/build_via_vagrant.sh,11
+arkime/scripts/viewer_service.sh,11
+dashboards/dashboards/f1f09567-fc7f-450b-a341-19d2f2bb468b.json,11
+sensor-iso/config/hooks/normal/0911-get-stig-scripts.hook.chroot,11
+dashboards/dashboards/7f41913f-cba8-43f5-82a8-241b7ead03e0.json,11
+dashboards/dashboards/2d98bb8e-214c-4374-837b-20e1bcd63a5e.json,11
+scripts/demo/amazon_linux_2_malcolm_demo_setup.sh,11
+shared/bin/zeek_threat_feed_utils.py,11
+dashboards/dashboards/12e3a130-d83b-11eb-a0b0-f328ce09b0b7.json,11
+dashboards/dashboards/7f77b58a-df3e-4cc2-b782-fd7f8bad8ffb.json,11
+dashboards/dashboards/76f2f912-80da-44cd-ab66-6a73c8344cc3.json,11
+dashboards/dashboards/078b9aa5-9bd4-4f02-ae5e-cf80fa6f887b.json,11
+htadmin/supervisord.conf,11
+dashboards/dashboards/543118a9-02d7-43fe-b669-b8652177fc37.json,11
+dashboards/dashboards/024062a6-48d6-498f-a91a-3bf2da3a3cd3.json,11
+dashboards/dashboards/0b2354ae-0fe9-4fd9-b156-1c3870e5c7aa.json,11
+shared/bin/configure-interfaces.py,11
+dashboards/dashboards/caef3ade-d289-4d05-a511-149f3e97f238.json,11
+dashboards/dashboards/1ce42250-3f99-11e9-a58e-8bdedb0915e8.json,11
+pcap-capture/scripts/netsniff-roll.sh,11
+dashboards/dashboards/b50c8d17-6ed3-4de6-aed4-5181032810b2.json,11
+dashboards/dashboards/e09a4b86-29b5-4256-bb3b-802ac9f90404.json,11
+.github/workflows/suricata-build-and-push-ghcr.yml,11
+dashboards/dashboards/77fc9960-3f99-11e9-a58e-8bdedb0915e8.json,11
+scripts/third-party-logs/fluent-bit-setup.sh,11
+suricata/supervisord.conf,11
+dashboards/dashboards/60d78fbd-471c-4f59-a9e3-189b33a13644.json,11
+dashboards/dashboards/0aed0e23-c8ac-4f2b-9f68-d04b6e7666b0.json,11
+dashboards/dashboards/bb827f8e-639e-468c-93c8-9f5bc132eb8f.json,11
+dashboards/dashboards/92985909-dc29-4533-9e80-d3182a0ecf1d.json,11
+dashboards/dashboards/2cf94cd0-ecab-40a5-95a7-8419f3a39cd9.json,11
+dashboards/dashboards/152f29dc-51a2-4f53-93e9-6e92765567b8.json,11
+dashboards/dashboards/82da3101-2a9c-4ae2-bb61-d447a3fbe673.json,11
+dashboards/dashboards/1fff49f6-0199-4a0f-820b-721aff9ff1f1.json,10
+dashboards/dashboards/c2549e10-7f2e-11ea-9f8a-1fe1327e2cd2.json,10
+docs/malcolm-config.md,10
+.github/workflows/postgresql-build-and-push-ghcr.yml,10
+shared/bin/sensor-capture-disk-config.py,10
+dashboards/dashboards/32587740-ef88-11e9-b38a-2db3ee640e88.json,10
+docs/web/requirements.txt,10
+dashboards/dashboards/beats/Protologbeat-temperatures-dashboard.json,10
+dashboards/dashboards/a7514350-eba6-11e9-a384-0fcf32210194.json,10
+shared/bin/zeek_carve_watcher.py,10
+docs/netbox.md,10
+malcolm-iso/config/package-lists/desktopmanager.list.chroot,10
+sensor-iso/config/archives/llvm.list.chroot,10
+dashboards/dashboards/11ddd980-e388-11e9-b568-cf17de8e860c.json,10
+dashboards/dashboards/bf5efbb0-60f1-11eb-9d60-dbf0411cfc48.json,10
+sensor-iso/Dockerfile,10
+sensor-iso/config/archives/llvm.list.binary,10
+dashboards/dashboards/fa141950-ef89-11e9-b38a-2db3ee640e88.json,10
+arkime/etc/user_settings.json,10
+sensor-iso/interface/sensor_ctl/supervisor.d/arkime.conf,10
+nginx/nginx_readonly.conf,10
+filebeat/scripts/filebeat-watch-zeeklogs-uploads-folder.sh,10
+shared/bin/opensearch_index_size_prune.py,10
+.github/workflows/redis-build-and-push-ghcr.yml,10
+malcolm-iso/config/hooks/normal/0911-get-stig-scripts.hook.chroot,10
+api/project/config.py,10
+dashboards/dashboards/87a32f90-ef58-11e9-974e-9d600036d105.json,10
+dashboards/dashboards/bed185a0-ef82-11e9-b38a-2db3ee640e88.json,10
+shared/bin/suricata_config_populate.sh,10
+dashboards/dashboards/af5df620-eeb6-11e9-bdef-65a192b7f586.json,10
+logstash/pipelines/external/99_opensearch_output.conf,9
+shared/bin/docker-load-wait.sh,9
+shared/bin/capture-format-wait.sh,9
+shared/bin/sensormetric.py,9
+kibana/dashboards/d15a9d40-5c3e-492f-8e17-67a5d6862a3a.json,9
+name-map-ui/config/supervisord.conf,9
+dashboards/dashboards/1cc01ff0-5205-11ec-a62c-7bc80e88f3f0.json,9
+sensor-iso/config/includes.chroot/etc/skel/.bashrc,9
+kibana/anomaly_detectors/zeek_service_AD.json,9
+logstash/pipelines/enrichment/12_type_conv.conf,9
+file-upload/jquery-file-upload/index.php,9
+sensor-iso/interface/sensor_ctl/supervisor.d/zeek.conf,9
+malcolm-iso/config/includes.chroot/etc/bash.bash_functions,9
+malcolm-iso/Dockerfile,9
+_layouts/default.html,9
+nginx/scripts/docker_entrypoint.sh,9
+shared/bin/pcap_processor.py,9
+logstash/maps/zeek_log_ecs_categories.yaml,9
+scripts/third-party-logs/README.md,9
+moloch/moloch_regression_test_harness/docker-compose.yml,9
+.github/workflows/netbox-build-and-push-ghcr.yml,9
+sensor-iso/config/package-lists/python.list.chroot,9
+shared/bin/beat-log-temperature.py,9
+iso-build/build.sh,9
+shared/bin/malass_client.py,9
+arkime/supervisord.conf,9
+file-upload/supervisord.conf,9
+sensor-iso/interface/sensor_interface/routes.py,8
+suricata/scripts/eve-clean-logs.sh,8
+docs/development.md,8
+dashboards/dashboards/beats/auditbeat-kernel-overview.json,8
+docs/slides/Network Traffic Analysis with Malcolm.pdf,8
+dashboards/dashboards/beats/auditbeat-file-integrity.json,8
+dashboards/dashboards/beats/auditbeat-kernel-sockets.json,8
+sensor-iso/interface/sensor_ctl/supervisor.d/fluentbit-aide.conf,8
+shared/bin/fstab.py,8
+malcolm-iso/config/hooks/normal/0900-setup-rc-local.hook.chroot,8
+dashboards/dashboards/beats/Filebeat-auditd.json,8
+dashboards/dashboards/beats/Filebeat-nginx-overview.json,8
+malcolm-iso/config/hooks/normal/0169-pip-installs.hook.chroot,8
+file-upload/docker-entrypoint.sh,8
+scripts/beats/beat_config.py,8
+sensor-iso/interface/sensor_interface/sysquery/sys_service.py,8
+malcolm-iso/config/hooks/normal/0990-remove-unwanted-pkg.hook.chroot,8
+sensor-iso/interface/sensor_ctl/supervisor.d/fluentbit-netif.template,8
+scripts/documentation_build.sh,8
+pcap-capture/supervisord.conf,8
+moloch/scripts/moloch-needs-upgrade.sh,8
+dashboards/dashboards/89d1cc50-974c-11ed-bb6b-3fb06c879b11.json,8
+sensor-iso/interface/sensor_ctl/control.sh,8
+arkime/scripts/arkime-needs-upgrade.sh,8
+dashboards/dashboards/beats/Filebeat-syslog.json,8
+sensor-iso/config/package-lists/desktopmanager.list.chroot,8
+scripts/start.sh,8
+shared/bin/elastic_search_status.sh,8
+shared/bin/grassmarlin_translate.py,8
+docs/slides/Network Traffic Analysis with Malcolm.odp,8
+scripts/beats/beat_run.py,8
+dashboards/dashboards/beats/auditbeat-kernel-executions.json,8
+sensor-iso/interface/sensor_ctl/supervisor.d/fluentbit-syslog.conf,8
+sensor-iso/beats/build.sh,7
+sensor-iso/interface/sensor_ctl/filebeat-syslog/sensor_filebeat-syslog_local.sh,7
+shared/bin/ics-oui-parse.py,7
+nginx/supervisord.conf,7
+pcap-capture/templates/tcpdump.template,7
+suricata/scripts/docker_entrypoint.sh,7
+shared/bin/zeekdeploy.sh,7
+sensor-iso/config/includes.binary/boot/grub/grub.cfg,7
+sensor-iso/interface/sensor_ctl/filebeat/sensor_filebeat_local.sh,7
+file-monitor/docker-entrypoint.sh,7
+logstash/pipelines/suricata/12_suricata_normalize.conf,7
+sensor-iso/config/includes.binary/install/preseed_vmware.cfg,7
+shared/bin/set-dconf-screen-lock-defaults.sh,7
+dashboards/supervisord.conf,7
+logstash/ruby/mac_lookup.rb,7
+logstash/pipelines/enrichment/98_make_unique.conf,7
+shared/bin/opensearch_status.sh,7
+logstash/supervisord.conf,7
+malcolm-iso/config/includes.binary/install/preseed_vmware.cfg,7
+file-upload/jquery-file-upload/index.html,7
+sensor-iso/interface/sensor_ctl/supervisor.init/supercronic_populate.sh,7
+moloch/scripts/wipemoloch.sh,7
+curator/config/action_file.yml,7
+logstash/pipelines/suricata/01_input_suricata.conf,7
+docs/slides/Network_Traffic_Analysis_with_Malcolm.odp,7
+scripts/auth_setup.sh,7
+sensor-iso/interface/sensor_ctl/heatbeat/sensor_heatbeat_local.sh,7
+name-map-ui/site/index.html,7
+file-upload/nginx/sites-available/default,7
+freq-server/supervisord.conf,7
+dashboards/dashboards/5694ca60-cbdf-11ec-a50a-5fedd672f5c5.json,7
+sensor-iso/interface/sensor_ctl/scripts/log_temperature.sh,7
+sensor-iso/interface/sensor_ctl/supervisor.init/moloch_config_populate.sh,7
+moloch/moloch_regression_test_harness/Dockerfiles/moloch.Dockerfile,7
+kibana/anomaly_detectors/zeek_filetype_AD.json,7
+malcolm-iso/build_via_vagrant.sh,7
+logstash/pipelines/zeek/19_severity.conf,7
+sensor-iso/interface/sensor_ctl/metricbeat/sensor_metricbeat_local.sh,7
+logstash/pipelines/external/99_elastic_output.conf,7
+sensor-iso/interface/sensor_ctl/auditbeat/sensor_auditbeat_local.sh,7
+malcolm-iso/config/hooks/normal/0992-localepurge.hook.chroot,6
+iso-build/config/hooks/normal/0991-security-performance.hook.chroot,6
+dashboards/templates/composable/component/syslog.json,6
+name-map-ui/config/supervisor_logstash_ctl.conf,6
+sensor-iso/config/includes.chroot/etc/bash.bash_functions,6
+sensor-iso/config/includes.chroot/etc/audit/rules.d/audit.rules,6
+sensor-iso/moloch/build-moloch-deb.sh,6
+sensor-iso/interface/sensor_interface/static/js/custom.js,6
+moloch/scripts/viewer_service.sh,6
+moloch/scripts/moloch_update_geo.sh,6
+dashboards/templates/composable/component/heatbeat.json,6
+sensor-iso/config/hooks/normal/0992-login.hook.chroot,6
+logstash/pipelines/suricata/13_suricata_convert.conf,6
+logstash/patterns/nginx,6
+filebeat/filebeat-tcp.yml,6
+logstash/ruby/compact_event.rb,6
+malcolm-iso/config/includes.binary/install/preseed_multipar.cfg,6
+moloch/supervisord.conf,6
+docs/web/.gitignore,6
+docs/slides/Malcolm OT Protocol Support.odp,6
+sensor-iso/.gitignore,6
+arkime/patch/footer_links.patch,6
+sensor-iso/config/archives/llvm.key.chroot,6
+dashboards/templates/composable/component/zeek.json,6
+pcap-monitor/scripts/watch-pcap-uploads-folder.sh,6
+malcolm-iso/config/includes.binary/boot/grub/grub.cfg,6
+sensor-iso/interface/sensor_ctl/arkime/config.ini,6
+sensor-iso/config/includes.chroot/opt/zeek/bin/zeek.sh,6
+name-map-ui/scripts/name-map-save-watch.sh,6
+sensor-iso/config/archives/llvm.key.binary,6
+filebeat/scripts/filebeat-process-zeek-folder-functions.sh,6
+sensor-iso/interface/sensor_ctl/supervisor.d/suricata.conf,6
+scripts/demo/Vagrantfile,6
+sensor-iso/interface/sensor_ctl/supervisor.d/fluentbit-metrics.conf,6
+shared/bin/df-json.sh,6
+shared/bin/self_signed_key_gen.sh,6
+kibana/anomaly_detectors/total_bytes_AD.json,6
+docs/slides/Malcolm OT Protocol Support.pdf,6
+sensor-iso/config/includes.chroot/opt/zeek/share/zeek/site/extractor_params.zeek,6
+dashboards/dashboards/beats/Filebeat-nginx-logs.json,6
+logstash/pipelines/output/99_elastic_output.conf,6
+sensor-iso/config/includes.chroot/opt/zeek/share/zeek/site/extractor.zeek,6
+sensor-iso/interface/sensor_ctl/clean.sh,6
+dashboards/templates/composable/component/system.json,6
+iso-build/config/hooks/normal/0910-agg-build.hook.chroot,6
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-22/16343117175.desktop,6
+shared/bin/prune_files.sh,6
+scripts/beats/linux_vm_example/auditbeat.yml,6
+name-map-ui/site/mapping.css,6
+sensor-iso/interface/sensor_ctl/scripts/log_disk_space.sh,6
+logstash/pipelines/beats/01_input_beats.conf,6
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-restart.desktop,5
+logstash/maps/s7comm_result_codes.yaml,5
+iso-build/config/package-lists/system.list.chroot,5
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-logs.desktop,5
+scripts/logs.sh,5
+logstash/pipeline-main/11_zeek_logs.conf,5
+scripts/package_zeek_logs.sh,5
+sensor-iso/interface/sensor_ctl/extractor_override.interesting.zeek,5
+sensor-iso/config/includes.binary/install/preseed_multipar.cfg,5
+docs/stix/stix_to_zeek_intel.py,5
+sensor-iso/interface/sensor_ctl/heatbeat/protologbeat.template.json,5
+shared/bin/opensearch_read_only.py,5
+suricata/suricata.yaml,5
+zeek/patches/zeek_pr_916_conns_log_hostcerts_only.patch,5
+Dockerfiles/redis.Dockerfile,5
+docs/stix/stix_zeek_utils.py,5
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-start.desktop,5
+logstash/pipelines/zeek/01_input_zeek.conf,5
+iso-build/config/includes.binary/install/preseed_base.cfg,5
+sensor-iso/interface/sensor_ctl/miscbeat/sensor_miscbeat_local.sh,5
+shared/bin/service_check_passthrough.sh,5
+logstash/pipelines/enrichment/97_make_unique.conf,5
+scripts/zeek_script_to_logstash_dissect.py,5
+sensor-iso/config/bootloaders/syslinux_common/splash.svg,5
+malcolm-iso/config/bootloaders/syslinux_common/splash.svg,5
+host-map.txt,5
+malcolm-iso/config/includes.chroot/etc/audit/rules.d/audit.rules,5
+docs/slides/Network_Traffic_Analysis_with_Malcolm.pdf,5
+scripts/wipe.sh,5
+logstash/ruby/make_unique_array.rb,5
+docs/contributing-logstash.md,5
+arkime/patch/spi_sort_zeek.patch,5
+sensor-iso/config/package-lists/apps.list.chroot,5
+malcolm-iso/config/package-lists/python.list.chroot,5
+malcolm-iso/config/includes.chroot/etc/skel/.config/lxpanel/LXDE/panels/malcolm,5
+sensor-iso/docker/Dockerfile,5
+logstash/pipelines/zeek/11_zeek_parse.conf,5
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-stop.desktop,5
+zeek/config/extractor.zeek,5
+moloch/scripts/wise_service.sh,5
+sensor-iso/beats/build-docker-image.sh,5
+shared/bin/manuf-oui-parse.py,5
+sensor-iso/config/package-lists/build.list.chroot,5
+arkime/scripts/wise_service.sh,5
+arkime/patch/viewer_custom_view_requires_fix.patch,5
+kibana/malcolm_template.json,5
+iso-build/config/includes.binary/install/preseed.cfg,5
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,5
+.github/workflows/workflow.yml,5
+docs/host-and-subnet-mapping.md,5
+scripts/github_image_helper.sh,5
+logstash/pipelines/enrichment/98_finalize.conf,5
+elastalert/config/config.json,5
+kibana/scripts/kibana.sh,5
+logstash/pipelines/enrichment/96_make_unique.conf,5
+sensor-iso/config/package-lists/net.list.chroot,5
+sensor-iso/config/includes.chroot/usr/local/etc/zeek/login.zeek,5
+zeek/config/extractor_params.zeek,5
+Dockerfiles/postgresql.Dockerfile,5
+zeek/config/extractor_override.interesting.zeek,5
+.github/workflows/kibana-build-and-push-ghcr.yml,4
+docs/images/screenshots/kibana_notices.png,4
+sensor-iso/config/includes.chroot/etc/skel/.config/lxpanel/LXDE/panels/hedgehog,4
+sensor-iso/config/includes.chroot/usr/local/src/zeek-patches/zeek_pr_916_conns_log_hostcerts_only.patch,4
+.tmp/_MEIZQfOB2/_blake2.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/nacl/_sodium.abi3.so,4
+suricata/rules/ssh-events 2.rules,4
+docs/images/screenshots/kibana_discover.png,4
+.tmp/_MEIZQfOB2/jsonschema/schemas/draft4.json,4
+logstash/maps/malcolm_severity.yaml,4
+logstash/ruby/hashhash_to_hasharray.rb,4
+.tmp/_MEIZQfOB2/_hashlib.cpython-37m-x86_64-linux-gnu.so,4
+dashboards/dashboards/beats/7a7e0a60-e8e8-11ec-b9d4-4569bb965430.json,4
+sensor-iso/config/includes.chroot/usr/share/applications/sensor-services-full-restart.desktop,4
+suricata/rules/app-layer-events 3.rules,4
+sensor-iso/docs/images/forwarder_config.png,4
+.tmp/_MEIZQfOB2/readline.cpython-37m-x86_64-linux-gnu.so,4
+sensor-iso/config/includes.chroot/usr/share/auditbeat/kibana/7/dashboard-custom/Auditbeat-auditd-overview-custom.json,4
+dashboards/alerting/destinations/malcolm_api_loopback_destination.json,4
+.tmp/_MEIZQfOB2/libpython3.7m.so.1.0,4
+suricata/rules/decoder-events 2.rules,4
+kibana/scripts/kibana-create-arkime-sessions-index.sh,4
+.tmp/_MEIZQfOB2/_heapq.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/jsonschema/schemas/draft3.json,4
+suricata/rules/mqtt-events 2.rules,4
+suricata/rules/ntp-events 2.rules,4
+.tmp/_MEIZQfOB2/array.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_random.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_socket.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_codecs_kr.cpython-37m-x86_64-linux-gnu.so,4
+logstash/certs/server.conf,4
+.tmp/_MEIZQfOB2/libffi.so.6,4
+docs/Malcolm Network Traffic Analysis Quick Start Guide.pdf,4
+suricata/rules/dhcp-events 2.rules,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/top_level.txt,4
+dashboards/dashboards/beats/903f42c0-f634-11ec-828d-2fb7a4a26e1f.json,4
+dashboards/dashboards/beats/Packetbeat-dns-overview.json,4
+suricata/rules/nfs-events 2.rules,4
+suricata/rules/mqtt-events 4.rules,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/LICENSE,4
+iso-build/config/package-lists/apps.list.chroot,4
+.tmp/_MEIZQfOB2/_queue.cpython-37m-x86_64-linux-gnu.so,4
+dashboards/scripts/register-opensearch-snapshot-repo.sh,4
+.tmp/_MEIZQfOB2/bcrypt/_bcrypt.abi3.so,4
+docs/README.md,4
+suricata/rules/decoder-events 3.rules,4
+.tmp/_MEIZQfOB2/libbz2.so.1.0,4
+malcolm-iso/config/bootloaders/pxelinux/pxelinux.cfg/default,4
+.tmp/_MEIZQfOB2/_sha1.cpython-37m-x86_64-linux-gnu.so,4
+suricata/rules/http2-events 3.rules,4
+suricata/rules/ipsec-events 3.rules,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/LICENSE.APACHE,4
+.tmp/_MEIZQfOB2/unicodedata.cpython-37m-x86_64-linux-gnu.so,4
+suricata/rules/app-layer-events 4.rules,4
+shared/bin/pcap_moloch_and_zeek_processor.py,4
+malcolm-iso/config/includes.chroot/usr/share/auditbeat/kibana/7/dashboard-custom/Auditbeat-auditd-overview-custom.json,4
+.tmp/_MEIZQfOB2/_sha3.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/mmap.cpython-37m-x86_64-linux-gnu.so,4
+dashboards/dashboards/beats/Packetbeat-tls.json,4
+docs/images/screenshots/kibana_refresh_index.png,4
+.tmp/_MEIZQfOB2/_uuid.cpython-37m-x86_64-linux-gnu.so,4
+api/manage.py,4
+.tmp/_MEIZQfOB2/liblzma.so.5,4
+.tmp/_MEIZQfOB2/certifi/cacert.pem,4
+arkime/patch/field_actions.patch,4
+.tmp/_MEIZQfOB2/importlib_metadata-4.0.1-py3.7.egg-info/RECORD,4
+suricata/rules/ssh-events 4.rules,4
+shared/bin/zeek-carve-monitor.py,4
+.tmp/_MEIZQfOB2/fcntl.cpython-37m-x86_64-linux-gnu.so,4
+docs/images/screenshots/kibana_ssl.png,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/WHEEL,4
+nginx/certs/gen_self_signed_certs.sh,4
+suricata/rules/files 4.rules,4
+.tmp/_MEIZQfOB2/pyexpat.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/termios.cpython-37m-x86_64-linux-gnu.so,4
+malcolm-iso/config/bootloaders/syslinux_common/install_text.cfg,4
+sensor-iso/config/hooks/normal/0999-aide-init.hook.chroot,4
+.tmp/_MEIZQfOB2/jsonschema-3.2.0-py3.7.egg-info/COPYING,4
+suricata/rules/files 2.rules,4
+.tmp/_MEIZQfOB2/jsonschema-3.2.0-py3.7.egg-info/entry_points.txt,4
+zeek/config/login.zeek,4
+.tmp/_MEIZQfOB2/jsonschema-3.2.0-py3.7.egg-info/RECORD,4
+.tmp/_MEIZQfOB2/libz.so.1,4
+dashboards/templates/composable/component/arkime.json,4
+suricata/rules/smb-events 4.rules,4
+malcolm-iso/config/package-lists/vbox.list.chroot,4
+suricata/rules/stream-events 2.rules,4
+.tmp/_MEIZQfOB2/_csv.cpython-37m-x86_64-linux-gnu.so,4
+dashboards/templates/composable/component/auditd.json,4
+suricata/rules/http2-events 4.rules,4
+kibana/kibana-standard.yml,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/RECORD,4
+pcap-capture/templates/netsniff.template,4
+arkime/patch/fields_db_max_3000.patch,4
+suricata/rules/smtp-events 4.rules,4
+docs/images/screenshots/kibana_new_visualization.png,4
+suricata/rules/tls-events 2.rules,4
+.tmp/_MEIZQfOB2/_codecs_jp.cpython-37m-x86_64-linux-gnu.so,4
+suricata/rules/mqtt-events 3.rules,4
+iso-build/config/hooks/normal/0169-pip-installs.hook.chroot,4
+docs/images/screenshots/kibana_signatures.png,4
+scripts/beats/windows_vm_example/packetbeat.yml,4
+docs/images/screenshots/kibana_modbus.png,4
+arkime/etc/wise.ini,4
+.tmp/_MEIZQfOB2/compose/config/compose_spec.json,4
+sensor-iso/docs/images/desktop.png,4
+suricata/rules/smb-events 3.rules,4
+shared/bin/docker-uid-gid-setup.sh,4
+suricata/rules/nfs-events 3.rules,4
+malcolm-iso/config/hooks/normal/0168-firefox-install.hook.chroot,4
+suricata/rules/http2-events 2.rules,4
+docs/images/screenshots/kibana_smtp.png,4
+.tmp/_MEIZQfOB2/cryptography/hazmat/bindings/_openssl.abi3.so,4
+logstash/pipelines/output/01_input_internal_es.conf,4
+suricata/rules/smb-events 2.rules,4
+.tmp/_MEIZQfOB2/importlib_metadata-4.0.1-py3.7.egg-info/METADATA,4
+.tmp/_MEIZQfOB2/libffi-806b1a9d.so.6.0.4,4
+suricata/rules/modbus-events 3.rules,4
+.tmp/_MEIZQfOB2/compose/config/config_schema_v1.json,4
+.tmp/_MEIZQfOB2/yaml/_yaml.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/libuuid.so.1,4
+.tmp/_MEIZQfOB2/jsonschema/schemas/draft6.json,4
+suricata/rules/app-layer-events 2.rules,4
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-23/16343117599.desktop,4
+.tmp/_MEIZQfOB2/importlib_metadata-4.0.1-py3.7.egg-info/LICENSE,4
+.tmp/_MEIZQfOB2/base_library.zip,4
+iso-build/vagrant/Vagrantfile,4
+scripts/stop.sh,4
+sensor-iso/config/includes.chroot/etc/xdg/lxsession/LXDE/autostart,4
+.tmp/_MEIZQfOB2/_opcode.cpython-37m-x86_64-linux-gnu.so,4
+docs/images/screenshots/dashboards_security_overview.png,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/LICENSE.PSF,4
+.tmp/_MEIZQfOB2/importlib_metadata-4.0.1-py3.7.egg-info/WHEEL,4
+.tmp/_MEIZQfOB2/libexpat.so.1,4
+.tmp/_MEIZQfOB2/importlib_metadata-4.0.1-py3.7.egg-info/INSTALLER,4
+suricata/rules/ipsec-events 4.rules,4
+moloch/scripts/zeek-process-pcap.py,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/LICENSE.BSD,4
+suricata/rules/ssh-events 3.rules,4
+.tmp/_MEIZQfOB2/_pickle.cpython-37m-x86_64-linux-gnu.so,4
+kibana/kibana-offline-maps.yml,4
+dashboards/scripts/opensearch_index_policy_create.py,4
+sensor-iso/interface/sensor_ctl/supervisor.d/moloch.conf,4
+logstash/certs/client.conf,4
+suricata/rules/http-events 2.rules,4
+cidr-map.txt,4
+.tmp/_MEIZQfOB2/select.cpython-37m-x86_64-linux-gnu.so,4
+suricata/rules/kerberos-events 3.rules,4
+.tmp/_MEIZQfOB2/_asyncio.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_codecs_iso2022.cpython-37m-x86_64-linux-gnu.so,4
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-27/16343171722.desktop,4
+dashboards/dashboards/beats/0d4955f0-eb25-11ec-a6d4-b3526526c2c7.json,4
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-26/16343171699.desktop,4
+file-upload/php/php.ini,4
+moloch/patch/help_links.patch,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/AUTHORS.rst,4
+logstash/pipelines/external/01_input_external_es.conf,4
+.tmp/_MEIZQfOB2/_codecs_cn.cpython-37m-x86_64-linux-gnu.so,4
+dashboards/dashboards/beats/Packetbeat-flows.json,4
+.tmp/_MEIZQfOB2/_sha256.cpython-37m-x86_64-linux-gnu.so,4
+dashboards/dashboards/beats/Packetbeat-http.json,4
+docs/images/screenshots/kibana_discover_table.png,4
+suricata/rules/files 3.rules,4
+docs/images/screenshots/kibana_fields_list.png,4
+.tmp/_MEIZQfOB2/binascii.cpython-37m-x86_64-linux-gnu.so,4
+dashboards/scripts/refresh-auxiliary-index-patterns.sh,4
+.tmp/_MEIZQfOB2/grp.cpython-37m-x86_64-linux-gnu.so,4
+logstash/pipelines/zeek/12_zeek_mutate.conf,4
+sensor-iso/docs/images/filebeat_ssl.png,4
+sensor-iso/config/hooks/normal/0168-firefox-install.hook.chroot,4
+docs/images/screenshots/kibana_connections.png,4
+.tmp/_MEIZQfOB2/pvectorc.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_codecs_tw.cpython-37m-x86_64-linux-gnu.so,4
+docs/stix/Malcolm STIX 2.1 Map.ods,4
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-kibana.desktop,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/REQUESTED,4
+.tmp/_MEIZQfOB2/_lzma.cpython-37m-x86_64-linux-gnu.so,4
+sensor-iso/docs/images/capture_confirm.png,4
+suricata/rules/ipsec-events 2.rules,4
+.github/workflows/kibana-helper-build-and-push-ghcr.yml,4
+suricata/rules/tls-events 4.rules,4
+.tmp/_MEIZQfOB2/_multiprocessing.cpython-37m-x86_64-linux-gnu.so,4
+logstash/pipelines/enrichment/17_segment_comparison.conf,4
+.tmp/_MEIZQfOB2/jsonschema-3.2.0-py3.7.egg-info/WHEEL,4
+.tmp/_MEIZQfOB2/_sha512.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_ssl.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/resource.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_codecs_hk.cpython-37m-x86_64-linux-gnu.so,4
+moloch/etc/zeek_template.json,4
+.tmp/_MEIZQfOB2/_cffi_backend.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_decimal.cpython-37m-x86_64-linux-gnu.so,4
+suricata/rules/tls-events 3.rules,4
+.tmp/_MEIZQfOB2/_posixsubprocess.cpython-37m-x86_64-linux-gnu.so,4
+suricata/rules/http-events 4.rules,4
+scripts/beats/linux_vm_example/packetbeat.yml,4
+dashboards/alerting/monitors/malcolm_api_loopback_monitor.json,4
+docs/images/malcolm_poster.odg,4
+sensor-iso/moloch/build-docker-image.sh,4
+sensor-iso/.dockerignore,4
+logstash/scripts/set_es_external_keystore.sh,4
+suricata/rules/dnp3-events 2.rules,4
+.tmp/_MEIZQfOB2/libssl.so.1.1,4
+netbox/service-template-defaults.json,4
+sensor-iso/config/includes.chroot/usr/local/etc/zeek/guess_ics_map.txt,4
+malcolm-iso/config/bootloaders/syslinux/syslinux.cfg,4
+malcolm-iso/config/bootloaders/isolinux/isolinux.cfg,4
+.tmp/_MEIZQfOB2/_bz2.cpython-37m-x86_64-linux-gnu.so,4
+docs/images/screenshots/kibana_latlon_map.png,4
+suricata/rules/modbus-events 2.rules,4
+suricata/rules/smtp-events 3.rules,4
+suricata/rules/ntp-events 3.rules,4
+docs/images/screenshots/kibana_http.png,4
+.tmp/_MEIZQfOB2/compose/GITSHA,4
+docs/images/screenshots/kibana_software.png,4
+.tmp/_MEIZQfOB2/wcwidth/version.json,4
+shared/bin/aide_integrity_check.sh,4
+.tmp/_MEIZQfOB2/libtinfo.so.5,4
+suricata/rules/stream-events 4.rules,4
+dashboards/dashboards/beats/Packetbeat-overview.json,4
+.tmp/_MEIZQfOB2/_struct.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_datetime.cpython-37m-x86_64-linux-gnu.so,4
+docs/images/screenshots/kibana_region_map.png,4
+.tmp/_MEIZQfOB2/importlib_metadata-4.0.1-py3.7.egg-info/top_level.txt,4
+malcolm-iso/config/bootloaders/grub-pc/config.cfg,4
+suricata/rules/dns-events 2.rules,4
+docs/images/screenshots/kibana_add_filter.png,4
+shared/bin/dod-login-banner.sh,4
+.tmp/_MEIZQfOB2/libreadline.so.7,4
+suricata/rules/ntp-events 4.rules,4
+.tmp/_MEIZQfOB2/lib/python3.7/config-3.7m-x86_64-linux-gnu/Makefile,4
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,4
+malcolm-iso/config/bootloaders/extlinux/extlinux.conf,4
+docs/images/screenshots/kibana_portable_executables.png,4
+docs/images/screenshots/kibana_files_source.png,4
+arkime/patch/viewer_db_opensearchv2_keyword_hack.patch,4
+arkime/patch/fix_self_signed_ssl.patch,4
+testFolder/instructions.txt,4
+suricata/rules/kerberos-events 2.rules,4
+.tmp/_MEIZQfOB2/include/python3.7m/pyconfig.h,4
+sensor-iso/config/includes.chroot/usr/share/applications/sensor-services-status.desktop,4
+dashboards/dashboards/03207c00-d07e-11ec-b4a7-d1b4003706b7.json,4
+suricata/rules/kerberos-events 4.rules,4
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-28/16343171811.desktop,4
+docs/images/screenshots/kibana_open_search.png,4
+.tmp/_MEIZQfOB2/_multibytecodec.cpython-37m-x86_64-linux-gnu.so,4
+suricata/rules/http-events 3.rules,4
+.tmp/_MEIZQfOB2/jsonschema-3.2.0-py3.7.egg-info/top_level.txt,4
+scripts/beats/linux_vm_example/audit.rules,4
+kibana/scripts/elastic_index_policy_create.py,4
+.tmp/_MEIZQfOB2/libcrypto.so.1.1,4
+sensor-iso/config/hooks/normal/0992-localepurge.hook.chroot,4
+.tmp/_MEIZQfOB2/_ctypes.cpython-37m-x86_64-linux-gnu.so,4
+zeek-logs/.gitignore,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/INSTALLER,4
+dashboards/dashboards/beats/Packetbeat-dns-tunneling.json,4
+arkime/patch/db_init_client_server_fields.patch,4
+malcolm-iso/config/includes.chroot/usr/share/icons/hicolor/48x48/opensearch.png,4
+sensor-iso/docs/images/autostarts_confirm.png,4
+.tmp/_MEIZQfOB2/math.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/jsonschema-3.2.0-py3.7.egg-info/REQUESTED,4
+.tmp/_MEIZQfOB2/_md5.cpython-37m-x86_64-linux-gnu.so,4
+dashboards/dashboards/beats/db0312a0-e842-11ec-88e0-67bf497b7120.json,4
+suricata/rules/modbus-events 4.rules,4
+docs/images/screenshots/kibana_dnp3.png,4
+arkime/scripts/arkime_update_geo.sh,4
+shared/bin/stix_zeek_utils.py,4
+.tmp/_MEIZQfOB2/jsonschema-3.2.0-py3.7.egg-info/METADATA,4
+logstash/ruby/add_count_field.rb,4
+suricata/rules/nfs-events 4.rules,4
+.tmp/_MEIZQfOB2/jsonschema/schemas/draft7.json,4
+.tmp/_MEIZQfOB2/cryptography-3.3.2-py3.7.egg-info/METADATA,4
+docs/images/screenshots/kibana_time_series.png,4
+.tmp/_MEIZQfOB2/zlib.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_json.cpython-37m-x86_64-linux-gnu.so,4
+suricata/rules/smtp-events 2.rules,4
+sensor-iso/docs/images/autostarts.png,4
+suricata/rules/decoder-events 4.rules,4
+.tmp/_MEIZQfOB2/_contextvars.cpython-37m-x86_64-linux-gnu.so,4
+.tmp/_MEIZQfOB2/_bisect.cpython-37m-x86_64-linux-gnu.so,4
+.github/workflows/elasticsearch-build-and-push-ghcr.yml,4
+docs/Malcolm Network Traffic Analysis Quick Start Guide.odt,4
+dashboards/dashboards/beats/Packetbeat-dhcpv4.json,4
+zeek/config/guess_ics_map.txt,4
+suricata/rules/stream-events 3.rules,4
+docs/images/screenshots/kibana_timelion.png,4
+logstash/pipelines/beats/12_lookups.conf,4
+.tmp/_MEIZQfOB2/jsonschema-3.2.0-py3.7.egg-info/INSTALLER,4
+docs/images/screenshots/arkime_connections_segments.png,3
+docs/images/logo/Malcolm_banner.png,3
+iso-build/config/hooks/normal/0990-remove-unwanted-pkg.hook.chroot,3
+moloch/patch/query_db_fields_pr1463.patch,3
+docs/images/screenshots/dashboards_signatures.png,3
+docs/images/screenshots/dashboards_opcua_binary.png,3
+sensor-iso/config/archives/virtualbox.list.binary,3
+docs/components.md,3
+arkime/scripts/docker_entrypoint.sh,3
+shared/aide/build-aide-deb.sh,3
+docs/contributing-local-modifications.md,3
+sensor-iso/config/includes.chroot/etc/skel/.config/pcmanfm/LXDE/pcmanfm.conf,3
+moloch/patch_debug/moloch_extra_auth_debug.patch,3
+docs/images/screenshots/kibana_profinet.png,3
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-18/16343117498.desktop,3
+shared/bin/zeek_carved_http_server.py,3
+malcolm-iso/config/package-lists/net.list.chroot,3
+docs/images/screenshots/kibana_ethernetip.png,3
+logstash/maps/conn_states.yaml,3
+shared/bin/github_image_helper.sh,3
+scripts/restart.sh,3
+sensor-iso/config/includes.chroot/usr/local/src/zeek-patches/zeekctl-3.0-quiet.diff,3
+moloch/patch/footer_links.patch,3
+logstash/maps/http_result_codes.yaml,3
+malcolm-iso/config/archives/virtualbox.key.chroot,3
+sensor-iso/docs/images/metricbeat_confirm.png,3
+sensor-iso/config/includes.chroot/usr/share/applications/configure-capture.desktop,3
+docs/images/screenshots/kibana_bacnet.png,3
+sensor-iso/config/hooks/normal/0998-localepurge.hook.chroot,3
+malcolm-iso/config/archives/virtualbox.key.binary,3
+index-management-policy.json,3
+arkime/etc/config.orig.ini,3
+docs/images/screenshots/kibana_mqtt.png,3
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,3
+docs/malcolm-upgrade.md,3
+shared/aide/build-docker-image.sh,3
+moloch/etc/wise.ini,3
+sensor-iso/docs/images/metricbeat_kibana.png,3
+test.json,3
+sensor-iso/config/archives/virtualbox.key.chroot,3
+arkime/patch/packetpos_arkime_issues_1952_1953.patch,3
+logstash/config/log4j2.properties,3
+docs/images/malcolm_network_diagram.odg,3
+docs/hedgehog-config-user.md,3
+scripts/beats/linux_vm_example/Vagrantfile,3
+netbox/env/netbox.env.example,3
+shared/bin/cron_env_deb.sh,3
+malcolm-iso/config/archives/virtualbox.list.chroot,3
+shared/bin/disable-nic-offloading.sh,3
+malcolm-iso/config/includes.binary/isolinux/advanced.cfg,3
+name-map-ui/config/supervisor_netbox_ctl.conf,3
+docs/contributing-pcap.md,3
+sensor-iso/interface/sensor_ctl/miscbeat/filebeat.yml,3
+logstash/pipelines/suricata/19_severity.conf,3
+sensor-iso/docs/images/metricbeat_kibana_dashboard_path.png,3
+name-map-ui/site/restart-logstash.php,3
+scripts/beats/linux_vm_example/metricbeat.yml,3
+logstash/pipelines/enrichment/99_elastic_forward.conf,3
+docs/contributing-dashboards.md,3
+sensor-iso/docs/images/metricbeat_elastic_host.png,3
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-18/16346759724.desktop,3
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-19/16343117417.desktop,3
+htadmin/htadmin.sh,3
+sensor-iso/config/includes.binary/isolinux/install.cfg,3
+malcolm-iso/config/includes.chroot/usr/share/protologbeat/kibana/7/index-pattern/protologbeat.json,3
+sensor-iso/arkime/build-docker-image.sh,3
+arkime/patch/viewer_wider_field_detail.patch,3
+malcolm-iso/config/archives/fasttrack.list.chroot,3
+shared/bin/cron_env_centos.sh,3
+docs/images/screenshots/kibana_s7comm.png,3
+logstash/maps/notice_reference.yaml,3
+malcolm-iso/config/archives/virtualbox.list.binary,3
+malcolm-iso/config/includes.binary/isolinux/install.cfg,3
+moloch/scripts/moloch-parse-pcap-folder.sh,3
+docs/images/screenshots/dashboards_notices.png,3
+sensor-iso/docs/images/metricbeat_kibana_protocol.png,3
+scripts/beats/windows_vm_example/Vagrantfile,3
+docs/contributing-file-scanners.md,3
+sensor-iso/config/includes.chroot/etc/skel/.Xresources,3
+malcolm-iso/config/package-lists/grub.list.binary,3
+sensor-iso/docs/images/metircbeat_kibana_host.png,3
+sensor-iso/docs/images/metricbeat_elastic_password.png,3
+docs/images/malcolm_poster.pdf,3
+docs/images/screenshots/arkime_log_filter.png,3
+sensor-iso/config/includes.chroot/usr/share/protologbeat/kibana/7/index-pattern/protologbeat.json,3
+sensor-iso/config/package-lists/vbox.list.chroot,3
+docs/images/screenshots/arkime_correlate_communityid_uid.png,3
+sensor-iso/docs/images/metricbeat_elastic_ssl.png,3
+moloch/patch_debug/js_debug_build.patch.debug,3
+shared/aide/Dockerfile,3
+sensor-iso/config/includes.binary/isolinux/advanced.cfg,3
+curator/scripts/register-elasticsearch-snapshot-repo.sh,3
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-users.desktop,3
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-20/16343116973.desktop,3
+netbox/config/unit/nginx-unit.json,3
+moloch/etc/user_settings.json,3
+sensor-iso/config/hooks/normal/0100-build-installs.hook.chroot,3
+sensor-iso/docs/images/filebeat_confirm.png,3
+Gemfile,3
+logstash/pipelines/zeek/10_zeek_prep.conf,3
+sensor-iso/docs/images/metricbeat_success.png,3
+malcolm-iso/config/archives/fasttrack.list.binary,3
+zeek/scripts/docker_entrypoint.sh,3
+shared/pcaps/udp.pcap,3
+docs/images/logo/Malcolm_outline_banner_dark.png,3
+logstash/maps/ftp_result_codes.yaml,3
+sensor-iso/docs/images/filebeat_dest.png,3
+sensor-iso/config/archives/virtualbox.key.binary,3
+curator/scripts/docker-entrypoint.sh,3
+logstash/maps/ics_macs.yaml,3
+sensor-iso/docs/images/metricbeat_elastic_username.png,3
+sensor-iso/config/bootloaders/grub-pc/grub.cfg,3
+sensor-iso/config/includes.chroot/usr/share/filebeat/kibana/7/dashboard-custom/Filebeat-syslog-custom.json,3
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,3
+malcolm-iso/config/bootloaders/grub-legacy/menu.lst,3
+sensor-iso/config/includes.chroot/etc/skel/.config/lxsession/LXDE/desktop.conf,3
+docs/contributing-new-log-fields.md,3
+sensor-iso/docs/images/metricbeat_elasticsearch_success.png,3
+sensor-iso/docs/images/capture_paths.png,3
+sensor-iso/docs/images/zeek_file_carve_mode.png,3
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-21/16343117306.desktop,3
+sensor-iso/config/archives/virtualbox.list.chroot,3
+sensor-iso/docs/images/filebeat_certs.png,3
+moloch/scripts/moloch-watch-pcap-uploads-folder.sh,3
+kibana/plugin-patches/kbn_network_7.6.x.patch,3
+sensor-iso/docs/images/zeek_file_carve_scanners.png,3
+sensor-iso/docs/images/metricbeat_elastic_protocol.png,3
+sensor-iso/config/includes.chroot/etc/bash.bash_aliases,3
+moloch/scripts/moloch-parse-autozeek-folder.sh,3
+scripts/beats/windows_vm_example/metricbeat.yml,3
+sensor-iso/config/includes.chroot/usr/share/applications/configure-interfaces.desktop,3
+scripts/beats/windows_vm_example/winlogbeat.yml,3
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-15/16346759461.desktop,3
+sensor-iso/config/includes.chroot/etc/chromium/policies/managed/policy.json,3
+malcolm-iso/config/includes.chroot/usr/share/filebeat/kibana/7/dashboard-custom/Filebeat-syslog-custom.json,3
+sensor-iso/docs/images/metricbeat_elastic_password_2.png,3
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-25/16343171677.desktop,3
+sensor-iso/config/bootloaders/syslinux_common/install_text.cfg,3
+sensor-iso/config/includes.chroot/etc/skel/.config/clipit/clipitrc,3
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-dashboards.desktop,3
+elastalert/config/elastalert.yaml,3
+sensor-iso/docs/images/metricbeta_kibana_ssl.png,3
+scripts/beats/linux_vm_example/filebeat.yml,3
+netbox/scripts/netbox_library_import.py,3
+sensor-iso/docs/images/metricbeat_kibana_success.png,3
+sensor-iso/docs/images/metricbeat_kibana_dashboards.png,3
+docs/images/screenshots/dashboards_refresh_index.png,3
+shared/bin/elastic_index_size_prune.py,3
+sensor-iso/config/includes.chroot/usr/share/applications/hedgehog-readme.desktop,3
+htadmin/nginx/sites-available/default,3
+scripts/beats/windows_vm_example/auditbeat.yml,3
+malcolm-iso/config/package-lists/apps.list.chroot,3
+malcolm-iso/config/bootloaders/grub-pc/grub.cfg,3
+logstash/ruby/ics_mac_lookup.rb,3
+zeek-logs/processed/.gitignore,3
+elastalert/sample-rules/weird.yaml,3
+sensor-iso/config/includes.chroot/etc/skel/.config/pcmanfm/LXDE/desktop-items-0.conf,3
+sensor-iso/docs/images/elasticsearch-username.png,3
+moloch/zeek/local.bro,3
+sensor-iso/docs/images/metricbeat_interval.png,3
+sensor-iso/config/includes.chroot/etc/skel/.xscreensaver,3
+logstash/ruby/compact_event_hash.rb,3
+scripts/beats/.gitignore,3
+sensor-iso/docs/images/elasticsearch_password.png,3
+malcolm-iso/.dockerignore,2
+.tmp/_MEI0IvJBV/libexpat.so.1,2
+{kibana => dashboards}/dashboards/82da3101-2a9c-4ae2-bb61-d447a3fbe673.json,2
+{kibana => dashboards}/maps/world.rds,2
+sensor-iso/vagrant/ssh_config,2
+{sensor-iso/config/includes.chroot/opt/zeek => shared}/bin/zeekdeploy.sh,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/LICENSE.PSF,2
+logstash/pipelines/beats/99_beats_forward.conf,2
+docs/images/screenshots/{moloch_view_settings.png => arkime_view_settings.png},2
+sensor-iso/moloch/patch/user_agent.patch,2
+.tmp/_MEI0IvJBV/certifi/cacert.pem,2
+malcolm-iso/config/bootloaders/grub-legacy/splash.xpm.gz,2
+zeek/config/guess.zeek,2
+.tmp/_MEI0IvJBV/jsonschema-3.2.0-py3.7.egg-info/top_level.txt,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-20/16346759956.desktop,2
+{kibana => dashboards}/dashboards/f1f09567-fc7f-450b-a341-19d2f2bb468b.json,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-16/16346759562.desktop,2
+.tmp/_MEI0IvJBV/libbz2.so.1.0,2
+.tmp/_MEI0IvJBV/cryptography/hazmat/bindings/_openssl.abi3.so,2
+{moloch => arkime}/scripts/viewer_service.sh,2
+.tmp/_MEI0IvJBV/_json.cpython-37m-x86_64-linux-gnu.so,2
+iso-build/config/includes.chroot/etc/audit/rules.d/commands.rules,2
+{kibana => dashboards}/dashboards/bb827f8e-639e-468c-93c8-9f5bc132eb8f.json,2
+docs/images/hedgehog/images/filebeat_ssl_verify.jpg,2
+.tmp/_MEI0IvJBV/lib/python3.7/config-3.7m-x86_64-linux-gnu/Makefile,2
+malcolm-iso/config/archives/docker.list.chroot,2
+{kibana => dashboards}/dashboards/77fc9960-3f99-11e9-a58e-8bdedb0915e8.json,2
+.tmp/_MEI0IvJBV/unicodedata.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/docs/images/kiosk_mode_status.png,2
+sensor-iso/config/bootloaders/isolinux/isolinux.cfg,2
+docs/images/screenshots/malcolm_name_map_ui.png,2
+{kibana => dashboards}/dashboards/2bec1490-eb94-11e9-a384-0fcf32210194.json,2
+{kibana => dashboards}/dashboards/870a5862-6c26-4a08-99fd-0c06cda85ba3.json,2
+docs/images/hedgehog/images/capture_filter.jpg,2
+shared/bin/carveutils.py,2
+{moloch/moloch_regression_test_harness => arkime/arkime_regression_test_harness}/Dockerfiles/arkime.Dockerfile,2
+shared/bin/suricata_update_config_populate.py,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/pcmanfm/LXDE/pcmanfm.conf,2
+{kibana => dashboards}/dashboards/abdd7550-2c7c-40dc-947e-f6d186a158c4.json,2
+kibana/scripts/cron_env_centos.sh,2
+sensor-iso/docs/images/malcolm_arkime_reachback_acl.png,2
+suricata/rules/nfs-events.rules,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-24/16343117074.desktop,2
+iso-build/config/hooks/normal/0168-python-install.hook.chroot,2
+sensor-iso/docker/supervisord.conf,2
+malcolm-iso/config/archives/fluentbit.key.chroot,2
+sensor-iso/config/package-lists/live.list.chroot,2
+iso-build/config/hooks/normal/0911-get-stig-scripts.hook.chroot,2
+docs/images/screenshots/{moloch_hunt_finished.png => arkime_hunt_finished.png},2
+.tmp/_MEI0IvJBV/_bz2.cpython-37m-x86_64-linux-gnu.so,2
+docs/images/screenshots/dashboards_severity.png,2
+docs/images/screenshots/{moloch_help_fields.png => arkime_help_fields.png},2
+suricata/rules/tls-events.rules,2
+docs/api-fields.md,2
+{moloch => arkime}/supervisord.conf,2
+.tmp/_MEI0IvJBV/wcwidth/version.json,2
+kibana/scripts/elastic_search_status.sh,2
+.tmp/_MEI0IvJBV/_multibytecodec.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/config/archives/fluentbit.key.binary,2
+sensor-iso/config/includes.chroot/usr/share/protologbeat/kibana/5/index-pattern/protologbeat.json,2
+sensor-iso/config/bootloaders/syslinux_common/memtest.cfg,2
+docs/images/screenshots/dashboards_profinet.png,2
+suricata-logs/live/.gitignore,2
+sensor-iso/config/archives/fasttrack.list.binary,2
+logstash/pipeline-main/19_main_forward.conf,2
+docs/arkime.md,2
+.tmp/_MEI0IvJBV/libuuid.so.1,2
+docs/images/hedgehog/images/arkime-capture-ip-port.jpg,2
+.tmp/_MEI0IvJBV/_ctypes.cpython-37m-x86_64-linux-gnu.so,2
+scripts/zeek_script_to_malcolm_boilerplate.py,2
+dashboards/templates/composable/component/suricata.json,2
+malcolm-iso/config/bootloaders/grub-pc/install_start_text.cfg,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-21/16346760027.desktop,2
+{kibana => dashboards}/dashboards/11ddd980-e388-11e9-b568-cf17de8e860c.json,2
+docs/images/hedgehog/images/htpdate_host.jpg,2
+docs/images/screenshots/dashboards_discover_table.png,2
+sensor-iso/interface/sensor_ctl/supervisor.d/fluentbit-auditlog.conf,2
+malcolm-iso/config/includes.chroot/etc/skel/.local/share/xfce4/helpers/custom-TerminalEmulator.desktop,2
+logstash/maps/notice_license.yaml,2
+docs/images/hedgehog/images/filebeat_log_path.jpg,2
+docs/images/hedgehog/images/filebeat_ip_port.jpg,2
+docs/images/screenshots/{moloch_hunt_creation.png => arkime_hunt_creation.png},2
+docs/images/screenshots/dashboards_http.png,2
+sensor-iso/config/includes.chroot/usr/local/bin/sensor-shutdown,2
+suricata/rules/dhcp-events.rules,2
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-moloch.desktop,2
+sensor-iso/config/bootloaders/grub-pc/install_start_text.cfg,2
+{kibana => dashboards}/dashboards/078b9aa5-9bd4-4f02-ae5e-cf80fa6f887b.json,2
+docs/images/screenshots/dashboards_dnp3.png,2
+malcolm-iso/config/archives/docker.list.binary,2
+sensor-iso/config/bootloaders/grub-pc/memtest.cfg,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/autostart/dod-login-banner.desktop,2
+{kibana => dashboards}/dashboards/ed8a6640-3f98-11e9-a58e-8bdedb0915e8.json,2
+api/entrypoint.sh,2
+docs/images/screenshots/dashboards_ecat.png,2
+{kibana => dashboards}/dashboards/4a4bde20-4760-11ea-949c-bbb5a9feecbf.json,2
+docs/images/screenshots/{moloch_spiview.png => arkime_spiview.png},2
+.tmp/_MEI0IvJBV/pvectorc.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/config/package-lists/sensor.list.chroot,2
+docs/zeek-intel.md,2
+malcolm-iso/config/archives/fluentbit.list.chroot,2
+{kibana => dashboards}/dashboards/4e5f106e-c60a-4226-8f64-d534abb912ab.json,2
+.tmp/_MEI0IvJBV/jsonschema-3.2.0-py3.7.egg-info/COPYING,2
+{kibana => dashboards}/dashboards/05e3e000-f118-11e9-acda-83a8e29e1a24.json,2
+docs/images/hedgehog/images/htpdate_test.jpg,2
+{kibana => dashboards}/dashboards/11be6381-beef-40a7-bdce-88c5398392fc.json,2
+zeek/config/telnet.zeek,2
+{kibana => dashboards}/dashboards/a7514350-eba6-11e9-a384-0fcf32210194.json,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/terminal/terminalrc,2
+logstash/maps/ntp_modes.yaml,2
+malcolm-iso/config/includes.chroot/etc/skel/.Xresources,2
+{kibana => dashboards}/dashboards/a16110b0-3f99-11e9-a58e-8bdedb0915e8.json,2
+docs/images/hedgehog/images/capture_paths.jpg,2
+docs/images/screenshots/dashboards_ics_iot_security_overview.png,2
+sensor-iso/config/includes.chroot/etc/skel/.config/dconf/user,2
+kibana/dashboards/1cc01ff0-5205-11ec-a62c-7bc80e88f3f0.json,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,2
+{kibana => dashboards}/dashboards/e76d05c0-eb9f-11e9-a384-0fcf32210194.json,2
+docs/images/screenshots/dashboards_region_map.png,2
+docs/images/screenshots/dashboards_discover.png,2
+iso-build/config/archives/docker.list.binary,2
+logstash/pipelines/enrichment/{98_arkimize.conf => 97_arkimize.conf},2
+sensor-iso/docs/images/opensearch_password.png,2
+docs/images/hedgehog/images/malcolm_arkime_reachback_acl.jpg,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,2
+shared/bin/{elastic_index_size_prune.py => opensearch_index_size_prune.py},2
+docs/hedgehog.md,2
+{kibana => dashboards}/dashboards/af5df620-eeb6-11e9-bdef-65a192b7f586.json,2
+sensor-iso/docs/images/{moloch_success.png => arkime_success.png},2
+.tmp/_MEI0IvJBV/resource.cpython-37m-x86_64-linux-gnu.so,2
+{kibana => dashboards}/dashboards/0ad3d7c2-3441-485e-9dfe-dbb22e84e576.json,2
+docs/images/screenshots/dashboards_open_search.png,2
+docs/images/screenshots/malcolm_upload.png,2
+malcolm-iso/config/bootloaders/grub-pc/dejavu-bold-16.pf2,2
+malcolm-iso/config/bootloaders/syslinux_common/stdmenu.cfg,2
+{kibana => dashboards}/dashboards/a33e0a50-afcd-11ea-993f-b7d8522a8bed.json,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/REQUESTED,2
+docs/anomaly-detection.md,2
+.tmp/_MEI0IvJBV/_datetime.cpython-37m-x86_64-linux-gnu.so,2
+Dockerfiles/{kibana-helper.Dockerfile => dashboards-helper.Dockerfile},2
+.tmp/_MEI0IvJBV/_codecs_kr.cpython-37m-x86_64-linux-gnu.so,2
+malcolm-iso/vagrant/ssh_config,2
+sensor-iso/interface/sensor_ctl/supervisor.d/fluentbit.conf,2
+docs/images/hedgehog/images/kiosk_mode_wipe_prompt.jpg,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/LICENSE,2
+.tmp/_MEI0IvJBV/_codecs_jp.cpython-37m-x86_64-linux-gnu.so,2
+logstash/pipelines/enrichment/{97_make_unique.conf => 96_make_unique.conf},2
+.tmp/_MEI0IvJBV/binascii.cpython-37m-x86_64-linux-gnu.so,2
+docs/images/hedgehog/images/autostarts_confirm.jpg,2
+docs/images/screenshots/dashboards_modbus.png,2
+netbox/scripts/requirements.txt,2
+arkime/patch/ecs_provider.patch,2
+sensor-iso/config/archives/fasttrack.list.chroot,2
+.tmp/_MEI0IvJBV/_opcode.cpython-37m-x86_64-linux-gnu.so,2
+.tmp/_MEI0IvJBV/base_library.zip,2
+malcolm-iso/config/bootloaders/grub-pc/memtest.cfg,2
+malcolm-iso/config/hooks/normal/0998-localepurge.hook.chroot,2
+.tmp/_MEI0IvJBV/importlib_metadata-4.0.1-py3.7.egg-info/RECORD,2
+.tmp/_MEI0IvJBV/_uuid.cpython-37m-x86_64-linux-gnu.so,2
+logstash/ruby/dotted_hash_unflatten.rb,2
+zeek/scripts/entrypoint.sh,2
+docs/images/hedgehog/images/kiosk_mode_status.jpg,2
+sensor-iso/docs/images/opensearch_username.png,2
+docs/images/hedgehog/images/autostarts.jpg,2
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-readme.desktop,2
+{kibana => dashboards}/dashboards/0a490422-0ce9-44bf-9a2d-19329ddde8c3.json,2
+malcolm-iso/config/includes.chroot/usr/share/applications/{malcolm-moloch.desktop => malcolm-arkime.desktop},2
+iso-build/config/includes.chroot/etc/skel/.bashrc,2
+docs/images/screenshots/arkime_es_stats.png,2
+malcolm-iso/config/bootloaders/syslinux_common/live.cfg.in,2
+sensor-iso/config/bootloaders/grub-pc/hedgehog-color.png,2
+{moloch => arkime}/scripts/bs4_remove_div.py,2
+{kibana => dashboards}/dashboards/f394057d-1b16-4174-b994-7045f423a416.json,2
+.tmp/_MEI0IvJBV/_heapq.cpython-37m-x86_64-linux-gnu.so,2
+moloch/patch/improve-need-quotes-check-hopefully-fixes-1146-4de1686.patch,2
+{elasticsearch-backup => opensearch-backup}/.gitignore,2
+logstash/pipeline-main/18_tags_finalize.conf,2
+sensor-iso/config/bootloaders/grub-legacy/splash.xpm.gz,2
+.tmp/_MEI0IvJBV/_sha3.cpython-37m-x86_64-linux-gnu.so,2
+malcolm-iso/config/archives/fluentbit.list.binary,2
+docs/images/hedgehog/images/opensearch_username.jpg,2
+logstash/maps/mitre_attack_tactic_ids.yaml,2
+sensor-iso/interface/sensor_ctl/moloch/config.ini,2
+sensor-iso/docs/images/boot_options.png,2
+sensor-iso/docs/images/arkime_success.png,2
+moloch/patch/spi_sort_zeek.patch,2
+docs/system-requirements.md,2
+iso-build/config/includes.chroot/etc/security/limits.d/limits.conf,2
+.tmp/_MEI0IvJBV/_codecs_tw.cpython-37m-x86_64-linux-gnu.so,2
+docs/severity.md,2
+.tmp/_MEI0IvJBV/jsonschema/schemas/draft6.json,2
+docs/contributing-new-image.md,2
+arkime/patch/db_pl_quiet_backup_warning.patch,2
+.tmp/_MEI0IvJBV/_csv.cpython-37m-x86_64-linux-gnu.so,2
+.tmp/_MEI0IvJBV/fcntl.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/config/bootloaders/grub-pc/live-theme/theme.txt,2
+suricata/rules/http2-events.rules,2
+sensor-iso/config/includes.chroot/etc/skel/.tmux.conf,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/pcmanfm/LXDE/desktop-items-0.conf,2
+moloch/patch/moloch_open_close_es_index.patch,2
+.tmp/_MEI0IvJBV/libssl.so.1.1,2
+iso-build/config/includes.chroot/etc/ssh/sshd_config,2
+docs/images/screenshots/arkime_help_fields.png,2
+.tmp/_MEI0IvJBV/_pickle.cpython-37m-x86_64-linux-gnu.so,2
+.tmp/_MEI0IvJBV/_asyncio.cpython-37m-x86_64-linux-gnu.so,2
+malcolm-iso/config/package-lists/live.list.chroot,2
+.tmp/_MEI0IvJBV/libpython3.7m.so.1.0,2
+shared/bin/memory_usage_percentage.sh,2
+moloch/scripts/wipemoloch.sh => arkime/scripts/wipearkime.sh,2
+{kibana => dashboards}/dashboards/0aed0e23-c8ac-4f2b-9f68-d04b6e7666b0.json,2
+.tmp/_MEI0IvJBV/_cffi_backend.cpython-37m-x86_64-linux-gnu.so,2
+docs/images/screenshots/dashboards_latlon_map.png,2
+{kibana => dashboards}/dashboards/d41fe630-3f98-11e9-a58e-8bdedb0915e8.json,2
+.tmp/_MEI0IvJBV/jsonschema/schemas/draft7.json,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-19/16346759855.desktop,2
+{kibana => dashboards}/dashboards/2d98bb8e-214c-4374-837b-20e1bcd63a5e.json,2
+.tmp/_MEI0IvJBV/libcrypto.so.1.1,2
+.tmp/_MEI0IvJBV/math.cpython-37m-x86_64-linux-gnu.so,2
+scripts/third-party-logs/fluent-bit-setup.py,2
+docs/images/hedgehog/images/hostname_setting.jpg,2
+malcolm-iso/config/includes.chroot/etc/bash.bash_aliases,2
+sensor-iso/docs/images/kiosk_mode_wipe_prompt.png,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-16/16343116651.desktop,2
+docs/running.md,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/helpers.rc,2
+logstash/pipelines/zeek/13_zeek_normalize.conf,2
+logstash/maps/mitre_attack_tactic_reference.yaml,2
+{kibana => dashboards}/dashboards/37041ee1-79c0-4684-a436-3173b0e89876.json,2
+{kibana => dashboards}/dashboards/e09a4b86-29b5-4256-bb3b-802ac9f90404.json,2
+iso-build/config/includes.chroot/etc/skel/Desktop/logs.desktop,2
+.tmp/_MEI0IvJBV/include/python3.7m/pyconfig.h,2
+logstash/pipelines/enrichment/99_opensearch_forward.conf,2
+dashboards/dashboards/beats/Filebeat-nginx-ingress-logs.json,2
+docs/images/hedgehog/images/installer_progress.jpg,2
+.tmp/_MEI0IvJBV/libtinfo.so.5,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/AUTHORS.rst,2
+docs/images/screenshots/{moloch_files.png => arkime_files.png},2
+suricata/rules/ssh-events.rules,2
+malcolm-iso/config/bootloaders/grub-pc/theme.cfg,2
+sensor-iso/config/includes.chroot/etc/skel/.config/mimeapps.list,2
+moloch/scripts/capture_service.sh,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/light-locker-dconf-defaults.conf,2
+malcolm-iso/config/package-lists/virtualguest.list.chroot,2
+docs/images/moloch/moloch_155.png,2
+sensor-iso/config/bootloaders/syslinux_common/menu.cfg,2
+{kibana => dashboards}/dashboards/60d78fbd-471c-4f59-a9e3-189b33a13644.json,2
+suricata/scripts/suricata-update-rules.sh,2
+zeek-logs/live/.gitignore,2
+{kibana => dashboards}/dashboards/caef3ade-d289-4d05-a511-149f3e97f238.json,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/autostart/docker-load-wait.desktop,2
+docs/images/screenshots/arkime_view_settings.png,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-17/16346759653.desktop,2
+sensor-iso/docs/images/opensearch_connection_protocol.png,2
+sensor-iso/interface/sensor_ctl/{moloch => arkime}/config.ini,2
+.tmp/_MEI0IvJBV/importlib_metadata-4.0.1-py3.7.egg-info/top_level.txt,2
+.tmp/_MEI0IvJBV/_random.cpython-37m-x86_64-linux-gnu.so,2
+docs/images/screenshots/arkime_hunt_creation.png,2
+arkime/patch/hide_pcap_download_without_file.patch,2
+docs/images/screenshots/dashboards_connections.png,2
+.tmp/_MEI0IvJBV/importlib_metadata-4.0.1-py3.7.egg-info/METADATA,2
+.tmp/_MEI0IvJBV/_sha256.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/helpers.rc,2
+docs/images/screenshots/dashboards_software.png,2
+logstash/pipeline-output/90_input_internal_es.conf,2
+sensor-iso/config/bootloaders/grub-pc/install_text.cfg,2
+suricata/rules/mqtt-events.rules,2
+{kibana => dashboards}/dashboards/39abfe30-3f99-11e9-a58e-8bdedb0915e8.json,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/dconf/user,2
+docs/images/screenshots/{moloch_sessions.png => arkime_sessions.png},2
+moloch/scripts/moloch-needs-upgrade.sh => arkime/scripts/arkime-needs-upgrade.sh,2
+logstash/maps/service_ports.yaml,2
+.tmp/_MEI0IvJBV/jsonschema/schemas/draft4.json,2
+docs/images/screenshots/dashboards_portable_executables.png,2
+.tmp/_MEI0IvJBV/libffi.so.6,2
+suricata/rules/stream-events.rules,2
+logstash/maps/syslog_facility_codes.yaml,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/METADATA,2
+logstash/maps/ldap_result_codes.yaml,2
+suricata/rules/ipsec-events.rules,2
+sensor-iso/config/includes.chroot/etc/live/config.conf,2
+{elasticsearch => opensearch}/.gitignore,2
+{moloch => arkime}/patch/viewer_wider_field_detail.patch,2
+malcolm-iso/config/bootloaders/grub-pc/live-theme/theme.txt,2
+suricata/rules/dns-events.rules,2
+.tmp/_MEI0IvJBV/libreadline.so.7,2
+docs/images/screenshots/arkime_apply_view.png,2
+.travis.yml,2
+sensor-iso/config/includes.chroot/etc/skel/.local/share/xfce4/helpers/custom-TerminalEmulator.desktop,2
+{kibana => dashboards}/dashboards/87d990cc-9e0b-41e5-b8fe-b10ae1da0c85.json,2
+{kibana => dashboards}/dashboards/bed185a0-ef82-11e9-b38a-2db3ee640e88.json,2
+docs/live-analysis.md,2
+moloch/patch/moloch-fix-0-start-time-custom-range-a16498e7.patch,2
+docs/images/screenshots/arkime_connections.png,2
+docs/images/hedgehog/images/htpdate_freq.jpg,2
+docs/images/hedgehog/images/zeek_file_carve_mode.jpg,2
+sensor-iso/docs/images/{moloch-capture-ip-port.png => arkime-capture-ip-port.png},2
+.tmp/_MEI0IvJBV/importlib_metadata-4.0.1-py3.7.egg-info/WHEEL,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,2
+iso-build/config/includes.chroot/etc/bash.bash_functions,2
+sensor-iso/config/includes.chroot/etc/skel/.config/autostart/set-dconf-screen-lock-defaults.desktop,2
+docs/images/screenshots/arkime_history.png,2
+.tmp/_MEI0IvJBV/_contextvars.cpython-37m-x86_64-linux-gnu.so,2
+suricata/rules/kerberos-events.rules,2
+{kibana => dashboards}/dashboards/ca5799a0-56b5-11eb-b749-576de068f8ad.json,2
+{kibana => dashboards}/dashboards/42e831b9-41a9-4f35-8b7d-e1566d368773.json,2
+docs/images/hedgehog/images/filebeat_confirm.jpg,2
+scripts/clean.sh,2
+{kibana => dashboards}/dashboards/29a1b290-eb98-11e9-a384-0fcf32210194.json,2
+nginx/nginx_auth_basic.conf,2
+iso-build/config/includes.binary/boot/grub/grub.cfg,2
+{kibana => dashboards}/dashboards/1ce42250-3f99-11e9-a58e-8bdedb0915e8.json,2
+.github/workflows/{kibana-build-and-push-ghcr.yml => dashboards-build-and-push-ghcr.yml},2
+scripts/third-party-logs/requirements.txt,2
+{moloch-logs => arkime-logs}/.gitignore,2
+.tmp/_MEI0IvJBV/_blake2.cpython-37m-x86_64-linux-gnu.so,2
+.tmp/_MEI0IvJBV/_sha512.cpython-37m-x86_64-linux-gnu.so,2
+{kibana => dashboards}/dashboards/1fff49f6-0199-4a0f-820b-721aff9ff1f1.json,2
+docs/ics-best-guess.md,2
+{kibana => dashboards}/dashboards/665d1610-523d-11e9-a30e-e3576242f3ed.json,2
+.tmp/_MEI0IvJBV/compose/config/compose_spec.json,2
+.tmp/_MEI0IvJBV/_multiprocessing.cpython-37m-x86_64-linux-gnu.so,2
+malcolm-iso/config/bootloaders/grub-pc/dejavu-bold-14.pf2,2
+docs/images/screenshots/dashboards_bestguess.png,2
+docs/protocols.md,2
+sensor-iso/config/includes.chroot/usr/share/auditbeat/kibana/6/dashboard-custom/Auditbeat-auditd-overview-custom.json,2
+.tmp/_MEI0IvJBV/_struct.cpython-37m-x86_64-linux-gnu.so,2
+.tmp/_MEI0IvJBV/zlib.cpython-37m-x86_64-linux-gnu.so,2
+logstash/pipeline-external/80_input_external_es.conf,2
+sensor-iso/config/includes.chroot/etc/skel/.config/autostart/hedgehog-kiosk.desktop,2
+docs/images/hedgehog/images/select_iface.jpg,2
+{kibana => dashboards}/dashboards/12e3a130-d83b-11eb-a0b0-f328ce09b0b7.json,2
+kibana/kibana.yml,2
+docs/images/screenshots/moloch_session_source_raw.png,2
+suricata/rules/smb-events.rules,2
+.tmp/_MEI0IvJBV/jsonschema-3.2.0-py3.7.egg-info/REQUESTED,2
+sensor-iso/config/bootloaders/pxelinux/pxelinux.cfg/default,2
+docs/images/hedgehog/images/users_and_passwords.jpg,2
+malcolm-iso/config/includes.chroot/usr/share/icons/hicolor/48x48/kibana.png,2
+sensor-iso/config/package-lists/virtualguest.list.chroot,2
+{kibana => dashboards}/dashboards/2cf94cd0-ecab-40a5-95a7-8419f3a39cd9.json,2
+iso-build/config/package-lists/net.list.chroot,2
+sensor-iso/{moloch => arkime}/etc/.gitignore,2
+logstash/maps/syslog_severity_levels.yaml,2
+sensor-iso/interface/sensor_ctl/miscbeat/{protologbeat.yml => filebeat.yml},2
+suricata/rules/files.rules,2
+sensor-iso/docs/logo/favicon.ico,2
+docs/api.md,2
+{kibana => dashboards}/dashboards/36ed695f-edcc-47c1-b0ec-50d20c93ce0f.json,2
+docs/images/screenshots/dashboards_add_filter.png,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/RECORD,2
+file-monitor/capa-rules-update.sh,2
+.tmp/_MEI0IvJBV/jsonschema-3.2.0-py3.7.egg-info/INSTALLER,2
+moloch/patch/moloch-fix-dark-theme-table-foreground-color-8d482f8086.patch,2
+malcolm-iso/config/includes.chroot/usr/share/protologbeat/kibana/7/dashboard/Protologbeat-temperatures-dashboard.json,2
+suricata/rules/ntp-events.rules,2
+kibana/scripts/kibana_index_refresh.py => dashboards/scripts/index-refresh.py,2
+suricata/rules/dnp3-events.rules,2
+docs/hedgehog-config-root.md,2
+logstashoutput.txt,2
+docs/images/hedgehog/images/opensearch_connection_success.jpg,2
+sensor-iso/interface/sensor_ctl/supervisor.d/clamav.conf,2
+shared/vbox-guest-build/Dockerfile,2
+sensor-iso/config/archives/fluentbit.list.chroot,2
+logstash/maps/sip_result_codes.yaml,2
+malcolm-iso/config/bootloaders/grub-pc/splash.png,2
+.tmp/_MEI0IvJBV/compose/GITSHA,2
+arkime/patch/capture_event_dataset.patch,2
+sensor-iso/config/bootloaders/syslinux_common/stdmenu.cfg,2
+sensor-iso/docs/images/{moloch_confirm.png => arkime_confirm.png},2
+sensor-iso/config/bootloaders/syslinux_common/hedgehog-color.ai,2
+docs/images/screenshots/{moloch_export_pcap.png => arkime_export_pcap.png},2
+malcolm-iso/config/bootloaders/syslinux_common/menu.cfg,2
+.tmp/_MEI0IvJBV/pyexpat.cpython-37m-x86_64-linux-gnu.so,2
+.tmp/_MEI0IvJBV/nacl/_sodium.abi3.so,2
+moloch/scripts/cron_env_deb.sh,2
+sensor-iso/docs/images/opensearch_connection_success.png,2
+sensor-iso/config/archives/fluentbit.key.chroot,2
+docs/images/hedgehog/images/forwarder_config.jpg,2
+malcolm-iso/config/includes.chroot/usr/share/icons/hicolor/48x48/dashboards.png,2
+{kibana => dashboards}/dashboards/024062a6-48d6-498f-a91a-3bf2da3a3cd3.json,2
+docs/images/hedgehog/images/capture_iface_select.jpg,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-15/16343116792.desktop,2
+.tmp/_MEI0IvJBV/_md5.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/docs/images/filebeat_ip_port.png,2
+malcolm-iso/config/archives/fluentbit.key.binary,2
+docs/images/screenshots/{moloch_session_zeek.png => arkime_session_zeek.png},2
+malcolm-iso/config/includes.chroot/etc/chromium/policies/managed/policy.json,2
+.tmp/_MEI0IvJBV/liblzma.so.5,2
+.tmp/_MEI0IvJBV/mmap.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/interface/sensor_ctl/supervisor.init/{moloch_config_populate.sh => arkime_config_populate.sh},2
+docs/images/screenshots/dashboards_bsap.png,2
+sensor-iso/interface/sensor_ctl/supervisor.d/fluentbit-kmsg.conf,2
+malcolm-iso/config/includes.chroot/usr/share/icons/hicolor/128x128/{moloch.png => arkime.png},2
+.tmp/_MEI0IvJBV/jsonschema-3.2.0-py3.7.egg-info/RECORD,2
+iso-build/config/includes.chroot/etc/skel/.config/clipit/clipitrc,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-22/16346760098.desktop,2
+docs/images/kibana/ebdca7741674eca4e1fadeca157f3ae6.svg,2
+docs/images/screenshots/arkime_sessions.png,2
+.tmp/_MEI0IvJBV/_queue.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,2
+sensor-iso/config/bootloaders/grub-pc/dejavu-bold-16.pf2,2
+curator/config/config_file.yml,2
+docs/images/screenshots/dashboards_files_source.png,2
+name-map-ui/config/nginx.conf,2
+sensor-iso/config/includes.chroot/usr/share/applications/hedgehog-kiosk.desktop,2
+{kibana => dashboards}/dashboards/543118a9-02d7-43fe-b669-b8652177fc37.json,2
+{kibana => dashboards}/dashboards/152f29dc-51a2-4f53-93e9-6e92765567b8.json,2
+zeek/intel/STIX/.gitignore,2
+arkime/patch/field_best_priority.patch,2
+sensor-iso/interface/sensor_ctl/{moloch => arkime}/rules.yml,2
+.tmp/_MEI0IvJBV/compose/config/config_schema_v1.json,2
+docs/images/screenshots/{moloch_es_stats.png => arkime_es_stats.png},2
+.tmp/_MEI0IvJBV/_hashlib.cpython-37m-x86_64-linux-gnu.so,2
+{kibana => dashboards}/dashboards/c2549e10-7f2e-11ea-9f8a-1fe1327e2cd2.json,2
+.tmp/_MEI0IvJBV/array.cpython-37m-x86_64-linux-gnu.so,2
+{kibana => dashboards}/dashboards/b9f247c0-3f99-11e9-a58e-8bdedb0915e8.json,2
+docs/images/hedgehog/images/filebeat_certs.jpg,2
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-mapping.desktop,2
+docs/images/hedgehog/images/zeek_file_carve_scanners.jpg,2
+sensor-iso/config/bootloaders/syslinux/syslinux.cfg,2
+docs/slides/Dataflow.odg,2
+{moloch-raw => arkime-raw}/.gitignore,2
+sensor-iso/interface/sensor_ctl/supervisor.d/tcpdump.template,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/LICENSE.APACHE,2
+.tmp/_MEI0IvJBV/_codecs_cn.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/config/archives/fluentbit.list.binary,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/terminal/terminalrc,2
+sensor-iso/config/includes.chroot/etc/systemd/system/sensor-shutdown.service,2
+docs/images/screenshots/arkime_hunt_sessions.png,2
+moloch/patch/added-DBFIELD-replacer-for-right-click-811424e.patch,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,2
+sensor-iso/config/bootloaders/grub-legacy/menu.lst,2
+.tmp/_MEI0IvJBV/libz.so.1,2
+arkime/patch/fields_db_max_5000.patch,2
+.tmp/_MEI0IvJBV/jsonschema-3.2.0-py3.7.egg-info/entry_points.txt,2
+sensor-iso/config/includes.chroot/etc/localepurge-preseed.cfg,2
+{kibana => dashboards}/dashboards/b50c8d17-6ed3-4de6-aed4-5181032810b2.json,2
+{kibana => dashboards}/dashboards/7f41913f-cba8-43f5-82a8-241b7ead03e0.json,2
+{moloch => arkime}/etc/config.ini,2
+{kibana => dashboards}/dashboards/50ced171-1b10-4c3f-8b67-2db9635661a6.json,2
+{kibana => dashboards}/dashboards/0b2354ae-0fe9-4fd9-b156-1c3870e5c7aa.json,2
+sensor-iso/config/includes.binary/install/preseed.cfg,2
+{kibana => dashboards}/dashboards/87a32f90-ef58-11e9-974e-9d600036d105.json,2
+moloch/scripts/initmoloch.sh => arkime/scripts/initarkime.sh,2
+docs/images/screenshots/{moloch_connections_segments.png => arkime_connections_segments.png},2
+.tmp/_MEI0IvJBV/jsonschema-3.2.0-py3.7.egg-info/WHEEL,2
+docs/images/screenshots/{moloch_history.png => arkime_history.png},2
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-upload.desktop,2
+{moloch => arkime}/scripts/wise_service.sh,2
+{moloch => arkime}/patch/remove_upload.patch,2
+docs/images/screenshots/arkime_files.png,2
+docs/images/screenshots/dashboards_bacnet.png,2
+sensor-iso/docs/images/filebeat_log_path.png,2
+.tmp/_MEI0IvJBV/bcrypt/_bcrypt.abi3.so,2
+{moloch => arkime}/patch/footer_links.patch,2
+.tmp/_MEI0IvJBV/_lzma.cpython-37m-x86_64-linux-gnu.so,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/top_level.txt,2
+dashboards/notifications/channels/malcolm_api_loopback_webhook.json,2
+suricata/rules/decoder-events.rules,2
+logstash/config/pipelines.yml,2
+sensor-iso/interface/sensor_ctl/logstash-client-certificates/.gitignore,2
+docs/images/hedgehog/images/time_sync_success.jpg,2
+docs/images/logo/{moloch.xcf => arkime.xcf},2
+sensor-iso/config/bootloaders/grub-pc/splash.png,2
+{kibana => dashboards}/dashboards/fa141950-ef89-11e9-b38a-2db3ee640e88.json,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/clipit/clipitrc,2
+sensor-iso/config/bootloaders/grub-pc/config.cfg,2
+{kibana => dashboards}/dashboards/7f77b58a-df3e-4cc2-b782-fd7f8bad8ffb.json,2
+shared/bin/netdev-json.sh,2
+iso-build/config/includes.chroot/etc/skel/.config/lxpanel/LXDE/panels/malcolm,2
+sensor-iso/config/bootloaders/extlinux/extlinux.conf,2
+logstash/pipelines/zeek/14_zeek_convert.conf,2
+sensor-iso/config/includes.chroot/usr/share/protologbeat/kibana/6/index-pattern/protologbeat.json,2
+logstash/maps/notice_authors.yaml,2
+{kibana => dashboards}/dashboards/4a073440-b286-11eb-a4d4-09fa12a6ebd4.json,2
+malcolm-iso/config/includes.chroot/etc/sudoers.d/aide_integrity_check,2
+malcolm-iso/.gitignore,2
+.tmp/_MEI0IvJBV/importlib_metadata-4.0.1-py3.7.egg-info/LICENSE,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/autostart/set-dconf-screen-lock-defaults.desktop,2
+iso-build/config/includes.chroot/etc/skel/Desktop/restart.desktop,2
+.tmp/_MEI0IvJBV/readline.cpython-37m-x86_64-linux-gnu.so,2
+suricata/rules/app-layer-events.rules,2
+sensor-iso/config/includes.chroot/etc/sudoers.d/{ufw_moloch_viewer => ufw_arkime_viewer},2
+docs/images/hedgehog/images/root_config_mode.jpg,2
+{moloch => arkime}/etc/user_settings.json,2
+logstash/ruby/{ics_mac_lookup.rb => mac_lookup.rb},2
+docs/images/hedgehog/images/time_sync_mode.jpg,2
+.tmp/_MEI0IvJBV/termios.cpython-37m-x86_64-linux-gnu.so,2
+malcolm-iso/config/bootloaders/grub-pc/install_text.cfg,2
+shared/vbox-guest-build/build-docker-image.sh,2
+docs/host-config-macos.md,2
+docs/contributing-zeek.md,2
+docs/images/hedgehog/images/file_quarantine.jpg,2
+nginx/nginx_auth_ldap.conf,2
+elastalert/rules/.gitignore,2
+sensor-iso/config/includes.chroot/etc/lightdm/slick-greeter.conf,2
+suricata/rules/modbus-events.rules,2
+arkime/arkime_regression_test_harness/Dockerfiles/arkime.Dockerfile,2
+.tmp/_MEI0IvJBV/_codecs_iso2022.cpython-37m-x86_64-linux-gnu.so,2
+{moloch/moloch_regression_test_harness => arkime/arkime_regression_test_harness}/docker-compose.yml,2
+iso-build/config/includes.chroot/etc/skel/Desktop/stop.desktop,2
+{kibana => dashboards}/dashboards/32587740-ef88-11e9-b38a-2db3ee640e88.json,2
+.tmp/_MEI0IvJBV/_sha1.cpython-37m-x86_64-linux-gnu.so,2
+malcolm-iso/config/bootloaders/syslinux_common/utilities.cfg,2
+docs/images/screenshots/{moloch_connections.png => arkime_connections.png},2
+pcap/autozeek/.gitignore,2
+.tmp/_MEI0IvJBV/select.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/config/includes.chroot/etc/sudoers.d/ufw_moloch_viewer,2
+docs/images/icon/icon_dark.png,2
+{kibana => dashboards}/dashboards/92985909-dc29-4533-9e80-d3182a0ecf1d.json,2
+malcolm-iso/config/includes.chroot/etc/skel/.xscreensaver,2
+iso-build/config/includes.chroot/etc/audit/rules.d/syscalls.rules,2
+sensor-iso/config/bootloaders/syslinux_common/live.cfg.in,2
+.tmp/_MEI0IvJBV/grp.cpython-37m-x86_64-linux-gnu.so,2
+shared/vbox-guest-build/build-vboxguest-deb.sh,2
+docs/hedgehog-upgrade.md,2
+{shared/bin => scripts}/github_image_helper.sh,2
+kibana/scripts/{kibana-create-moloch-sessions-index.sh => kibana-create-arkime-sessions-index.sh},2
+.tmp/_MEI0IvJBV/libffi-806b1a9d.so.6.0.4,2
+docs/images/screenshots/{moloch_correlate_communityid_uid.png => arkime_correlate_communityid_uid.png},2
+sensor-iso/config/package-lists/grub.list.binary,2
+suricata/rules/smtp-events.rules,2
+.tmp/_MEI0IvJBV/yaml/_yaml.cpython-37m-x86_64-linux-gnu.so,2
+iso-build/config/includes.chroot/etc/skel/.Xresources,2
+sensor-iso/config/includes.chroot/etc/skel/.config/light-locker-dconf-defaults.conf,2
+logstash/pipelines/output/{99_elastic_output.conf => 99_opensearch_output.conf},2
+logstash/certs/Makefile,2
+{kibana => dashboards}/maps/world.geojson,2
+docs/images/hedgehog/images/boot_options.jpg,2
+docs/images/hedgehog/images/iface_static.jpg,2
+sensor-iso/config/includes.chroot/etc/skel/.config/autostart/capture-format-wait.desktop,2
+.tmp/_MEI0IvJBV/_posixsubprocess.cpython-37m-x86_64-linux-gnu.so,2
+moloch/patch/user_agent.patch,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,2
+docs/images/screenshots/dashboards_fields_list.png,2
+{kibana => dashboards}/dashboards/f77bf097-18a8-465c-b634-eb2acc7a4f26.json,2
+.tmp/_MEI0IvJBV/jsonschema/schemas/draft3.json,2
+{kibana => dashboards}/dashboards/76f2f912-80da-44cd-ab66-6a73c8344cc3.json,2
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-netbox.desktop,2
+docs/images/screenshots/dashboards_ethernetip.png,2
+sensor-iso/config/includes.chroot/etc/skel/.config/autostart/dod-login-banner.desktop,2
+suricata/rules/http-events.rules,2
+arkime/patch/fields_db_max_2048.patch,2
+shared/bin/jdk-cacerts-auto-import.sh,2
+kibana/elastalert-kibana-plugin/server/routes/elastalert.js,2
+.trigger_iso_workflow_build,2
+dashboards/scripts/create-moloch-sessions-index.sh,2
+sensor-iso/config/bootloaders/grub-pc/dejavu-bold-14.pf2,2
+docs/images/hedgehog/images/opensearch_connection_protocol.jpg,2
+docs/images/malcolm_network_diagram.png,2
+malcolm-iso/config/includes.chroot/etc/xdg/lxsession/LXDE/autostart,2
+sensor-iso/{moloch/build-moloch-deb.sh => arkime/build-arkime-deb.sh},2
+docs/images/hedgehog/images/desktop.jpg,2
+docs/images/hedgehog/images/opensearch_ssl_verification.jpg,2
+iso-build/config/includes.chroot/etc/audit/rules.d/privileged_files.rules,2
+arkime/scripts/bs4_remove_div.py,2
+{kibana => dashboards}/dashboards/55e332d0-3f99-11e9-a58e-8bdedb0915e8.json,2
+docs/images/screenshots/arkime_session_zeek.png,2
+.tmp/_MEI0IvJBV/_codecs_hk.cpython-37m-x86_64-linux-gnu.so,2
+sensor-iso/config/bootloaders/grub-pc/theme.cfg,2
+sensor-iso/docs/images/opensearch_ssl_verification.png,2
+iso-build/config/includes.chroot/etc/skel/Desktop/start.desktop,2
+docs/images/hedgehog/images/iface_mode.jpg,2
+docs/images/moloch/header_logo.png,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,2
+malcolm-iso/config/hooks/normal/0999-aide-init.hook.chroot,2
+.github/workflows/{elasticsearch-build-and-push-ghcr.yml => opensearch-build-and-push-ghcr.yml},2
+docs/host-config-linux.md,2
+moloch/scripts/elastic_search_status.sh,2
+docs/images/screenshots/dashboards_smtp.png,2
+sensor-iso/{moloch => arkime}/build-docker-image.sh,2
+docs/images/screenshots/arkime_spigraph.png,2
+sensor-iso/docs/images/{malcolm_moloch_reachback_acl.png => malcolm_arkime_reachback_acl.png},2
+nginx/src/stunnel-5.56-open-ldap.patch,2
+docs/images/hedgehog/images/opensearch_password.jpg,2
+sensor-iso/docs/images/kiosk_mode_services_menu.png,2
+docs/images/hedgehog/images/htpdate_setup.jpg,2
+docs/images/hedgehog/images/filebeat_ssl.jpg,2
+.tmp/_MEI0IvJBV/_bisect.cpython-37m-x86_64-linux-gnu.so,2
+{sensor-iso/config/includes.chroot/usr/share/protologbeat/kibana/7/dashboard => dashboards/dashboards/beats}/Protologbeat-temperatures-dashboard.json,2
+file-monitor/yara-rules-update.sh,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/LICENSE.BSD,2
+sensor-iso/docs/images/arkime-capture-ip-port.png,2
+malcolm-iso/config/bootloaders/syslinux_common/memtest.cfg,2
+.github/workflows/{kibana-helper-build-and-push-ghcr.yml => dashboards-helper-build-and-push-ghcr.yml},2
+.tmp/_MEI0IvJBV/_decimal.cpython-37m-x86_64-linux-gnu.so,2
+arkime/patch/viewer_330_large_or_xor_packet_fix_f13e9366.patch,2
+htadmin/docker-entrypoint.sh,2
+{kibana => dashboards}/dashboards/bf5efbb0-60f1-11eb-9d60-dbf0411cfc48.json,2
+{kibana => dashboards}/dashboards/d4fd6afd-15cb-42bf-8a25-03dd8e59b327.json,2
+dashboards/{ => templates}/malcolm_template.json,2
+docs/images/hedgehog/images/arkime_confirm.jpg,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/INSTALLER,2
+docs/images/screenshots/dashboards_s7comm.png,2
+sensor-iso/docs/images/arkime_confirm.png,2
+sensor-iso/interface/sensor_ctl/supervisor.d/{fluentbit.conf => fluentbit-metrics.conf},2
+docs/images/screenshots/arkime_general_settings.png,2
+docs/images/screenshots/{moloch_general_settings.png => arkime_general_settings.png},2
+docs/images/screenshots/dashboards_ssl.png,2
+shared/bin/{pcap_moloch_and_zeek_processor.py => pcap_arkime_and_zeek_processor.py},2
+iso-build/config/archives/docker.list.chroot,2
+docs/images/screenshots/{moloch_spigraph.png => arkime_spigraph.png},2
+docs/images/hedgehog/images/hedgehog-color-w-text.jpg,2
+sensor-iso/config/includes.chroot/usr/local/etc/zeek/guess.zeek,2
+docs/images/screenshots/arkime_hunt_finished.png,2
+docs/images/moloch/moloch_77.png,2
+{kibana => dashboards}/supervisord.conf,2
+shared/bin/{elastic_search_status.sh => opensearch_status.sh},2
+.tmp/_MEI0IvJBV/importlib_metadata-4.0.1-py3.7.egg-info/INSTALLER,2
+docs/images/screenshots/{moloch_hunt_sessions.png => arkime_hunt_sessions.png},2
+.tmp/_MEI0IvJBV/jsonschema-3.2.0-py3.7.egg-info/METADATA,2
+docs/images/screenshots/arkime_export_pcap.png,2
+.tmp/_MEI0IvJBV/cryptography-3.3.2-py3.7.egg-info/WHEEL,2
+docs/slides/Dataflow.png,2
+docs/images/screenshots/arkime_spiview.png,2
+sensor-iso/config/includes.chroot/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,2
+docs/images/hedgehog/images/kiosk_mode_services_menu.jpg,2
+iso-build/config/includes.chroot/etc/audit/rules.d/az_exclusions.rules,2
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-cyberchef.desktop,2
+sensor-iso/config/bootloaders/syslinux_common/utilities.cfg,2
+dashboards/dashboards/beats/Filebeat-nginx-ingress-overview.json,2
+sensor-iso/{moloch => arkime}/Dockerfile,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/mimeapps.list,2
+{kibana => dashboards}/dashboards/432af556-c5c0-4cc3-8166-b274b4e3a406.json,2
+docs/images/hedgehog/images/kiosk_mode_sensor_menu.jpg,2
+sensor-iso/interface/sensor_ctl/supervisor.d/fluentbit-thermal.conf,2
+docs/images/hedgehog/images/capture_config_main.jpg,2
+malcolm-iso/config/includes.chroot/etc/skel/.config/lxsession/LXDE/desktop.conf,2
+{kibana => dashboards}/dashboards/95479950-41f2-11ea-88fa-7151df485405.json,2
+docs/images/screenshots/dashboards_new_visualization.png,2
+malcolm-iso/config/hooks/normal/0999-aide-init.hook.chroot => shared/bin/aide_integrity_check.sh,2
+logstash/maps/smtp_result_codes.yaml,2
+.tmp/_MEI0IvJBV/_socket.cpython-37m-x86_64-linux-gnu.so,2
+docs/images/screenshots/dashboards_actions_and_results.png,2
+{kibana => dashboards}/dashboards/ae79b7d1-4281-4095-b2f6-fa7eafda9970.json,2
+docs/images/screenshots/{moloch_log_filter.png => arkime_log_filter.png},2
+docs/images/hedgehog/images/ntp_host.jpg,2
+sensor-iso/config/includes.chroot/etc/sudoers.d/aide_integrity_check,2
+.tmp/_MEI0IvJBV/_ssl.cpython-37m-x86_64-linux-gnu.so,2
+{kibana => dashboards}/dashboards/9ee51f94-3316-4fc5-bd89-93a52af69714.json,2
+docs/images/icon/icon_attrib.txt,1
+kibana/scripts/{elastic_index_policy_create.py => opensearch_index_policy_create.py},1
+logstash/pipelines/external/{99_elastic_output.conf => 99_opensearch_output.conf},1
+docs/images/screenshots/dashboards_network_assets.png,1
+malcolm-iso/config/includes.chroot/usr/share/applications/{malcolm-kibana.desktop => malcolm-dashboards.desktop},1
+sensor-iso/docs/images/filebeat_ssl_verify.png,1
+sensor-iso/interface/sensor_interface/static/js/freeboard.thirdparty.min.js,1
+malcolm-iso/config/includes.chroot/etc/lightdm/slick-greeter.conf,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/README.txt,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/TRADEMARKS.txt,1
+docs/images/icon/icon.svg,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-bw-w-text-large.png,1
+moloch/patch/{fields_db_max_1024.patch => fields_db_max_2048.patch},1
+sensor-iso/config/includes.chroot/usr/share/protologbeat/kibana/6/dashboard/Protologbeat-temperatures-dashboard.json,1
+kibana/anomaly_detectors/total_bytes_AD.json => dashboards/anomaly_detectors/total_bytes.json,1
+shared/.gitignore,1
+sensor-iso/docs/logo/hedgehog-color.eps,1
+sensor-iso/docs/logo/hedgehog-wallpaper.png,1
+logstash/pipeline-input/01_beats_input.conf,1
+sensor-iso/docs/images/htpdate_setup.png,1
+malcolm-iso/config/includes.chroot/usr/share/auditbeat/kibana/6/dashboard-custom/Auditbeat-auditd-overview-custom.json,1
+docs/hedgehog-config.md,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/UbuntuMono-BoldItalic.ttf,1
+sensor-iso/doc.css,1
+iso-build/config/includes.chroot/usr/share/icons/hicolor/128x128/moloch.png,1
+sensor-iso/interface/sensor_ctl/{ => zeek}/extractor_override.interesting.zeek,1
+dashboards/anomaly_detectors/malcolm_init_dummy_AD.json,1
+sensor-iso/interface/sensor_interface/static/css/custom.css,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-bw-w-text-small.png,1
+iso-build/config/includes.chroot/etc/bash.bash_aliases,1
+netbox/.gitignore,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.config/lxpanel/LXDE/panels/malcolm,1
+sensor-iso/docs/logo/font/ubuntu/Ubuntu-Light.ttf,1
+sensor-iso/config/includes.chroot/etc/ssh/sshd_config,1
+sensor-iso/docs/logo/hedgehog-wallpaper.xcf,1
+docs/hedgehog-boot.md,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/auditbeat/kibana/6/dashboard-custom/Auditbeat-auditd-overview-custom.json,1
+sensor-iso/interface/sensor_ctl/restart,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color-w-text.ai,1
+file-upload/jquery-file-upload/bootstrap.min.css,1
+iso-build/config/includes.chroot/etc/xdg/lxsession/LXDE/autostart,1
+elasticsearch-backup/.gitignore,1
+sensor-iso/docs/images/time_sync_mode.png,1
+sensor-iso/docs/logo/font/ubuntumono/TRADEMARKS.txt,1
+malcolm-iso/config/includes.chroot/usr/share/protologbeat/kibana/{6 => 7}/dashboard/Protologbeat-temperatures-dashboard.json,1
+sensor-iso/docs/logo/font/ubuntucondensed/FONTLOG.txt,1
+logstash/pipelines/enrichment/97_arkimize.conf,1
+sensor-iso/interface/sensor_interface/static/img/glyphicons-log-out.png,1
+sensor-iso/interface/sensor_interface/static/img/glyphicons-log-in.png,1
+docs/hedgehog-troubleshooting.md,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/COPYRIGHT.txt,1
+sensor-iso/interface/sensor_interface/static/js/freeboard.min.js,1
+iso-build/config/includes.chroot/etc/localepurge-preseed.cfg,1
+sensor-iso/interface/init.sh,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-bw-small.png,1
+sensor-iso/docs/logo/font/ubuntu/README.txt,1
+sensor-iso/interface/sensor_ctl/clean,1
+{iso-build => malcolm-iso}/config/archives/docker.list.chroot,1
+sensor-iso/interface/sensor_interface/static/js/material.min.js,1
+arkime/patch/{fields_db_max_3000.patch => fields_db_max_5000.patch},1
+logstash/maps/ip_protocol_number_to_name.yaml,1
+iso-build/config/includes.chroot/etc/skel/.config/pcmanfm/LXDE/pcmanfm.conf,1
+dashboards/anomaly_detectors/total_bytes.json,1
+scripts/start,1
+scripts/third-party-logs/README.md => docs/third-party-logs.md,1
+docs/images/screenshots/moloch_correlate_communityid_uid.png,1
+sensor-iso/interface/sensor_interface/static/js/freeboard.plugins.min.js,1
+dashboards/anomaly_detectors/{malcolm_init_dummy_AD.json => malcolm_init_dummy.json},1
+{kibana => dashboards}/malcolm_template.json,1
+netbox/config/configuration/logging.py,1
+arkime/arkime_regression_test_harness/docker-compose.yml,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/METADATA.pb,1
+sensor-iso/interface/sensor_interface/static/img/dropdown-arrow.png,1
+docs/api-aggregations.md,1
+zeek-logs/current/.gitignore,1
+Dockerfiles/{moloch.Dockerfile => arkime.Dockerfile},1
+docs/images/favicon/facebook.png,1
+sensor-iso/interface/kiosk.service,1
+sensor-iso/docs/images/hedgehog-color-w-text.png,1
+{sensor-iso/docs => docs/images/hedgehog}/images/zeek_file_carve_scanners.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/Attribution.txt,1
+docs/images/screenshots/moloch_general_settings.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/COPYRIGHT.txt,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/LICENCE-FAQ.txt,1
+{moloch => arkime}/patch/user_agent.patch,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/LICENCE-FAQ.txt,1
+docs/images/icon/malcolm_mark_dashboards.svg,1
+{sensor-iso/docs => docs/images/hedgehog}/images/time_sync_mode.png,1
+iso-build/config/archives/docker.key.chroot,1
+logstash/pipeline-main/17_segment_comparison.conf,1
+dashboards/anomaly_detectors/{total_bytes_AD.json => total_bytes.json},1
+docs/api-event-logging.md,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/FONTLOG.txt,1
+sensor-iso/docs/images/moloch-capture-ip-port.png,1
+iso-build/config/includes.chroot/etc/skel/Desktop/moloch.desktop,1
+sensor-iso/docs/logo/hedgehog-bw-small.png,1
+{sensor-iso/docs => docs/images/hedgehog}/images/filebeat_log_path.png,1
+logstash/{pipeline-main => pipelines/zeek}/11_zeek_logs.conf,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.Xresources,1
+elastalert/sample-rules/notice-email.yaml,1
+docs/images/icon/icon.png,1
+zeek-logs/upload/.gitignore,1
+docs/contributing-style.md,1
+_includes/head-custom.html,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/localepurge-preseed.cfg,1
+sensor-iso/docs/logo/font/ubuntumono/LICENCE-FAQ.txt,1
+sensor-iso/docs/HedgehogLinux.md,1
+{sensor-iso/docs => docs/images/hedgehog}/images/kiosk_mode_wipe_prompt.png,1
+{iso-build => malcolm-iso}/config/includes.binary/boot/grub/grub.cfg,1
+logstash/maps/{ip_protocol_numbers.yaml => ip_protocol_name_to_number.yaml},1
+{kibana => dashboards}/dashboards/1cc01ff0-5205-11ec-a62c-7bc80e88f3f0.json,1
+sensor-iso/config/includes.chroot/etc/sudoers.d/disable_nic_offloading,1
+logstash/pipelines/suricata/99_suricata_forward.conf,1
+arkime/scripts/{arkiem_update_geo.sh => arkime_update_geo.sh},1
+sensor-iso/docs/images/users_and_passwords.png,1
+docs/images/favicon/favicon.ico,1
+arkime/etc/views/zeek_conn.json,1
+docs/images/screenshots/moloch_hunt_finished.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-cyberchef.desktop,1
+docs/images/logo/Malcolm_reflection.png,1
+docs/api-examples.md,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/LICENCE.txt,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/installer,1
+{sensor-iso/docs => docs/images/hedgehog}/images/opensearch_ssl_verification.png,1
+sensor-iso/interface/sensor_ctl/supervisor.d/netsniff.template,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.config/gtk-3.0/settings.ini,1
+docs/images/screenshots/moloch_history.png,1
+docs/images/malcolm_data_pipeline.png,1
+docs/images/font/texgyreadventor-bold.otf,1
+docs/images/screenshots/moloch_connections.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/CONTRIBUTING.txt,1
+logstash/{pipeline-input => pipelines/input}/01_beats_input.conf,1
+{sensor-iso/docs => docs/images/hedgehog}/images/root_config_mode.png,1
+kibana/scripts/register-elasticsearch-snapshot-repo.sh => dashboards/scripts/register-opensearch-snapshot-repo.sh,1
+logstash/pipeline-external/89_elastic_output.conf,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/FONTLOG.txt,1
+sensor-iso/docs/images/kiosk_mode_sensor_menu.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/CONTRIBUTING.txt,1
+doc.css,1
+moloch/zeek/{extractor_override.interesting.bro => extractor_override.interesting.zeek},1
+docs/{web => }/download.md,1
+{sensor-iso/docs => docs/images/hedgehog}/images/hostname_setting.png,1
+sensor-iso/docs/logo/font/ubuntucondensed/METADATA.pb,1
+sensor-iso/docs/images/ntp_host.png,1
+sensor-iso/docs/logo/font/ubuntu/CONTRIBUTING.txt,1
+sensor-iso/docs/logo/font/ubuntucondensed/CONTRIBUTING.txt,1
+iso-build/config/hooks/normal/0900-setup-rc-local.hook.chroot,1
+dashboards/anomaly_detectors/{zeek_service_AD.json => network_protocol.json},1
+malcolm-iso/config/package-lists/docker.list.chroot,1
+{sensor-iso/docs => docs/images/hedgehog}/images/capture_config_main.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.bashrc,1
+arkime/etc/views/public_ip_addresses.json,1
+{moloch => arkime}/wise/source.zeeklogs.js,1
+sensor-iso/interface/sensor_interface/templates/buttons.html,1
+malcolm-iso/config/includes.chroot/etc/localepurge-preseed.cfg,1
+sensor-iso/interface/sensor_interface/static/js/jquery.sparkline.min.js,1
+netbox/config/configuration/extra.py,1
+filebeat/certs/.gitignore,1
+malcolm-iso/config/includes.chroot/usr/share/applications/users.desktop,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/chromium/policies/managed/policy.json,1
+arkime/patch/remove_upload.patch,1
+arkime/patch/user_agent.patch,1
+sensor-iso/config/includes.chroot/usr/share/filebeat/kibana/6/dashboard-custom/Filebeat-syslog-custom.json,1
+sensor-iso/interface/sensor_interface/static/img/glyphicons-halflings.png,1
+kibana/{zeek_template.json => malcolm_template.json},1
+sensor-iso/config/includes.chroot/etc/security/limits.d/limits.conf,1
+sensor-iso/interface/sensor_interface/templates/system_block.html,1
+arkime/patch/bulkfields.patch,1
+sensor-iso/docs/logo/font/ubuntucondensed/DESCRIPTION.en_us.html,1
+docs/images/screenshots/moloch_view_settings.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.xscreensaver,1
+iso-build/config/includes.chroot/etc/skel/.selected_editor,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-stop.desktop,1
+{iso-build => malcolm-iso}/config/hooks/normal/0910-agg-build.hook.chroot,1
+docs/cyberchef.md,1
+docs/time-sync.md,1
+{sensor-iso/docs => docs/images/hedgehog}/images/filebeat_ip_port.png,1
+sensor-iso/docs/images/capture_iface_select.png,1
+{iso-build => malcolm-iso}/config/hooks/normal/0169-pip-installs.hook.chroot,1
+sensor-iso/docs/images/iface_mode.png,1
+kibana/scripts/register-elasticsearch-snapshot-repo.sh,1
+docs/images/favicon/favicon16.png,1
+iso-build/config/includes.chroot/usr/share/auditbeat/kibana/6/dashboard-custom/Auditbeat-auditd-overview-custom.json,1
+scripts/{ => demo}/amazon_linux_2_malcolm_demo_setup.sh,1
+iso-build/config/includes.chroot/usr/share/protologbeat/kibana/5/index-pattern/protologbeat.json,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/LICENCE.txt,1
+moloch/patch/fields_db_max_1024.patch,1
+dashboards/anomaly_detectors/network_protocol.json,1
+shared/bin/nic-capture-setup.sh,1
+arkime/etc/views/suricata_logs.json,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/Ubuntu-Medium.ttf,1
+sensor-iso/docs/images/root_config_mode.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-wallpaper.png,1
+htadmin/src/bootstrap.min.js,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/favicon.ico,1
+file-upload/sshd_config,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/start.desktop => usr/share/applications/malcolm-start.desktop},1
+moloch/scripts/moloch_update_geo.sh => arkime/scripts/arkiem_update_geo.sh,1
+logstash/{pipeline-output => pipelines/output}/99_elastic_output.conf,1
+logstash/pipelines/external/{01_input_external_es.conf => 01_input_external_os.conf},1
+sensor-iso/docs/logo/hedgehog-bw-w-text.ai,1
+logstash/pipelines/zeek/{12_zeek_normalize.conf => 13_zeek_normalize.conf},1
+{sensor-iso/docs => docs/images/hedgehog}/images/htpdate_host.png,1
+sensor-iso/moloch/etc/.gitignore,1
+kibana/anomaly_detectors/zeek_filetype_AD.json => dashboards/anomaly_detectors/file_mime_type.json,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-wallpaper-plain.png,1
+arkime/etc/views/suricata_alerts.json,1
+logstash/pipeline-main/10_input_log_enrichment.conf,1
+sensor-iso/docs/logo/hedgehog-color-large.png,1
+docs/images/screenshots/dashboards_suricata_alerts.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/xdg/lxsession/LXDE/autostart,1
+{sensor-iso/docs => docs/images/hedgehog}/images/arkime-capture-ip-port.png,1
+name-map-ui/site/upload.html,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/readme.desktop => usr/share/applications/malcolm-readme.desktop},1
+iso-build/config/package-lists/desktopmanager.list.chroot,1
+moloch/zeek/{local.bro => local.zeek},1
+{sensor-iso/docs => docs/images/hedgehog}/images/ntp_host.png,1
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-17/16637019741.desktop,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/restart.desktop => usr/share/applications/malcolm-restart.desktop},1
+sensor-iso/config/includes.chroot/root/.selected_editor,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/icons/hicolor/128x128/moloch.png,1
+filebeat/scripts/cron_env_centos.sh,1
+{sensor-iso/docs => docs/images/hedgehog}/images/hedgehog-color-w-text.png,1
+sensor-iso/docs/logo/font/ubuntumono/UbuntuMono-BoldItalic.ttf,1
+sensor-iso/docs/logo/font/ubuntu/LICENCE-FAQ.txt,1
+iso-build/config/includes.chroot/etc/installer,1
+sensor-iso/docs/images/moloch_confirm.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-restart.desktop,1
+sensor-iso/docs/logo/font/ubuntu/METADATA.pb,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/Ubuntu-Italic.ttf,1
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-29/16782182331.desktop,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color-w-text.png,1
+docs/images/favicon/apple-touch-icon-precomposed.png,1
+sensor-iso/docs/images/hostname_setting.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/icons/hicolor/48x48/kibana.png,1
+docs/images/screenshots/moloch_spigraph.png,1
+netbox/env/.gitignore,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/Ubuntu-Light.ttf,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-bw-large.png,1
+shared/bin/{carveutils.py => zeek_carve_utils.py},1
+sensor-iso/docs/images/malcolm_moloch_reachback_acl.png,1
+netbox/config/configuration/configuration.py,1
+docs/contributing-guide.md,1
+docs/images/logo/Malcolm.svg,1
+suricata/rules/.gitignore,1
+docs/images/favicon/favicon64.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/Ubuntu-BoldItalic.ttf,1
+{kibana => dashboards}/dashboards/fa477130-2b8a-11ec-a9f2-3911c8571bfd.json,1
+sensor-iso/docs/logo/font/ubuntumono/UbuntuMono-Regular.ttf,1
+sensor-iso/docs/logo/font/ubuntu/LICENCE.txt,1
+sensor-iso/docs/images/time_sync_success.png,1
+sensor-iso/config/includes.chroot/etc/installer,1
+curator/scripts/cron_env_deb.sh,1
+iso-build/config/includes.chroot/etc/skel/.config/pcmanfm/LXDE/desktop-items-0.conf,1
+sensor-iso/interface/sensor_interface/static/img/glyphicons-blackboard.png,1
+logstash/{pipeline-main/10_input_log_enrichment.conf => pipelines/enrichment/01_input_log_enrichment.conf},1
+logstash/pipelines/output/01_input_internal_os.conf,1
+pcap/upload/.gitignore,1
+docs/images/screenshots/moloch_export_pcap.png,1
+docs/alerting.md,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/METADATA.pb,1
+docs/images/favicon/favicon32.png,1
+malcolm-iso/config/includes.chroot/etc/live/config.conf,1
+malcolm-iso/config/includes.chroot/etc/lightdm/lightdm-gtk-greeter.conf,1
+{iso-build => malcolm-iso}/config/includes.binary/install/preseed.cfg,1
+arkime/etc/views/arkime_sessions.json,1
+dashboards/anomaly_detectors/malcolm_init_dummy.json,1
+malcolm-iso/config/includes.binary/install/preseed.cfg,1
+sensor-iso/docs/images/htpdate_host.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.config/lxsession/LXDE/desktop.conf,1
+doc.css => docs/doc.css,1
+{moloch/zeek => zeek/config}/extractor_override.interesting.zeek,1
+malcolm-iso/config/includes.chroot/etc/skel/.tmux.conf,1
+dashboards/anomaly_detectors/{zeek_filetype_AD.json => file_mime_type.json},1
+arkime/etc/{config.ini => config.orig.ini},1
+{sensor-iso/docs => docs/images/hedgehog}/images/desktop.png,1
+arkime/etc/views/uninventoried_internal_assets.json,1
+docs/api-version.md,1
+scripts/wipe,1
+sensor-iso/docs/logo/hedgehog-bw.ai,1
+sensor-iso/docs/logo/font/ubuntumono/CONTRIBUTING.txt,1
+logstash/maps/ip_protocol_numbers.yaml,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-start.desktop,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-bw-w-text.ai,1
+logstash/maps/tftp_result_codes.yaml,1
+iso-build/config/includes.chroot/etc/skel/.tmux.conf,1
+moloch/zeek/extractor_params.bro,1
+{curator/scripts => shared/bin}/cron_env_deb.sh,1
+logstash/pipeline-input/09_input_forward.conf,1
+{sensor-iso/docs => docs/images/hedgehog}/images/opensearch_password.png,1
+malcolm-iso/config/includes.chroot/usr/share/protologbeat/kibana/6/index-pattern/protologbeat.json,1
+{iso-build => malcolm-iso}/vagrant/Vagrantfile,1
+{iso-build => malcolm-iso}/config/archives/docker.list.binary,1
+sensor-iso/docs/logo/font/ubuntumono/README.txt,1
+docs/{ => quick-start}/Malcolm Network Traffic Analysis Quick Start Guide.pdf,1
+sensor-iso/docs/logo/hedgehog-color-w-text-large.png,1
+sensor-iso/docs/logo/hedgehog-bw-w-text-large.png,1
+docs/images/screenshots/moloch_hunt_sessions.png,1
+iso-build/config/includes.chroot/etc/skel/.config/lxsession/LXDE/desktop.conf,1
+docs/asset-interaction-analysis.md,1
+nginx/nginx_image_aliases.conf,1
+{kibana => dashboards}/kibana.yml,1
+logstash/maps/winlog_levels_to_name.yaml,1
+sensor-iso/docs/images/moloch_success.png,1
+iso-build/config/includes.chroot/usr/share/applications/malcolm-cyberchef.desktop,1
+file-monitor/capa-update.sh,1
+sensor-iso/interface/sensor_ctl/supervisor.d/prune.conf,1
+{sensor-iso/docs => docs/images/hedgehog}/images/boot_options.png,1
+zeek-logs/extract_files/preserved/.gitignore,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/TRADEMARKS.txt,1
+moloch/patch/{moloch_enable_implicit_creation_of_users_pull_1120_4d3f69a.patch => enable_implicit_creation_of_users_pull_1120_4d3f69a.patch},1
+sensor-iso/docs/doc.css,1
+{sensor-iso/docs => docs/images/hedgehog}/images/filebeat_certs.png,1
+sensor-iso/docs/images/capture_filter.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/Ubuntu-MediumItalic.ttf,1
+malcolm-iso/config/includes.chroot/etc/skel/.config/autostart/set-malcolm-gtk-bookmark.desktop,1
+docs/slides/template.odp,1
+sensor-iso/interface/sensor_ctl/zeek/intel/.gitignore,1
+sensor-iso/interface/sensor_ctl/moloch/rules.yml,1
+iso-build/config/includes.chroot/root/.selected_editor,1
+iso-build/config/includes.chroot/usr/share/applications/malcolm-users.desktop,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color-w-text-large.png,1
+sensor-iso/docs/logo/hedgehog-color-w-text-small.png,1
+docs/images/screenshots/moloch_log_filter.png,1
+sensor-iso/docs/logo/font/ubuntumono/DESCRIPTION.en_us.html,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/README.txt,1
+docs/api-ping.md,1
+moloch/scripts/moloch_update_geo.sh => arkime/scripts/arkime_update_geo.sh,1
+sensor-iso/docs/logo/font/ubuntumono/UbuntuMono-Bold.ttf,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color.ai,1
+docs/images/screenshots/moloch_session_zeek.png,1
+netbox/config/scripts/__init__.py,1
+{iso-build => malcolm-iso}/config/package-lists/apps.list.chroot,1
+scripts/status,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/README.txt,1
+sensor-iso/docs/logo/font/ubuntu/Ubuntu-Italic.ttf,1
+docs/images/logo/Malcolm_reflection_white.png,1
+{moloch => arkime}/etc/wise.ini,1
+sensor-iso/interface/sensor_interface/static/icons/icons.woff2,1
+logstash/{pipeline-external/89_elastic_output.conf => pipelines/external/99_elastic_output.conf},1
+sensor-iso/docs/images/iface_static.png,1
+docs/opensearch-instances.md,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/DESCRIPTION.en_us.html,1
+{sensor-iso/docs => docs/images/hedgehog}/images/htpdate_freq.png,1
+sensor-iso/docs/logo/hedgehog-color-small.png,1
+sensor-iso/docs/logo/font/ubuntu/Ubuntu-Medium.ttf,1
+{iso-build => malcolm-iso}/config/archives/docker.key.binary,1
+iso-build/config/includes.chroot/etc/skel/Desktop/upload.desktop,1
+sensor-iso/docs/logo/font/ubuntucondensed/TRADEMARKS.txt,1
+docs/authsetup.md,1
+logstash/config/logstash.yml,1
+moloch/zeek/extractor.bro,1
+{moloch/zeek => zeek/config}/extractor.zeek,1
+{sensor-iso/docs => docs/images/hedgehog}/images/kiosk_mode_services_menu.png,1
+moloch/patch/moloch_enable_implicit_creation_of_users_pull_1120_4d3f69a.patch,1
+iso-build/config/includes.chroot/usr/share/applications/users.desktop,1
+{moloch/zeek => zeek/config}/local.zeek,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/protologbeat/kibana/5/index-pattern/protologbeat.json,1
+shared/bin/yara_rules_setup.sh,1
+sensor-iso/config/includes.binary/install/{preseed.cfg => preseed_multipar.cfg},1
+{iso-build => malcolm-iso}/build.sh,1
+sensor-iso/interface/sensor_ctl/reload,1
+docs/images/logo/malcolm_logo.svg,1
+{malcolm-iso/config/includes.chroot/usr/share/filebeat/kibana/6 => sensor-iso/config/includes.chroot/usr/share/filebeat/kibana/7}/dashboard-custom/Filebeat-syslog-custom.json,1
+docs/hedgehog-hardening.md,1
+sensor-iso/interface/sensor_ctl/supervisord.conf,1
+docs/api-document-lookup.md,1
+zeek/intel/.gitignore,1
+shared/bin/{pcap_arkime_and_zeek_processor.py => pcap_processor.py},1
+docs/images/font/texgyreadventor-italic.otf,1
+docs/api-indices.md,1
+shared/bin/set-malcolm-gtk-bookmark.sh,1
+logstash/pipelines/external/01_input_external_os.conf,1
+sensor-iso/docs/images/htpdate_freq.png,1
+docs/hedgehog-installation.md,1
+sensor-iso/docs/images/htpdate_test.png,1
+docs/{ => quick-start}/Malcolm Network Traffic Analysis Quick Start Guide.odt,1
+iso-build/config/includes.chroot/usr/share/protologbeat/kibana/6/index-pattern/protologbeat.json,1
+htadmin/src/bootstrap.css,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.hushlogin,1
+docs/hardening.md,1
+iso-build/build_via_vagrant.sh,1
+arkime/etc/views/uninventoried_observed_services.json,1
+sensor-iso/docs/logo/hedgehog-color-w-text.ai,1
+sensor-iso/docs/logo/hedgehog-bw-large.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/UFL.txt,1
+moloch/patch/remove_upload.patch,1
+sensor-iso/docs/logo/font/ubuntu/Ubuntu-Regular.ttf,1
+nginx/nginx_auth_disabled.conf,1
+docs/images/screenshots/moloch_files.png,1
+sensor-iso/docs/logo/hedgehog-wallpaper-plain.png,1
+sensor-iso/docs/logo/hedgehog-color.ai,1
+docs/malcolm-preparation.md,1
+docs/images/screenshots/moloch_connections_segments.png,1
+name-map-ui/config/fpm-pool.conf,1
+sensor-iso/{docker => }/Dockerfile,1
+{sensor-iso/docs => docs/images/hedgehog}/images/htpdate_setup.png,1
+dashboards/anomaly_detectors/file_mime_type.json,1
+sensor-iso/docs/logo/font/ubuntumono/UbuntuMono-Italic.ttf,1
+Dockerfiles/{elasticsearch.Dockerfile => opensearch.Dockerfile},1
+name-map-ui/site/upload.php,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color.png,1
+scripts/auth_setup,1
+iso-build/config/includes.chroot/etc/skel/.vimrc,1
+{sensor-iso/docs => docs/images/hedgehog}/images/installer_progress.png,1
+sensor-iso/interface/.gitignore,1
+arkime/etc/views/zeek_logs.json,1
+{sensor-iso/docs => docs/images/hedgehog}/images/time_sync_success.png,1
+suricata-logs/.gitignore,1
+docs/images/favicon/favicon48.png,1
+logstash/ruby/freq_lookup.rb,1
+docs/images/screenshots/moloch_help_fields.png,1
+{iso-build => malcolm-iso}/config/hooks/normal/0900-setup-rc-local.hook.chroot,1
+sensor-iso/{docs => }/doc.css,1
+dashboards/scripts/docker_entrypoint.sh,1
+{sensor-iso/docs => docs/images/hedgehog}/images/iface_static.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/docker/daemon.json,1
+moloch/patch/moloch_help_links.patch,1
+arkime/patch/{spi_sort_zeek.patch => spi_sort_malcolm.patch},1
+htadmin/php/php.ini,1
+{sensor-iso/docs => docs/images/hedgehog}/images/file_quarantine.png,1
+sensor-iso/docs/logo/font/ubuntumono/METADATA.pb,1
+sensor-iso/interface/sensor_interface/static/css/freeboard.min.css,1
+iso-build/config/includes.chroot/etc/docker/daemon.json,1
+nginx/certs/.gitignore,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/COPYRIGHT.txt,1
+sensor-iso/docs/logo/font/ubuntucondensed/LICENCE.txt,1
+sensor-iso/interface/sensor_interface/sysquery/__init__.py,1
+logstash/pipelines/enrichment/98_arkimize.conf,1
+{moloch/zeek => zeek/config}/extractor_params.zeek,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.tmux.conf,1
+{moloch => arkime}/patch/spi_sort_zeek.patch,1
+.github/workflows/codeql.yml,1
+moloch/patch/enable_implicit_creation_of_users_pull_1120_4d3f69a.patch,1
+malcolm-iso/config/includes.chroot/usr/share/protologbeat/kibana/5/index-pattern/protologbeat.json,1
+logstash/maps/winlog_levels_to_numbers.yaml,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.vimrc,1
+iso-build/config/includes.chroot/usr/share/filebeat/kibana/6/dashboard-custom/Filebeat-syslog-custom.json,1
+sensor-iso/interface/sensor_ctl/stop,1
+docs/index-management.md,1
+{docs/stix => shared/bin}/stix_zeek_utils.py,1
+moloch/patch/fields_db_max_2048.patch,1
+iso-build/config/includes.chroot/etc/skel/.hushlogin,1
+sensor-iso/interface/sensor_ctl/shutdown,1
+sensor-iso/interface/sensor_interface/static/css/material.css,1
+kibana/scripts/{register-elasticsearch-snapshot-repo.sh => register-opensearch-snapshot-repo.sh},1
+{sensor-iso/docs => docs/images/hedgehog}/images/arkime_confirm.png,1
+{sensor-iso/docs => docs/images/hedgehog}/images/select_iface.png,1
+sensor-iso/{moloch => arkime}/patch/user_agent.patch,1
+{filebeat/scripts => shared/bin}/cron_env_centos.sh,1
+sensor-iso/interface/sensor_interface/static/js/freeboard_plugins.min.js,1
+sensor-iso/{docs/HedgehogLinux.md => README.md},1
+docs/images/screenshots/moloch_hunt_creation.png,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/stop.desktop => usr/share/applications/malcolm-stop.desktop},1
+{iso-build => malcolm-iso}/config/hooks/normal/0911-get-stig-scripts.hook.chroot,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/Ubuntu-LightItalic.ttf,1
+{kibana => dashboards}/dashboards/d2dd0180-06b1-11ec-8c6b-353266ade330.json,1
+logstash/pipelines/enrichment/{98_make_unique.conf => 97_make_unique.conf},1
+kibana/scripts/elastic_index_policy_create.py => dashboards/scripts/opensearch_index_policy_create.py,1
+logstash/ruby/smbsplit.rb,1
+sensor-iso/docs/logo/font/ubuntucondensed/LICENCE-FAQ.txt,1
+kibana/{kibana-offline-maps.yml => kibana.yml},1
+zeek/scripts/entrypoint.sh => shared/bin/zeek_intel_setup.sh,1
+nginx/ca-trust/.gitignore,1
+{iso-build => malcolm-iso}/config/package-lists/docker.list.chroot,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/kibana.desktop => usr/share/applications/malcolm-kibana.desktop},1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/Ubuntu-Bold.ttf,1
+sensor-iso/docs/logo/font/ubuntucondensed/README.txt,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/bash.bash_aliases,1
+sensor-iso/docs/images/capture_config_main.png,1
+scripts/netbox-restore,1
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/launcher-29/16637019741.desktop,1
+shared/bin/{stix_zeek_utils.py => zeek_threat_feed_utils.py},1
+moloch/zeek/{extractor.bro => extractor.zeek},1
+sensor-iso/docs/logo/font/ubuntucondensed/COPYRIGHT.txt,1
+{sensor-iso/docs => docs/images/hedgehog}/images/malcolm_arkime_reachback_acl.png,1
+{iso-build => malcolm-iso}/config/package-lists/net.list.chroot,1
+iso-build/config/package-lists/docker.list.chroot,1
+zeek/config/{telnet.zeek => login.zeek},1
+{iso-build => malcolm-iso}/config/includes.binary/install/preseed_base.cfg,1
+logstash/pipelines/input/99_input_forward.conf,1
+{iso-build => malcolm-iso}/config/hooks/normal/0991-security-performance.hook.chroot,1
+logstash/{pipeline-main => pipelines/enrichment}/18_tags_finalize.conf,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/protologbeat/kibana/6/index-pattern/protologbeat.json,1
+malcolm-iso/config/includes.chroot/etc/lightdm/{lightdm-gtk-greeter.conf => slick-greeter.conf},1
+logstash/{pipeline-main => pipelines/enrichment}/17_segment_comparison.conf,1
+sensor-iso/docs/images/select_iface.png,1
+docs/host-config.md,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/UbuntuMono-Italic.ttf,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.config/pcmanfm/LXDE/desktop-items-0.conf,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/METADATA.pb,1
+logstash/pipelines/zeek/{11_zeek_logs.conf => 11_zeek_parse.conf},1
+sensor-iso/docs/logo/font/ubuntumono/COPYRIGHT.txt,1
+yara/rules/.gitignore,1
+docs/images/font/texgyreadventor-bolditalic.otf,1
+logstash/config/pipelines-external.yml,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/users.desktop,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color-large.png,1
+sensor-iso/docs/logo/hedgehog-color-w-text.png,1
+arkime/etc/views/zeek_exclude_conn.json,1
+moloch/scripts/moloch-watch-pcap-uploads-folder.sh => pcap-monitor/scripts/watch-pcap-uploads-folder.sh,1
+{iso-build => malcolm-iso}/config/includes.chroot/root/.vimrc,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-wallpaper.xcf,1
+sensor-iso/config/includes.chroot/usr/share/protologbeat/kibana/{6 => 7}/dashboard/Protologbeat-temperatures-dashboard.json,1
+iso-build/config/includes.chroot/etc/chromium/policies/managed/policy.json,1
+sensor-iso/docs/images/installer_progress.png,1
+sensor-iso/docs/logo/font/ubuntu/Ubuntu-LightItalic.ttf,1
+{iso-build => malcolm-iso}/config/package-lists/desktopmanager.list.chroot,1
+scripts/{zeek_script_to_logstash_dissect.py => zeek_script_to_malcolm_boilerplate.py},1
+scripts/stop,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/UbuntuMono-Bold.ttf,1
+{kibana => dashboards}/zeek_template.json,1
+docs/images/screenshots/moloch_es_stats.png,1
+sensor-iso/docs/logo/font/ubuntucondensed/UFL.txt,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/protologbeat/kibana/6/dashboard/Protologbeat-temperatures-dashboard.json,1
+sensor-iso/interface/sensor_ctl/start,1
+sensor-iso/config/includes.chroot/etc/skel/.hushlogin,1
+{sensor-iso/docs => docs/images/hedgehog}/images/kiosk_mode_sensor_menu.png,1
+sensor-iso/docs/logo/font/ubuntu/TRADEMARKS.txt,1
+logstash/pipelines/output/{01_input_internal_es.conf => 01_input_internal_os.conf},1
+docs/queries-cheat-sheet.md,1
+{kibana => dashboards}/scripts/opensearch_index_policy_create.py,1
+kibana/maps/world.geojson,1
+sensor-iso/docs/logo/hedgehog-bw-w-text-small.png,1
+{curator => kibana}/scripts/register-elasticsearch-snapshot-repo.sh,1
+moloch/patch/viewer_wider_field_detail.patch,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/upload.desktop => usr/share/applications/malcolm-upload.desktop},1
+iso-build/config/includes.chroot/etc/skel/Desktop/readme.desktop,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/filebeat/kibana/6/dashboard-custom/Filebeat-syslog-custom.json,1
+{iso-build => malcolm-iso}/config/hooks/normal/0998-localepurge.hook.chroot,1
+sensor-iso/config/includes.chroot/etc/skel/.config/gtk-3.0/settings.ini,1
+netbox/config/reports/devices.py.example,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color-small.png,1
+sensor-iso/arkime/patch/user_agent.patch,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/LICENCE.txt,1
+sensor-iso/interface/sensor_ctl/supervisor.d/documentation.conf,1
+docs/third-party-logs.md,1
+iso-build/config/includes.chroot/etc/live/config.conf,1
+{sensor-iso/docs => docs/images/hedgehog}/images/opensearch_username.png,1
+{iso-build => malcolm-iso}/config/package-lists/system.list.chroot,1
+nginx/nginx_ssl_on_config.conf,1
+sensor-iso/interface/sensor_interface/templates/base.html,1
+malcolm-iso/config/includes.binary/install/{preseed.cfg => preseed_multipar.cfg},1
+sensor-iso/config/includes.chroot/etc/login.defs,1
+sensor-iso/config/includes.chroot/etc/skel/.config/gtk-3.0/bookmarks,1
+logstash/{config/pipelines-external.yml => pipelines/external/00_config.conf},1
+elasticsearch/.gitignore,1
+sensor-iso/config/includes.chroot/etc/sudoers.d/{disable_nic_offloading => nic_capture_setup},1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.config/clipit/clipitrc,1
+sensor-iso/docs/logo/font/ubuntu/UFL.txt,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/TRADEMARKS.txt,1
+{sensor-iso/docs => docs/images/hedgehog}/images/capture_filter.png,1
+iso-build/config/includes.chroot/etc/skel/.xscreensaver,1
+logstash/pipelines/zeek/{13_zeek_convert.conf => 14_zeek_convert.conf},1
+docs/dashboards.md,1
+sensor-iso/docs/logo/font/ubuntu/Ubuntu-BoldItalic.ttf,1
+dashboards/anomaly_detectors/action_result_user.json,1
+scripts/{ => demo}/reset_and_auto_populate.sh,1
+{sensor-iso/docs => docs/images/hedgehog}/images/filebeat_ssl_verify.png,1
+netbox/device-roles-defaults.json,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/CONTRIBUTING.txt,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-kibana.desktop,1
+{sensor-iso/docs => docs/images/hedgehog}/images/opensearch_connection_protocol.png,1
+test.json => testFolder/test.json,1
+malcolm-iso/config/includes.chroot/etc/skel/.config/xfce4/panel/{launcher-29 => launcher-17}/16637019741.desktop,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-moloch.desktop,1
+{sensor-iso/docs => docs/images/hedgehog}/images/filebeat_ssl.png,1
+nginx/nginx_ssl_off_config.conf,1
+sensor-iso/docs/logo/Attribution.txt,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-readme.desktop,1
+sensor-iso/docs/logo/font/ubuntumono/FONTLOG.txt,1
+iso-build/config/includes.chroot/etc/audit/rules.d/audit.rules,1
+scripts/restart,1
+sensor-iso/docs/images/file_quarantine.png,1
+logstash/ruby/dedoubleslash.rb,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/DESCRIPTION.en_us.html,1
+docs/images/screenshots/moloch_spiview.png,1
+sensor-iso/docs/logo/font/ubuntumono/LICENCE.txt,1
+sensor-iso/interface/sensor_ctl/zeek/extractor_override.interesting.zeek,1
+{sensor-iso/docs => docs/images/hedgehog}/images/capture_iface_select.png,1
+iso-build/config/includes.chroot/root/.vimrc,1
+{sensor-iso/docs => docs/images/hedgehog}/images/autostarts_confirm.png,1
+scripts/netbox-backup,1
+sensor-iso/docs/logo/font/ubuntu/COPYRIGHT.txt,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/login.defs,1
+pcap/processed/.gitignore,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/UbuntuMono-Regular.ttf,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-bw.ai,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-logs.desktop,1
+moloch-raw/.gitignore,1
+docs/images/logo/moloch.xcf,1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-upload.desktop,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/live/config.conf,1
+sensor-iso/docs/logo/font/ubuntu/FONTLOG.txt,1
+{sensor-iso/docs => docs/images/hedgehog}/images/iface_mode.png,1
+iso-build/config/includes.chroot/etc/skel/Desktop/kibana.desktop,1
+docs/upload.md,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/bash.bash_functions,1
+elastalert/sample-rules/{weird.yaml => notice-email.yaml},1
+{iso-build => malcolm-iso}/config/includes.chroot/usr/share/applications/malcolm-users.desktop,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color.eps,1
+sensor-iso/config/includes.chroot/etc/skel/.vimrc,1
+sensor-iso/interface/sensor_interface/__main__.py,1
+docs/file-scanning.md,1
+zeek-logs/extract_files/quarantine/.gitignore,1
+sensor-iso/config/includes.chroot/etc/skel/.selected_editor,1
+moloch/patch/{moloch_help_links.patch => help_links.patch},1
+docs/images/icon/favicon.ico,1
+iso-build/config/includes.chroot/etc/skel/Desktop/cyberchef.desktop,1
+docs/images/screenshots/moloch_sessions.png,1
+iso-build/config/includes.chroot/usr/share/protologbeat/kibana/6/dashboard/Protologbeat-temperatures-dashboard.json,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/logs.desktop => usr/share/applications/malcolm-logs.desktop},1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/LICENCE-FAQ.txt,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntumono/FONTLOG.txt,1
+dashboards/{kibana.yml => opensearch_dashboards.yml},1
+name-map-ui/config/php.ini,1
+sensor-iso/docs/logo/font/ubuntu/DESCRIPTION.en_us.html,1
+iso-build/config/includes.chroot/etc/login.defs,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/audit/rules.d/audit.rules,1
+sensor-iso/config/includes.chroot/root/.vimrc,1
+sensor-iso/docs/logo/hedgehog-color.png,1
+sensor-iso/docs/logo/font/ubuntu/Ubuntu-Bold.ttf,1
+iso-build/config/includes.chroot/etc/skel/.config/gtk-3.0/settings.ini,1
+{kibana => dashboards}/scripts/register-opensearch-snapshot-repo.sh,1
+{sensor-iso/docs => docs/images/hedgehog}/images/forwarder_config.png,1
+{iso-build => malcolm-iso}/config/hooks/normal/0990-remove-unwanted-pkg.hook.chroot,1
+sensor-iso/docs/logo/font/ubuntumono/UFL.txt,1
+{sensor-iso/docs => docs/images/hedgehog}/images/opensearch_connection_success.png,1
+kibana/anomaly_detectors/zeek_service_AD.json => dashboards/anomaly_detectors/network_protocol.json,1
+moloch/zeek/{extractor_params.bro => extractor_params.zeek},1
+{sensor-iso/docs => docs/images/hedgehog}/images/zeek_file_carve_mode.png,1
+Dockerfiles/{kibana.Dockerfile => dashboards.Dockerfile},1
+sensor-iso/interface/sensor_interface/static/dashboard/dashboard.json,1
+sensor-iso/interface/sensor_interface/__init__.py,1
+{iso-build => malcolm-iso}/config/includes.chroot/root/.selected_editor,1
+iso-build/config/archives/docker.key.binary,1
+netbox/config/configuration/plugins.py,1
+{iso-build => malcolm-iso}/config/archives/docker.key.chroot,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/ssh/sshd_config,1
+{sensor-iso/docs => docs/images/hedgehog}/images/filebeat_confirm.png,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.selected_editor,1
+docs/DHS_TOU.pdf,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/cyberchef.desktop => usr/share/applications/malcolm-cyberchef.desktop},1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/Ubuntu-Regular.ttf,1
+sensor-iso/interface/sensor_interface/static/img/glyphicons-halflings-white.png,1
+logstash/pipeline-output/99_elastic_output.conf,1
+zeek/intel/MISP/.gitignore,1
+{sensor-iso/config/includes.chroot/usr/share/filebeat/kibana/6 => malcolm-iso/config/includes.chroot/usr/share/filebeat/kibana/7}/dashboard-custom/Filebeat-syslog-custom.json,1
+docs/images/logo/Malcolm_background.png,1
+kibana/maps/world.rds,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/skel/.config/pcmanfm/LXDE/pcmanfm.conf,1
+kibana/scripts/kibana-create-moloch-sessions-index.sh => dashboards/scripts/create-moloch-sessions-index.sh,1
+{docs/stix => shared/bin}/stix_to_zeek_intel.py,1
+moloch/zeek/extractor_override.interesting.bro,1
+malcolm-iso/config/includes.chroot/usr/share/applications/malcolm-configure.desktop,1
+malcolm-iso/config/includes.chroot/usr/share/icons/hicolor/128x128/moloch.png,1
+{sensor-iso/docs => docs/images/hedgehog}/images/capture_paths.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/DESCRIPTION.en_us.html,1
+docs/images/logo/Malcolm_outline.svg,1
+docs/images/logo/Malcolm_outline_banner.png,1
+docs/images/screenshots/dashboards_asset_interaction_analysis.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/hedgehog-color-w-text-small.png,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/UbuntuCondensed-Regular.ttf,1
+arkime/patch/spi_sort_malcolm.patch,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntu/UFL.txt,1
+htadmin/src/includes/head.php,1
+moloch/patch/moloch-check-for-null-undefined-table-cell-values-9fdfdd8.patch,1
+{sensor-iso/docs => docs/images/hedgehog}/images/htpdate_test.png,1
+sensor-iso/docs/logo/font/ubuntu/Ubuntu-MediumItalic.ttf,1
+logstash/{pipeline-input/09_input_forward.conf => pipelines/zeek/99_zeek_forward.conf},1
+docs/images/font/texgyreadventor-regular.otf,1
+sensor-iso/interface/sensor_ctl/supervisor.d/supercronic.conf,1
+{moloch => arkime}/patch/fields_db_max_2048.patch,1
+iso-build/config/hooks/normal/0998-localepurge.hook.chroot,1
+moloch/scripts/bs4_remove_div.py,1
+moloch-logs/.gitignore,1
+{sensor-iso/docs => docs/images/hedgehog}/images/users_and_passwords.png,1
+{iso-build => malcolm-iso}/build_via_vagrant.sh,1
+{sensor-iso/docs => docs/images/hedgehog}/images/autostarts.png,1
+moloch/moloch_regression_test_harness/Dockerfiles/{moloch.Dockerfile => arkime.Dockerfile},1
+docs/images/favicon/favicon24.png,1
+sensor-iso/docs/logo/font/ubuntucondensed/UbuntuCondensed-Regular.ttf,1
+iso-build/config/includes.chroot/{etc/skel/Desktop/moloch.desktop => usr/share/applications/malcolm-moloch.desktop},1
+docs/images/screenshots/dashboards_known_summary.png,1
+scripts/logs,1
+net-map.json,1
+docs/images/malcolm_components.png,1
+docs/hedgehog-config-zeek-intel.md,1
+iso-build/config/includes.chroot/usr/share/icons/hicolor/48x48/kibana.png,1
+{sensor-iso/docs => docs/images/hedgehog}/images/kiosk_mode_status.png,1
+sensor-iso/interface/sensor_ctl/status,1
+shared/bin/preseed_partman_determine_disk.sh,1
+docs/hedgehog-ssh.md,1
+{sensor-iso/docs => docs/images/hedgehog}/logo/font/ubuntucondensed/UFL.txt,1
+docs/host-config-windows.md,1
+{iso-build => malcolm-iso}/config/includes.chroot/etc/security/limits.d/limits.conf,1
