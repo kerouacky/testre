@@ -1,0 +1,404 @@
+Source:,IT-Harvest,,,,
+Name,Category,Country,Total_Funding $millions,% growth in head count,Head Count
+Splunk,Security Analytics,USA,"2,440",7.1,"8,757"
+Lacework,Application Security,USA,"1,899",20,972
+NetSkope,Application Security,USA,"1,441",26.1,"2,176"
+Okta,IAM,USA,"1,229",60.5,"8,231"
+Mandiant,Security Analytics,USA,"1,226",-31,"1,325"
+OpenText,IAM,Canada,"1,100",3.3,"18,133"
+Snyk,Application Security,United Kingdom,"1,071",42.4,"1,223"
+Securonix,Security Analytics,USA,"1,065",27.4,917
+QI-ANXIN,Endpoint Security,China,"1,064",8.6,75
+Blackberry,Endpoint Security,Canada,"1,000",-2.5,"3,517"
+OneTrust,GRC,USA,933,23.6,"2,393"
+1Password,IAM,Canada,920,96.7,"1,019"
+Wiz,GRC,Israel,900,203,724
+Arctic Wolf Networks,MSSP,USA,899,63.3,"2,120"
+Cybereason,Security Analytics,USA,751,-12.4,879
+Sysdig,Endpoint Security,USA,730,75.6,855
+SentinelOne,Endpoint Security,USA,697,65.7,"2,031"
+Axonius,GRC,USA,665,92.2,633
+Acronis,Data Security,Switzerland,658,19.7,"2,199"
+Orca Security,Operations,Israel,632,58.2,462
+Tenable,GRC,USA,565,22.9,"2,090"
+Illumio,Endpoint Security,USA,558,20.6,612
+Armis,IoT Security,USA,537,36.3,705
+Solarwinds,Security Analytics,USA,533,11.7,"2,495"
+Cato Networks,Network Security,Israel,532,49.1,679
+NetSPI,GRC,USA,500,55.5,472
+CrowdStrike,Endpoint Security,USA,486,53.7,"6,938"
+Devo,Security Analytics,USA,481,38,629
+Lookout,Endpoint Security,USA,432,24.9,885
+eSentire,MSSP,Canada,411,29.4,610
+Cribl,Operations,USA,402,28.1,514
+BitSight,GRC,USA,402,42.2,817
+KnowBe4,GRC,USA,394,33.6,"1,763"
+VMWare,Endpoint Security,USA,394,5.8,"34,881"
+Exabeam,Security Analytics,USA,391,17.4,722
+Saviynt,IAM,USA,375,13.7,890
+Dragos,IoT Security,USA,364,41.1,583
+HashiCorp,Data Security,USA,349,12.6,"2,504"
+Sumo Logic,Security Analytics,USA,340,7.8,"1,082"
+Jamf,Endpoint Security,USA,332,22.2,"2,730"
+Reliaquest,Operations,USA,330,31.1,980
+Drata,GRC,USA,328,133.3,398
+Quantinuum,Data Security,USA,325,46,360
+Deep Instinct,Endpoint Security,USA,322,-15.7,275
+Versa,Network Security,USA,316,24.5,652
+SecurityScorecard,GRC,USA,292,39,529
+Expel,MSSP,USA,289,58,539
+Island,Network Security,USA,285,63.2,177
+Abnormal Security,Email Security,USA,284,105.1,580
+Salt Security,API Security,USA,271,80.7,205
+Contrast Security,Application Security,USA,269,9.7,368
+Aqua Security,Endpoint Security,Israel,265,39.9,610
+Immuta,Data Security,USA,258,35.4,285
+Critical Start,MSSP,USA,255,17.7,267
+BigID,GRC,Israel,246,35.6,546
+Secureauth Corporation,IAM,USA,239,-7.4,193
+ForgeRock,IAM,USA,234,18,983
+JFrog,Application Security,USA,227,21.7,"1,410"
+noname security,API Security,USA,220,59.9,378
+Fastly,Network Security,USA,219,16.9,"1,132"
+Keyfactor,Data Security,USA,212,87.2,382
+ThreatBook,Threat Intelligence,China,208,43.6,56
+Pentera (was Pcysys),Operations,Israel,190,80.5,325
+Immersive Labs,Training,United Kingdom,189,9.6,324
+Kandji,Endpoint Security,USA,188,31.8,312
+ThreatLocker,Endpoint Security,USA,188,132,265
+BitDefender,Endpoint Security,Romania,187,8.9,"2,048"
+Malwarebytes,Endpoint Security,USA,180,-4.5,868
+iboss,Network Security,USA,180,-10.6,290
+Teleport,IAM,USA,169,6.9,200
+Venafi,Data Security,USA,167,16.1,445
+Nozomi Networks,IoT Security,USA,166,71.8,385
+Perimeter 81,Network Security,Israel,165,41.5,235
+Elastic,Security Analytics,Netherlands,162,21.9,"3,335"
+HackerOne,Operations,USA,159,36.6,"3,731"
+Corelight,Network Security,USA,159,36.5,276
+Lansweeper,Operations,Belgium,159,43.1,277
+LogicGate,GRC,USA,156,25.6,264
+Swimlane,Operations,USA,155,36.2,200
+Sonatype,Application Security,USA,155,50.4,640
+ZeroFOX,Threat Intelligence,USA,154,36.5,659
+Automox,GRC,USA,153,-29.4,260
+RedSeal,GRC,USA,151,-6.6,166
+Zscaler,Network Security,USA,148,49.2,"6,681"
+DataDog,Application Security,USA,148,47.5,"5,253"
+Talon Cyber Security,Network Security,USA,143,154.6,101
+Human,Fraud Prevention,USA,142,99.5,434
+Panther,Security Analytics,USA,141,99,205
+Code 42 Software,Operations,USA,138,-20.4,401
+Fortanix,Application Security,USA,135,46.3,235
+Apiiro,API Security,Israel,135,40.3,118
+Tessian,Email Security,USA,133,11.1,235
+Red Canary,MSSP,USA,130,18.1,402
+LogRhythm,Security Analytics,USA,126,12.2,599
+Mend,Application Security,Israel,121,15.8,346
+Obsidian Security,Network Security,USA,120,62.3,118
+JupiterOne,Operations,USA,119,92.6,189
+Lookingglass Cyber Solutions,Threat Intelligence,USA,119,-1.2,155
+Hunters,Security Analytics,Israel,118,63.2,151
+AT&T Cybersecurity,Security Analytics,USA,118,-12.8,66
+Onapsis Inc.,Data Security,USA,116,-8.7,367
+Tailscale,Network Security,Canada,115,125.9,78
+Veracode,Application Security,USA,114,10.1,774
+Forward Networks,Network Security,USA,112,15.9,104
+Brinqa,GRC,USA,110,89.7,112
+Silverfort,IAM,Israel,107,82.2,210
+SafeBreach,Operations,Israel,107,46.6,165
+TXOne Networks,IoT Security,Taiwan,105,315.6,156
+Laminar,Data Security,USA,102,92.9,95
+Cequence Security,API Security,USA,102,59,167
+Cyberbit,Training,Israel,100,3.5,202
+Afero,IoT Security,USA,100,65.5,51
+Huntress Labs,Operations,USA,100,98.5,294
+Axis Security,IAM,USA,100,-17.4,133
+CyberGRX,GRC,USA,99,21.5,186
+Ermetic,IAM,Israel,97,75.9,186
+Anomali,Threat Intelligence,USA,96,18.1,281
+Tines,Operations,Ireland,96,107.1,187
+IronScales,GRC,Israel,95,81.8,157
+Imperva,Network Security,USA,94,10.7,"1,678"
+Ordr,IoT Security,USA,94,10.1,106
+Uptycs,Security Analytics,USA,93,63.9,315
+Checkmarx,Application Security,Israel,92,16.7,897
+Mimecast,Email Security,United Kingdom,90,15.8,"2,253"
+Fortinet,Network Security,USA,89,27.7,"12,794"
+Yubico,IAM,Sweden,88,13.3,409
+Proofpoint,Email Security,USA,86,11.9,"4,416"
+Bionic,API Security,USA,82,21.6,133
+DataDome,Fraud Prevention,USA,81,61.5,157
+Reversing Labs,Operations,USA,81,35.6,270
+Plextrac,GRC,USA,81,58.6,119
+Reciprocity,GRC,USA,80,-1.2,170
+Akeyless,Data Security,Israel,79,75,93
+Bugcrowd,Operations,USA,79,13.7,"2,150"
+TeleSign Corporation,IAM,USA,78,35.7,734
+Cynet,Operations,Israel,78,19.2,276
+Torq,Operations,USA,78,89.4,121
+AttackIQ,Testing,USA,76,4.6,152
+Tidelift,Application Security,USA,74,42.6,79
+SoSafe,GRC,Germany,73,54.3,366
+Zimperium,Endpoint Security,USA,72,14.7,236
+Cyberint,Threat Intelligence,Israel,68,38.5,135
+Privacera,Data Security,USA,67,-2.8,140
+TEHTRIS,Security Analytics,France,66,45.2,223
+Anitian,GRC,USA,66,-1.2,74
+Palo Alto Networks,Network Security,USA,65,19.7,"14,237"
+Red Sift,Endpoint Security,United Kingdom,65,38.5,114
+Cyera,Data Security,Israel,65,71.1,71
+Panorays,GRC,USA,62,32.1,154
+Constella Intelligence,Threat Intelligence,USA,62,1.1,154
+ExtraHop Networks,Security Analytics,USA,62,21.7,731
+Keeper Security,IAM,USA,60,56.8,341
+Traceable,API Security,USA,60,64,155
+Dazz,Operations,USA,60,167.9,81
+Stellar Cyber,Security Analytics,USA,60,40.3,100
+Twingate,IAM,USA,59,36,71
+SpyCloud,Threat Intelligence,USA,59,32,174
+Qwiet AI,Application Security,USA,58,-6.9,42
+Recorded Future,Threat Intelligence,USA,58,34.7,"1,041"
+GitGuardian,IAM,France,56,75.8,113
+HUB Security,Data Security,Israel,55,63,168
+Censys,GRC,USA,53,24.7,116
+Infoblox,Network Security,USA,53,14.9,"2,134"
+Sentra,Data Security,Israel,53,112,64
+AppViewX,Data Security,USA,52,18,546
+Verimatrix,Data Security,USA,52,8.6,281
+CybelAngel,Operations,France,52,1.6,183
+ThreatX,API Security,USA,52,42.6,62
+Whistic,Operations,USA,51,57.5,131
+Morphisec,Endpoint Security,Israel,50,11.8,151
+Diligent,GRC,Canada,50,-47.5,140
+QuintessenceLabs,Data Security,Australia,49,36.8,53
+Safe Security,GRC,USA,49,51.9,483
+Eclypsium,Endpoint Security,USA,49,36.8,96
+Flashpoint,Threat Intelligence,USA,49,71.6,382
+XM Cyber,Operations,Israel,49,56.3,196
+NetScout,Network Security,USA,49,2,"2,768"
+Cyberhaven,Network Security,USA,49,116.7,101
+Adlumin,Security Analytics,USA,48,17.3,92
+Cybrary,GRC,USA,48,-4.6,237
+TrueFort,Application Security,USA,48,34.4,92
+Netography,Network Security,USA,48,91.3,43
+Egress,Email Security,United Kingdom,47,-4.2,302
+Armorblox,Email Security,USA,47,13.6,124
+DNSFilter,Network Security,USA,46,51.8,127
+Qosmos,Network Security,France,46,-10.5,40
+SPHERE Technology Solutions,IAM,USA,45,29.7,85
+Garrison,Network Security,United Kingdom,45,15.4,150
+DoControl,Data Security,USA,43,88.1,81
+Hoxhunt,GRC,Finland,43,61.1,167
+Anjuna,Data Security,USA,42,163,69
+Detectify,Application Security,Sweden,42,-4.5,169
+Live Action,Network Security,USA,42,23.9,158
+SlashNext,Email Security,USA,41,18.7,137
+FireMon,Operations,USA,40,-5.6,252
+RiskRecon,GRC,USA,40,21.5,120
+FileCloud,Data Security,USA,40,37.5,111
+Anvilogic,Operations,USA,39,105.9,68
+Open Raven,Data Security,USA,39,4.6,48
+Juniper Networks,Network Security,USA,39,4.7,"11,319"
+Horizon3.ai,Network Security,USA,39,66.2,106
+RangeForce,Training,USA,38,-16.5,85
+Cobalt,Application Security,USA,37,28.1,446
+Sepio Systems,IoT Security,USA,37,58.8,94
+StackHawk,Application Security,USA,35,43.2,54
+Cyberpion,GRC,USA,35,24.5,61
+Akamai Technologies,Network Security,USA,35,9.9,"8,794"
+Vulcan Cyber,GRC,Israel,35,13.6,106
+Adaptive Shield,Operations,Israel,34,65.8,71
+Legit Security,GRC,USA,34,18.3,69
+Mitiga,MSSP,Israel,32,39,77
+Bolster,Email Security,USA,32,53.3,65
+Seemplicity,Operations,Israel,32,65.4,47
+Picus Security,Operations,Turkey,32,79.8,222
+Accedian,Network Security,Canada,31,7.3,384
+ProcessUnity,GRC,USA,31,22.9,137
+Varonis,Data Security,USA,30,8.9,"2,100"
+Diligent Corporation,GRC,USA,30,14.2,"2,280"
+LastPass,IAM,USA,30,205.1,657
+Relyance AI,GRC,USA,30,13.1,66
+Graylog,Operations,USA,27,31.8,113
+PQShield Ltd,Data Security,United Kingdom,27,57.1,52
+Normalyze,Data Security,USA,27,17.4,41
+Senseon,Security Analytics,United Kingdom,26,37.1,82
+SailPoint,IAM,USA,26,27.9,"2,296"
+Lumu Technologies,Security Analytics,USA,26,66.2,114
+Bright Security,Application Security,Israel,25,55.7,96
+ArmorCode,Application Security,USA,25,23.6,80
+Endor Labs,Application Security,USA,25,80,45
+Nucleus Security,GRC,USA,23,157.1,74
+RevealSecurity,Application Security,Israel,23,57.7,48
+Gigamon,Network Security,USA,23,12.9,"1,101"
+Tufin,Operations,USA,23,-1.3,519
+ThreatConnect,Threat Intelligence,USA,22,-13.5,153
+Concentric AI,Data Security,USA,22,56,48
+Neosec,API Security,USA,21,35.9,48
+SafeBase,GRC,USA,20,43.3,53
+Spirion (was Identity Finder),GRC,USA,20,-20.8,98
+Halcyon,Endpoint Security,USA,20,68.6,65
+OneKey,Data Security,Hong Kong,20,100,3
+Calamu,Data Security,USA,19,50,28
+Veriti,Operations,Israel,19,0,23
+Tresorit,Data Security,Hungary,18,21.5,132
+Jscrambler,Application Security,USA,17,39.1,96
+Spin Technology,GRC,USA,17,35.9,80
+WIB,API Security,Israel,16,143.5,59
+SSH Communications Security,Data Security,Finland,16,-23.3,535
+ShardSecure,Data Security,USA,16,35,31
+Synsaber,IoT Security,USA,16,66.7,11
+Napatech,Operations,Denmark,15,1,95
+D3 Security,Operations,Canada,15,12.1,151
+Mondoo,GRC,USA,15,57.9,36
+Cyble,Threat Intelligence,USA,15,62.5,122
+Spyderbat,Operations,USA,14,60,23
+Votiro,Network Security,Israel,14,18,49
+edgescan,Application Security,Ireland,14,18.6,86
+Blumira,Security Analytics,USA,13,41,52
+Netacea,Fraud Prevention,United Kingdom,12,8.5,87
+DriveLock,Endpoint Security,Germany,12,8.7,51
+BrandShield,Fraud Prevention,Israel,11,37.7,78
+Wallarm,API Security,USA,11,55.9,96
+RapidFort Inc.,Application Security,USA,11,10,28
+Flare,Operations,Canada,11,68.8,61
+Darwinium,Fraud Prevention,USA,11,21.4,19
+Deepfence,Network Security,USA,11,12,29
+Cigent,Network Security,USA,10,-4.6,21
+TrustWave (a Singtel Company),MSSP,USA,10,-13.1,"1,276"
+Probely,Application Security,Portugal,10,29.4,26
+Coalfire,GRC,USA,9,3.7,"1,072"
+GrammaTech,Application Security,USA,9,15,135
+Syxsense,Operations,USA,8,7.9,74
+SnapAttack,Operations,USA,8,52.9,29
+SecuLetter,Operations,South Korea,8,14.3,16
+Myota,Data Security,USA,8,-37.5,12
+Sectigo,Data Security,USA,8,9.1,344
+Arista Networks,Network Security,USA,7,8.2,"3,774"
+HackNotice,GRC,USA,7,48,48
+Scribe Security,Application Security,Israel,7,35.3,27
+Procyon,IAM,USA,7,66.7,13
+FortifyData,GRC,USA,6,-3,31
+Enso Security,Application Security,USA,6,9.1,37
+Red Access,Network Security,Israel,6,100,17
+Soos,Application Security,USA,6,-17.7,15
+LimaCharlie/Refraction Point,Network Security,USA,6,0,1
+oxeye,Application Security,Israel,5,88.2,35
+Zenity,GRC,Israel,5,66.7,27
+Kriptos,Data Security,USA,5,20,46
+Abacode,MSSP,USA,5,47.6,65
+Paladin Cyber,Email Security,USA,5,50,20
+Mesh Security,Operations,Israel,5,33.3,11
+asvin,IoT Security,Germany,4,53.9,22
+Runecast Solutions,Operations,United Kingdom,4,2.8,75
+Breachlock,GRC,USA,3,25.4,83
+Tromzo,Application Security,USA,3,15.4,16
+Hive Pro,GRC,USA,3,0,50
+Gravwell,Security Analytics,USA,3,75,14
+SessionGuardian,IAM,USA,3,42.9,11
+Tenzir,Network Security,Germany,3,44.4,13
+Nanitor,GRC,Iceland,3,41.7,17
+Cisco,Network Security,USA,3,2.8,"97,215"
+DataLocker,Data Security,USA,2,0,58
+Kondukto,Application Security,Turkey,1,5.9,22
+Fend Incorporated,IoT Security,USA,1,25,11
+Microsoft,IAM,USA,1,7.7,"227,080"
+Open Systems,MSSP,Switzerland,1,22,448
+Quad Miners,Network Security,South Korea,1,46.7,23
+Graphus,Email Security,USA,1,0,3
+AI Spera,Threat Intelligence,South Korea,1,42.9,20
+Aware7,GRC,Germany,0,37.5,13
+IBM,MSSP,USA,0,-18.2,"308,003"
+Synopsys,Application Security,USA,0,10.4,"17,383"
+BSI Group,Training,United Kingdom,0,9.9,"7,725"
+F5 Networks,Network Security,USA,0,9.2,"6,334"
+Kroll,MSSP,USA,0,44.3,"5,584"
+Trellix,Security Analytics,USA,0,18,"3,227"
+Entrust Datacard,Data Security,USA,0,8.9,"3,123"
+RSA Security (Symphony Technology Group),IAM,USA,0,0.5,"2,819"
+Optiv,MSSP,USA,0,11.4,"2,460"
+SonicWall,Network Security,USA,0,3.5,"1,886"
+Radware,Network Security,Israel,0,10,"1,480"
+BeyondTrust,IAM,USA,0,21.8,"1,410"
+Netenrich,Operations,USA,0,0.5,864
+Digital.ai,Endpoint Security,USA,0,12,822
+Delinea,IAM,USA,0,17,781
+NetWrix Corporation,GRC,USA,0,84.5,723
+NSFocus,Network Security,USA,0,1.7,711
+Skyhigh Security,Network Security,USA,0,44.7,647
+Thales,IAM,USA,0,-7.1,603
+secunet,Data Security,Germany,0,10.6,534
+GlobalSign,IAM,USA,0,-0.2,464
+Utimaco,Data Security,Germany,0,18.8,460
+Appgate,IAM,USA,0,2.2,405
+Protegrity,Application Security,USA,0,-0.5,381
+Invicti Security,Application Security,USA,0,9.9,380
+Fortra,Endpoint Security,USA,0,-29.4,373
+Hillstone Networks,Network Security,USA,0,13.2,354
+Hornetsecurity,Email Security,Germany,0,98.7,321
+ColorTokens,Network Security,USA,0,8.9,313
+Brivo,IAM,USA,0,20.9,297
+Beta Systems Software AG,IAM,Germany,0,14.6,288
+SecurityMetrics,GRC,USA,0,1.2,264
+Security Compass,GRC,Canada,0,5,239
+ManageEngine (Zoho Corp.),GRC,USA,0,49.6,203
+SimSpace,Training,USA,0,5,190
+Baramundi Software,GRC,Germany,0,16.2,190
+GuruCul,Security Analytics,USA,0,12.1,170
+NRI Secure,MSSP,Japan,0,11.2,165
+Lepide,GRC,USA,0,16.2,162
+Intel 471,Threat Intelligence,Netherlands,0,30.7,153
+PKWARE,Data Security,USA,0,-2.7,141
+CoSoSys,Network Security,Romania,0,27.3,141
+Radiant Logic,IAM,USA,0,6.4,133
+Team Cymru,Threat Intelligence,USA,0,19.1,128
+DomainTools,Threat Intelligence,USA,0,16.2,121
+Promon,Application Security,Norway,0,22.8,106
+DataSunrise,Data Security,USA,0,0,105
+Secpod,Endpoint Security,USA,0,27.1,103
+Adaptiva,Endpoint Security,USA,0,25.6,102
+Next DLP,GRC,United Kingdom,0,338.9,86
+AIUKEN CYBERSECURITY,MSSP,Spain,0,19.1,82
+Teramind,Operations,USA,0,4.7,81
+ON2IT Cybersecurity,MSSP,Netherlands,0,6.5,77
+Silobreaker,Threat Intelligence,United Kingdom,0,79,71
+GTB Technologies,GRC,USA,0,13.2,61
+Cyderes,MSSP,USA,0,-64,61
+DryvIQ,GRC,USA,0,-23.2,59
+Awareways,GRC,Netherlands,0,29.6,59
+NordVPN,Network Security,Panama,0,67.7,58
+Resecurity,Endpoint Security,USA,0,-2.5,56
+Searchlight Cyber,Threat Intelligence,United Kingdom,0,136.8,51
+Prodaft,Threat Intelligence,Switzerland,0,21.1,48
+wolfSSL,Network Security,USA,0,11.8,40
+Waratek,Application Security,Ireland,0,2.6,39
+Pradeo,Application Security,France,0,18.8,36
+Sasa Software,Data Security,Israel,0,14.3,33
+Quantropi,Data Security,Canada,0,10.7,33
+Netand,IAM,South Korea,0,81.3,31
+TwinSoft,IAM,Germany,0,0,30
+Apricorn,Data Security,USA,0,16.7,30
+Bloombase,Data Security,USA,0,35,25
+Ridge Security,GRC,USA,0,61.5,24
+Appaegis,IAM,USA,0,36.8,24
+Seraphic Security,Network Security,USA,0,37.5,23
+SOFTwarfare,Application Security,USA,0,54.6,19
+NCP Engineering,Network Security,USA,0,-9.5,19
+Mira Security,Network Security,USA,0,-4.8,19
+BlastRadius,Operations,USA,0,38.5,19
+Surf Security,Network Security,United Kingdom,0,116.7,17
+Firewalla,Network Security,USA,0,33.3,17
+itWatch,Endpoint Security,Germany,0,28.6,16
+DGC,GRC,Germany,0,50,15
+Auconet,IAM,Germany,0,0,13
+Optimal IdM,IAM,USA,0,-8.3,11
+Sonet.io,IAM,USA,0,60,10
+Sensor Fleet,Network Security,Finland,0,11.1,10
+Secutech Solutions,Data Security,Australia,0,11.1,10
+VulnCheck,Threat Intelligence,USA,0,400,8
+IDmelon Technologies Inc.,IAM,Canada,0,60,8
+Genians,IoT Security,South Korea,0,-30,7
+Binare.io,IoT Security,Finland,0,16.7,7
+Gold Comet,Email Security,USA,0,-20,3
+Thinkst Canary,Deception,South Africa,0,-33.3,2
