@@ -1,0 +1,35 @@
+publicPurePlayCyber	tickerSymbol	exchange	 Revenue (2022) 	 sales/marketing expense 	(sales+marketing expense)/revenue
+Okta Inc.	OKTA	Nasdaq	 1,858,000.00 	 1,066,000.00 	57%
+Crowdstrike Holdings Inc.	CRWD	Nasdaq	2,241,236	904,409	40%
+Zscaler Inc.	ZS	Nasdaq	1,090,946	735,219	67%
+Fortinet Inc.	FTNT	Nasdaq	4,417,400	1,686,100	38%
+Check Point Software Technologies Ltd.	CHKP	Nasdaq	2,329,900	675,200	29%
+Palo Alto Networks Inc	PANW	Nasdaq	5,501,500	2,148,900	39%
+SentinelOne Inc	S	Nyse	422,179	310,848	74%
+DarkTrace PLC	DARK.L	LSE	415,482	232,772	56%
+SecureWorks	SCWX	NasdaqGS	463,475	166,410	36%
+Tenable Holdings, Inc.	TENB	NasdaqGS	683,191	349,430	51%
+Rapid7, Inc.	RPD	NasdaqGM	685,083	307,409	45%
+Qualys, Inc.	QLYS	NasdaqGS	489,723	97,221	20%
+CyberArk Software Ltd.	CYBR	NasdaqGS	591,710	345,273	58%
+Varonis Systems, Inc.	VRNS	NasdaqGS	473,634	275,090	58%
+ForgeRock, Inc.	FORG	Nyse	217,512	118,794	55%
+ZeroFox	ZFOX	NasdaqGM	117,623	54,375	46%
+Blackberry	BB	Nyse	656,000	340,000	52%
+Sumo Logic	SUMO	NasdaqGS	300,668	153,383	51%
+publicSomePlayCyber	tickerSymbol	exchange			
+Cloudflare Inc	NET	Nyse	975,241	465,762	48%
+Splunk Inc	SPLK	Nasdaq	3,653,708	1,621,518	44%
+Elastic NV	ESTC	Nyse	862,374	406,658	47%
+					#DIV/0!
+publicUnknownPlayCyber	tickerSymbol	exchange			
+Microsoft	MSFT	NasdaqGS	198,270,000	21,825,000	11%
+Google	GOOG	NasdaqGS	282,836,000	26,567,000	9%
+Cisco	CSCO		51,557,000	9,085,000	18%
+Trend Micro	TMICY	Other OTC (in Yen)			#DIV/0!
+					
+Atlassian	TEAM	NasdaqGS	2,802,882	567,691	20%
+Shopify	SHOP	NYSE	5,599,864	1,230,490	22%
+Meta (nee facebook)	META	NasdaqGS	116,609,000	15,262,000	13%
+Amazon	AMZN	NasdaqGS	513,983,000	42,238,000	8%
+Netflix	NFLX	NasdaqGS	31,615,550	2,530,502	8%
